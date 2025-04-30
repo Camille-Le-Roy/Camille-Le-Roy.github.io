@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: " "
+title: "sdfdsfsdfsdf "
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
