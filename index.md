@@ -7,9 +7,6 @@ header:
   overlay_image: /assets/images/canopy.jpg
   overlay_filter: "0.3"
   caption: " "
-#  actions:
-    - label: "Learn more"
-      url: "/about/"
 author_profile: true
 sidebar:
   nav: "main"
