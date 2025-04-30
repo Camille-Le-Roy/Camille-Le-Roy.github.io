@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "  "
-excerpt: " "
+title: " Camille Le Roy  "
+excerpt: " Data scientist and biologist "
 classes: wide
 header:
   overlay_image: /assets/images/canopy.jpg
