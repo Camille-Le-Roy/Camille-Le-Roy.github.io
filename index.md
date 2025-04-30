@@ -4,7 +4,7 @@ title: "Welcome"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/Morpho traj.png
+  overlay_image: /assets/images/canopy.jpg
   cta_label: "Learn more"
   cta_url: "/about/"
   caption: " "
