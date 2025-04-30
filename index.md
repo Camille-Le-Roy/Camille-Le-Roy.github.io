@@ -12,12 +12,12 @@ feature_row:
     alt: "placeholder image 1"
     title: "Image Analysis"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/tracking.png
+  - image_path: /assets/images/butterflies 3 views.png
     alt: "placeholder image 2"
     title: "Video tracking"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/CFD.png
-    title: "Computational Fluid Dynamics"
+  - image_path: /assets/images/3D reconstruction.png
+    title: "Three-dimensional reconstruction"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 author_profile: true
 show_social: true
