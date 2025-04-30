@@ -78,17 +78,17 @@ author:
  #     icon: "fab fa-fw fa-instagram"
  #     url: "https://instagram.com/"
 
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/in/camille-le-roy-05786727a/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Camille-Le-Roy"
-    - label: "Google Scholar"
-      icon: "fa-brands fa-google-scholar"
-      url: "https://scholar.google.com/citations?user=SP69DnUAAAAJ&hl=en"
+#footer:
+#  links:
+#    - label: "LinkedIn"
+#      icon: "fa-brands fa-linkedin"
+#      url: "https://www.linkedin.com/in/camille-le-roy-05786727a/"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/Camille-Le-Roy"
+#    - label: "Google Scholar"
+#      icon: "fa-brands fa-google-scholar"
+#      url: "https://scholar.google.com/citations?user=SP69DnUAAAAJ&hl=en"
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/"
