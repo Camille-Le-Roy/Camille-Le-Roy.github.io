@@ -1,6 +1,6 @@
 main:
-  - title: "Home"
-    url: "/splash-page/"
+ # - title: "Home"
+ #   url: "/"
   - title: "Projects"
     url: /projects/
   - title: "Research"
