@@ -22,6 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: "neon" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme: null
 search: true
 
 # Build settings
@@ -50,12 +51,12 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
+#  - jekyll-paginate
+#  - jekyll-sitemap
+#  - jekyll-gist
 #  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+#  - jemoji
+#  - jekyll-include-cache
 
 sass:
   style: compressed
