@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "  "
+title: " Camille Le Roy, PhD "
 excerpt: " "
 classes: wide
 header:
@@ -11,8 +11,6 @@ author_profile: true
 sidebar:
   nav: "main"
 show_social: true
-related: false
-comments: false
 ---
 
 Hi, I’m Camille!  
