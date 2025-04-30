@@ -1,8 +1,14 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: single
+layout: splash
+title: "Welcome"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/header-image.jpg
+  cta_label: "Learn more"
+  cta_url: "/about/"
+  caption: "Photo by You"
+excerpt: "This is your site’s splash page. Use it to make a strong first impression!"
 author_profile: true
 ---
 
