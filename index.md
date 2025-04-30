@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/Morpho traj.png
   cta_label: "Learn more"
   cta_url: "/about/"
-  caption: "Photo by You"
+  caption: " "
 excerpt: "This is your site’s splash page. Use it to make a strong first impression!"
 author_profile: true
 ---
