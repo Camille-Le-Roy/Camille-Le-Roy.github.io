@@ -7,14 +7,14 @@ header:
   overlay_image: /assets/images/canopy.jpg
   overlay_filter: "0.3"
   caption: " "
-  actions:
+#  actions:
     - label: "Learn more"
       url: "/about/"
 author_profile: true
 sidebar:
   nav: "main"
 show_social: true
-related: true
+related: false
 comments: false
 ---
 
