@@ -12,6 +12,9 @@ feature_row:
     alt: "placeholder image 1"
     title: "Image Analysis"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/tracking.png
     alt: "placeholder image 2"
     title: "Video tracking"
@@ -22,6 +25,9 @@ feature_row:
   - image_path: /assets/images/CFD.png
     title: "Computation Fluid Dynamics"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 author_profile: true
 show_social: true
 related: false
