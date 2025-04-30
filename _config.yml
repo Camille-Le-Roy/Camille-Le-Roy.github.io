@@ -67,10 +67,10 @@ author:
  #     url: "https://"
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
-      url: "https://twitter.com/"
+      url: "https://www.linkedin.com/in/camille-le-roy-05786727a/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/Camille-Le-Roy"
  #   - label: "Instagram"
  #     icon: "fab fa-fw fa-instagram"
  #     url: "https://instagram.com/"
@@ -79,13 +79,13 @@ footer:
   links:
     - label: "LinkedIn"
       icon: "fa-brands fa-linkedin"
-      url: "https://www.linkedin.com/feed/"
+      url: "https://www.linkedin.com/in/camille-le-roy-05786727a/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Camille-Le-Roy"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
 
 defaults:
   # _posts
