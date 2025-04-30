@@ -8,9 +8,9 @@ header:
   overlay_filter: "0.3"
   caption: " "
 author_profile: true
-sidebar:
-  nav: "main"
 show_social: true
+related: false
+comments: false
 ---
 
 Hi, I’m Camille!  
