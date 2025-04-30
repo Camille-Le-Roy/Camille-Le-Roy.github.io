@@ -1,22 +1,26 @@
 ---
-layout: splash
-title: " "
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/canopy.jpg
-  cta_label: "Learn more"
-  cta_url: "/about/"
-  caption: " "
-  height: 80vh  # <-- increases height of splash image
+layout: single
+title: " Camille Le Roy, PhD "
 excerpt: " "
-author_profile: false  # <- turn off default sidebar on splash
+classes: wide
+header:
+  overlay_image: /assets/images/canopy.jpg
+  overlay_filter: "0.3"
+  caption: " "
+  actions:
+    - label: "Learn more"
+      url: "/about/"
+author_profile: true
+sidebar:
+  nav: "main"
+show_social: true
+related: true
+comments: false
 ---
 
-<div style="text-align: center; margin-top: 2em;">
-  <img src="/assets/images/WUR profile picture.JPG" alt="Camille Le Roy" style="border-radius: 50%; width: 180px; height: 180px; object-fit: cover; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
-</div>
+Hi, I’m Camille!  
+I’m a data scientist and biologist with a background in evolutionary biology and biomechanics.
 
-<div style="text-align: center; margin-top: 1em;">
-  <p><strong>Camille Le Roy</strong> — Data scientist and biologist</p>
-</div>
+I use computational methods and data visualization to understand animal motion, and I'm currently exploring the applications of machine learning and computer vision in the life sciences.
+
+---
