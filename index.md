@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: " Camille Le Roy  "
+title: " Camille Le Roy, Ph.D."
 excerpt: " Data scientist and biologist "
 classes: wide
 header:
