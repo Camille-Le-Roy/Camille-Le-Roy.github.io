@@ -57,19 +57,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-sass:
-  style: compressed
-
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      classes: wide
-      css: "/assets/css/custom.css"
-
 author:
   name   : "Camille Le Roy, PhD"
   avatar : "/assets/images/WUR profile picture.JPG"
