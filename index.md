@@ -12,6 +12,7 @@ author_profile: true
 show_social: true
 related: false
 comments: false
+---
 
 Hi, I’m Camille!  
 I’m a data scientist and biologist with a background in evolutionary biology and biomechanics.
