@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: "  "
 excerpt: " "
 classes: wide
@@ -7,7 +7,6 @@ header:
   overlay_image: /assets/images/canopy.jpg
   overlay_filter: "0.3"
   caption: " "
-  height: 600px  
 author_profile: true
 show_social: true
 related: false
