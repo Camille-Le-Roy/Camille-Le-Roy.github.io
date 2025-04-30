@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Camille Le Roy"
   avatar : "/assets/images/WUR profile picture.JPG"
-  bio    : "Data scientist and biologist. I combines biomechanics and ecological approach to study animal locomotion"
+  bio    : "Data scientist and biologist - I combines biomechanics and ecological approaches to study animal locomotion."
   links:
  #   - label: "Website"
  #     icon: "fas fa-fw fa-link"
