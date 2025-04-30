@@ -1,6 +1,6 @@
 ---
 layout: single
-title: " Camille Le Roy, PhD "
+title: "  "
 excerpt: " "
 classes: wide
 header:
