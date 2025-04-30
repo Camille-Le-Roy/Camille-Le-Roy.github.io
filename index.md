@@ -8,6 +8,7 @@ header:
   overlay_full: true
   cta_label: "Learn more"
   cta_url: "/about/"
+  height: "100vh"  # This makes it take full viewport height
   caption: " "
 excerpt: "This is your site’s splash page. Use it to make a strong first impression!"
 author_profile: true
