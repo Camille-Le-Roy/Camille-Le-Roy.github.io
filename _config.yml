@@ -22,7 +22,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: "neon" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-theme: null
 search: true
 
 # Build settings
@@ -108,24 +107,15 @@ author:
 #      url: "https://instagram.com/"
 
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
+      classes: wide
+      css: "/assets/css/custom.css"
+
 
 category_archive:
   type: liquid
