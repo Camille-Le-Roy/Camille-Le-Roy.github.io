@@ -1,10 +1,11 @@
 ---
 layout: single
-title: "  
-
-
-"
-excerpt: " "
+title: "  TEST
+TEST
+TEST"
+excerpt: "TEST
+TEST
+TEST"
 classes: wide
 header:
   overlay_image: /assets/images/canopy.jpg
