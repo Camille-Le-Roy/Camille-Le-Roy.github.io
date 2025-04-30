@@ -1,6 +1,6 @@
 ---
-permalink: /research/
-title: "Research"
+permalink: /publication/
+title: "Publications"
 ---
 
 - Le Roy C., Silva N., Debat V., Llaurens V., Godoy-Diana R., & Muijres F. (2022). Divergence of evasive climbing flight performance in Morpho butterflies living in different microhabitats. Journal of Experimental Biology, 225(15), doi: https://doi.org/10.1242/jeb.243867
