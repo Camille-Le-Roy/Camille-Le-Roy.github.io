@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.3"
   caption: " "
 feature_row:
-  - image_path: /assets/images/wing heatmap small.png
+  - image_path: /assets/images/wing heatmap.png
     alt: "placeholder image 1"
     title: "Image Analysis"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
