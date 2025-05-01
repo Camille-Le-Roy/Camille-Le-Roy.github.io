@@ -24,7 +24,7 @@ show_social: true
 related: false
 comments: false
 ---
-
+**Featured projects**
 {% include feature_row %}
 
 
