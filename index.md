@@ -10,7 +10,7 @@ header:
 feature_row:
   - image_path: /assets/images/wing heatmap.png
     alt: "placeholder image 1"
-    title: "Image Analysis"
+    title: "Image AnalysisT"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
   - image_path: /assets/images/butterflies 3 views.png
     alt: "placeholder image 2"
