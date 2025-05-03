@@ -3,15 +3,21 @@ permalink: /publication/
 title: "Publications"
 ---
 
-<div style="display: flex; gap: 80px; margin-top: 50px ; margin-bottom: 50px;">
-  <img src="/assets/images/cover science.png" alt="cover 1" style="width: 35%; height: 50%; ; margin-left: 30px">
-  <img src="/assets/images/cover JEB.png" alt="cover 2" style="width: 20%; height: 50%;">
+<div style="display: flex; gap: 100px; margin-top: 30px; margin-bottom: 30px;">
+  <a href="https://doi.org/10.1126/science.abh2620" style="flex: 1; max-width: 35%;">
+    <img src="/assets/images/cover science.png" alt="cover 1" style="width: 100%; height: auto; display: block; margin-left: 30px;">
+  </a>
+  <a href="https://doi.org/10.1242/jeb.243867" style="flex: 1; max-width: 20%;">
+    <img src="/assets/images/cover JEB.png" alt="cover 2" style="width: 100%; height: auto; display: block;">
+  </a>
 </div>
+
 
 
 - **Le Roy, C.**, Tervelde, N., Engels, T., & Muijres, F. (submitted).  
   *Changes in wing morphology rather than wingbeat kinematics enabled flight in small hoverflies.*  
-  _Under review at eLife._
+  _Under review at eLife_.  
+  [See preprint](https://elifesciences.org/reviewed-preprints/97839#tab-content)
 
 - **Le Roy, C.**, Silva, N., Debat, V., Llaurens, V., Godoy-Diana, R., & Muijres, F. (2022).  
   *Divergence of evasive climbing flight performance in Morpho butterflies living in different microhabitats.*  

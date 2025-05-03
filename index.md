@@ -4,7 +4,7 @@ title: " Camille Le Roy, Ph.D."
 excerpt: " Data scientist and biologist "
 classes: wide
 header:
-  overlay_image: /assets/images/canopy with face 2.png
+  overlay_image: /assets/images/canopy.jpg
   overlay_filter: "0.3"
   caption: " "
 feature_row:
