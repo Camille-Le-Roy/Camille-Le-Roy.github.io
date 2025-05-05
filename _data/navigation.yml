@@ -7,5 +7,5 @@ main:
     url: /research/
   - title: "Publications"
     url: /publication/
-  - title: "About"
-    url: /about/
+ # - title: "About"
+ #   url: /about/

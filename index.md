@@ -1,10 +1,10 @@
 ---
 layout: splash
-title: " Camille Le Roy, Ph.D."
-excerpt: " Data scientist and biologist "
+title: "Camille Le Roy, Ph.D."
+excerpt: "Data scientist and biologist"
 classes: wide
 header:
-  overlay_image: /assets/images/canopy.jpg
+  overlay_image: /assets/images/canopy resized.jpg
   overlay_filter: "0.3"
   caption: " "
 feature_row:
@@ -24,6 +24,28 @@ show_social: true
 related: false
 comments: false
 ---
+
+<div style="display: flex; align-items: center; gap: 0px; margin: 30px auto 80px 0;">  <!-- margin is defined in the order "top, right, bottom, left" -->
+
+  <!-- Image Section -->
+  <div style="max-width: 35%; margin-right: 0px;"> 
+    <img src="/assets/images/WUR profile picture black&white.png" alt="WUR profile picture black&white" style="width: 80%; height: auto; display: block; border-radius: 15px;">
+  </div>
+
+  <!-- Text Section -->
+  <div style="max-width: 60%; margin-left: 0px; margin-right: 0px;">
+    <p style="font-size: 1rem; line-height: 1.6; color: #BEBEBE;">
+      Hi, and welcome to my website! <br><br>
+      I’m a postdoctoral researcher in the Experimental Zoology Group at Wageningen University.  
+      My research combines computational analysis, biomechanics, and ecological approaches to understand animal locomotion and behavior.
+    </p>
+  </div>
+</div>
+
+
+
+
+
 **Featured projects**
 {% include feature_row %}
 
