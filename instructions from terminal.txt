@@ -1,0 +1,22 @@
+
+
+
+## IN TERMINAL
+
+## to open website visualisation locally in the browser:
+bundle exec Jekyll serve
+
+## "ctrl + C" to stop the visualisation
+
+
+## check edits status
+git status
+
+## add your changes
+git add .
+
+## commit your changes
+git commit -m "edits"
+
+## push your changes to the actual website
+git push origin master

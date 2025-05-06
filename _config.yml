@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Camille Le Roy, PhD"
   avatar : "/assets/images/WUR profile picture.JPG"
-  bio    : "Data scientist and biologist"
+  bio    : " " # Data scientist and biologist
   links:
  #   - label: "Website"
  #     icon: "fas fa-fw fa-link"
