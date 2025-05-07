@@ -34,7 +34,7 @@ comments: false
 
   <!-- Text Section -->
   <div style="max-width: 60%; margin-left: 0px; margin-right: 0px;">
-    <p style="font-size: 1rem; line-height: 1.6; color: #BEBEBE;">
+    <p style="font-size: 1rem; line-height: 1.6; color: #D0D0D0;">
       Hi, and welcome to my website! <br><br>
       I’m a postdoctoral researcher in the Experimental Zoology Group at Wageningen University. 
       My research combines computational analysis, biomechanics, and ecological approaches in the field to investigate the evolution of animal locomotion, morphology, and behavior.
