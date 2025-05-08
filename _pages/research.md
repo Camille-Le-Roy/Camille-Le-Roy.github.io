@@ -16,7 +16,7 @@ title: "Research"
 
 <div style="display: flex; align-items: flex-start; gap: 1.5em; margin-top: 1.5em; margin-bottom: 0.6em;">
   <span style="color:#D0D0D0; font-size: 0.9em; flex: 1;">
-    My research combines ecological fieldwork with controlled laboratory experiments to study animal behavior and morphology, using tools like computer vision, stereoscopic high-speed videography, morphometrics, and phylogenetic analysis.
+    My research combines ecological fieldwork with controlled laboratory experiments to study animal behavior and morphology. I use a range of tools and techniques, including computer vision, stereoscopic high-speed videography, morphometrics, and phylogenetic analysis.
     <p>
     </p>
     Selected research projects are presented below.
