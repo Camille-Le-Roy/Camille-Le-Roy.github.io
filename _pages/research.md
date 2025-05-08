@@ -3,14 +3,37 @@ permalink: /research/
 title: "Research"
 ---
 
+<!-- Introduction -->
+<div style="margin-top: 1em; margin-bottom: 2em;">
+  <img src="/assets/images/research in lab wide.png" alt=" " style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px;">
+</div>
+
+<div style="color:#D0D0D0; font-size: 0.9em; flex: 1; line-height: 1.6; text-align: justify;">
+  <p>
+    I work at the interface between evolutionary biology and biomechanics to explore how complex and fascinating traits — like insect flight — have evolved.
+  </p>
+</div>
+
+<div style="display: flex; align-items: flex-start; gap: 1.5em; margin-top: 1.5em; margin-bottom: 0.6em;">
+  <span style="color:#D0D0D0; font-size: 0.9em; flex: 1;">
+    My research combines ecological fieldwork with controlled laboratory experiments to study animal behavior and morphology, using tools like computer vision, high-speed videography, morphometrics, and phylogenetic analysis.
+    <p>
+    </p>
+    Selected research projects are presented below.
+  </span>
+  <img src="/assets/images/field work clap 2.png" style="border-radius: 10px; width: 27%; object-fit: cover;">
+</div>
+
+
+
+<hr style="border: none; height: 1px; background-color: #444; margin: 3em 0;">
+
+
+<!-- Adaptive evolution of flight -->
+
 <div style="font-size: 1.3em; font-weight: bold; margin-top: 2em; margin-bottom: 0.5em;">
   Gliding in the Amazonian canopy: adaptive evolution of flight in <em>Morpho</em> butterflies
 </div>
-
-<!--<div style="display: flex; gap: 1.5em; margin-top: 2em;">
-  <img src="/assets/images/tamed_cisseis_(short).gif" style="border-radius: 10px; width: 50%;">
-</div>-->
-
 
 <span style="color:#D0D0D0; font-size: 0.9em">
   Understanding how colonization of a novel habitat drives the evolution of animal traits is a central question in evolutionary biology. In the canopy of the Amazon rainforest, the slow — and seemingly peaceful — gliding flight of some <em>Morpho</em> species appears to be a specialized adaptation among butterflies.
