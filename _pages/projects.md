@@ -3,4 +3,4 @@ permalink: /projects/
 title: "Projects"
 ---
 
-My project blabliblou
+My project 
