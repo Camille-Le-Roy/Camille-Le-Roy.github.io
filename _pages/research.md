@@ -10,13 +10,13 @@ title: "Research"
 
 <div style="color:#D0D0D0; font-size: 0.9em; flex: 1; line-height: 1.6; text-align: justify;">
   <p>
-    I work at the interface between evolutionary biology and biomechanics to explore how complex and fascinating traits — like insect flight — have evolved.
+    I work at the interface between evolutionary biology and biomechanics to explore how complex and fascinating traits, like insect flight, have evolved.
   </p>
 </div>
 
 <div style="display: flex; align-items: flex-start; gap: 1.5em; margin-top: 1.5em; margin-bottom: 0.6em;">
   <span style="color:#D0D0D0; font-size: 0.9em; flex: 1;">
-    My research combines ecological fieldwork with controlled laboratory experiments to study animal behavior and morphology, using tools like computer vision, high-speed videography, morphometrics, and phylogenetic analysis.
+    My research combines ecological fieldwork with controlled laboratory experiments to study animal behavior and morphology, using tools like computer vision, stereoscopic high-speed videography, morphometrics, and phylogenetic analysis.
     <p>
     </p>
     Selected research projects are presented below.
