@@ -10,8 +10,12 @@ title: "Research"
 
 <div style="color:#D0D0D0; font-size: 0.9em; flex: 1; line-height: 1.6; text-align: justify;">
   <p>
-    I work at the interface between evolutionary biology and biomechanics to explore how complex and fascinating traits, like insect flight, have evolved.
+    I work at the interface between evolutionary biology and biomechanics to understand the evolution of how complex and fascinating traits, like insect flight.
   </p>
+</div>
+
+<div style="margin-top: 1em; margin-bottom: 2em;">
+  <img src="/assets/images/field work dummy.png" alt=" " style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px;">
 </div>
 
 <div style="display: flex; align-items: flex-start; gap: 1.5em; margin-top: 1.5em; margin-bottom: 0.6em;">
@@ -21,12 +25,12 @@ title: "Research"
     </p>
     Selected research projects are presented below.
   </span>
-  <img src="/assets/images/field work clap 2.png" style="border-radius: 10px; width: 27%; object-fit: cover;">
+  <!-- <img src="/assets/images/field work clap 2.png" style="border-radius: 10px; width: 27%; object-fit: cover;"> -->
 </div>
 
 
 
-<hr style="border: none; height: 1px; background-color: #444; margin: 3em 0;">
+<hr style="border: none; height: 1px; background-color: #444; margin: 4.5em 0;">
 
 
 <!-- Adaptive evolution of flight -->
@@ -68,8 +72,7 @@ title: "Research"
 
 
 
-
-<!-- This is a comment -->
+<!-- This is a comment , keyboard shortcut is "⌘ + Shift + :"-->
 
 
 
