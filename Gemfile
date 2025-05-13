@@ -14,5 +14,4 @@ group :jekyll_plugins do
   gem "jemoji"
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
-  #gem "minimal-mistakes-jekyll", path: "_themes/minimal-mistakes" # to work locally
 end
