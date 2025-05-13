@@ -4,17 +4,17 @@ title: "Research"
 ---
 
 <!-- Introduction -->
-<div style="margin-top: 1em; margin-bottom: 2em;">
+<div style="margin-top: 1em; margin-bottom: 1.5em;">
   <img src="/assets/images/research in lab wide.png" alt=" " style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px;">
 </div>
 
 <div style="color:#D0D0D0; font-size: 0.9em; flex: 1; line-height: 1.6; text-align: justify;">
   <p>
-    I work at the interface between evolutionary biology and biomechanics to understand the evolution of how complex and fascinating traits, like insect flight.
+    I work at the interface between evolutionary biology and biomechanics to understand the evolution of complex phenotypic traits, like insect flight.
   </p>
 </div>
 
-<div style="margin-top: 1em; margin-bottom: 2em;">
+<div style="margin-top: 1.5em; margin-bottom: 1.5em;">
   <img src="/assets/images/field work dummy.png" alt=" " style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px;">
 </div>
 
@@ -46,7 +46,7 @@ title: "Research"
 <div style="display: flex; align-items: center; gap: 1.5em; margin-top: 1.5em">
   <span style="color:#D0D0D0; font-size: 0.9em; flex: 1;">
     We studied the divergence in both flight behavior and wing shape among <em>Morpho</em> butterflies living in different forest strata, by combining high-speed
-    videography in the field with morphometric analyses and aerodynamic modelling. We showed that microhabitat specialization has resulted in the adaptive divergence of flight behaviour and wing shape, opposing efficient gliding flight in species living in the canopy to powerful flapping flight in species living in the understory.
+    videography in the field with morphometric analyses and aerodynamic modelling. We showed that microhabitat specialization has resulted in the adaptive divergence of flight behaviour and wing shape, opposing efficient gliding flight in species living in the canopy to powerful flapping flight in species living in the understory. We further investigated for divergence in evasive climbing flight, revealing that canopy species also achieve higher climbing efficiency through changes in wingbeat kinematics and morphology. 
   </span>
   <img src="/assets/images/cisseis in canopy.gif" style="border-radius: 10px; width: 40%; object-fit: cover;">
 </div>
