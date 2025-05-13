@@ -26,8 +26,8 @@ search: false
 
 # Build settings
 markdown: kramdown
-#remote_theme: mmistakes/minimal-mistakes
-theme: "minimal-mistakes-jekyll" # because I have downloaded the them locally to allow working offline
+remote_theme: mmistakes/minimal-mistakes
+#theme: "minimal-mistakes-jekyll" # because I have downloaded the them locally to allow working offline
 
 # Outputting
 permalink: /:categories/:title/
