@@ -34,7 +34,7 @@ title: "Research"
 
 
 
-<section style="padding: 2.5em; background-color: #1c1c1c; border-radius: 12px; margin-bottom: 4em;"> <!--  for lighter background :  #1e1e1e -->
+<section style="padding: 0.5em; background-color: #1c1c1c; border-radius: 12px; margin-bottom: 4em;"> <!--  for lighter background :  #1e1e1e -->
 
   <div style="font-size: 1.3em; font-weight: bold; margin-top: 0.2em; margin-bottom: 0.5em;">
     Gliding in the Amazonian canopy: adaptive evolution of flight in <em>Morpho</em> butterflies
@@ -74,7 +74,7 @@ title: "Research"
 </section>
 
 
-<section style="padding: 2.5em; background-color: #1c1c1c; border-radius: 12px; margin-bottom: 4em;">
+<section style="padding: 0.5em; background-color: #1c1c1c; border-radius: 12px; margin-bottom: 4em;">
 
   <div style="font-size: 1.3em; font-weight: bold; margin-top: 0.2em; margin-bottom: 0.5em;">
     Unravelling the coexistence of mimetic <em>Morpho</em> butterfly species
