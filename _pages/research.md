@@ -30,8 +30,7 @@ title: "Research"
 
 
 
-<hr style="border: none; height: 1px; background-color: #444; margin: 4.5em 0;">
-
+<div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin: 4em 0;"></div>
 
 
 
@@ -74,7 +73,7 @@ title: "Research"
 
 
 
-<hr style="border: none; height: 1px; background-color: #444; margin: 4.5em 0;">
+<div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin: 4em 0;"></div>
 
 
 
@@ -114,7 +113,7 @@ title: "Research"
 
 
 
-<hr style="border: none; height: 1px; background-color: #444; margin: 4.5em 0;">
+<div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin: 4em 0;"></div>
 
 <!-- This is a comment , keyboard shortcut is "⌘ + Shift + :"-->
 
