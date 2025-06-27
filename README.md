@@ -1,3 +1,4 @@
-# My personal website: https://camille-le-roy.github.io/
+## This is the repository of my personal website:
+## https://camille-le-roy.github.io/
 
-created using Minimal Mistakes Jekyll theme
+Created using Minimal Mistakes Jekyll theme
