@@ -5,7 +5,7 @@ title: "Projects"
 
 Page under construction
 
-
+<a id="projects"></a> <!-- This is the scroll target, for coming back here when in one of the project page -->
 
 <!-- Ideas of project to show in this section:
 

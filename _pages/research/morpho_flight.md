@@ -5,7 +5,7 @@ title: " "
 <!-- leave title:" " and we make the title ourself below -->
 
 <p style="font-size: 0.9em; margin-top: 2em;">
-  <a href="/research/#projects" style="color: #AAA;">← Back to Research Overview</a>
+  <a href="/research/#research_projects" style="color: #AAA;">← Back to Research Overview</a>
 </p>
 
 <!-- Adaptive evolution of flight -->
@@ -55,6 +55,6 @@ title: " "
 <div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin: 4em 0;"></div>
 
 <p style="font-size: 0.9em; margin-top: 2em;">
-  <a href="/research/#projects" style="color: #AAA;">← Back to Research Overview</a>
+  <a href="/research/#research_projects" style="color: #AAA;">← Back to Research Overview</a>
 </p>
 

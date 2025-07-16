@@ -5,7 +5,7 @@ title: " "
 <!-- leave title:" " and we make the title ourself below -->
 
 <p style="font-size: 0.9em; margin-top: 2em;">
-  <a href="/research/#projects" style="color: #AAA;">← Back to Research Overview</a>
+  <a href="/research/#research_projects" style="color: #AAA;">← Back to Research Overview</a>
 </p>
 
 <!-- Unravelling the coexistence of mimetic Morpho butterfly species -->
@@ -47,5 +47,5 @@ title: " "
 
 
 <p style="font-size: 0.9em; margin-top: 2em;">
-  <a href="/research/#projects" style="color: #AAA;">← Back to Research Overview</a>
+  <a href="/research/#research_projects" style="color: #AAA;">← Back to Research Overview</a>
 </p>
