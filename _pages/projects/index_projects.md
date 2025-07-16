@@ -19,6 +19,7 @@ Page under construction
 
 -->
 
+
 <div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin-top: 4em; margin-bottom: 4em;"></div>
 
 <!-- Short teaser and link to the page wing_heatmap_generator.md -->
