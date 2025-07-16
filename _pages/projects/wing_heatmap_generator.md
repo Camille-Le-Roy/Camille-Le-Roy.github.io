@@ -8,8 +8,7 @@ title: " "
   <a href="/projects/#projects" style="color: #AAA;">← Back to Projects Overview</a>
 </p>
 
-<!-- Unravelling the coexistence of mimetic Morpho butterfly species -->
-
+<!-- title of the project -->
 <div style="font-size: 1.3em; font-weight: bold; margin-top: 2em; margin-bottom: 0.5em;">
   Wing damage analysis
 </div>

@@ -56,7 +56,7 @@ title: "Research"
 
 <div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin-top: 4em; margin-bottom: 4em;"></div>
 
-<a id="projects"></a> <!-- 👈 This is the scroll target, for coming back here when in one of the project page -->
+<a id="research_projects"></a> <!-- This is the scroll target, for coming back here when in one of the project page -->
 
 
 
