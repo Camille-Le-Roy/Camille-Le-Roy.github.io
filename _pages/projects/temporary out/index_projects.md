@@ -2,6 +2,7 @@
 permalink: /projects/
 title: "Projects"
 ---
+<!-- MOVE THAT FILE TO THE FOLDER "projects" TO MAKE IT ACTIVE -->
 
 Page under construction
 
