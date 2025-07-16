@@ -1,5 +1,5 @@
 ---
-permalink: /projects/wing_damage_analysis/
+permalink: /projects/wing_heatmap_generator/
 title: " "
 ---
 <!-- leave title:" " and we make the title ourself below -->
