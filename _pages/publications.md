@@ -13,11 +13,10 @@ title: "Publications"
 </div>
 
 
-
-- **Le Roy, C.**<span style="color:#D0D0D0;">, Tervelde, N., Engels, T., & Muijres, F.  
-  *Changes in wing morphology rather than wingbeat kinematics enabled flight in small hoverflies.*  
-  _Under review at eLife_</span>  
-  <a href="https://elifesciences.org/reviewed-preprints/97839#tab-content" style="color:#3B82F6;" target="_blank">See preprint</a>
+- **Le Roy, C.**<span style="color:#D0D0D0;">, Tervelde, N., Engels, T., & Muijres, F. (2025).  
+  *Changes in wing morphology rather than wingbeat kinematics enabled flight in small hoverflies.*</span>  
+  <span style="color:#3B82F6;"><em>eLife</em></span><span style="color:#D0D0D0;">, (13)</span>.  
+  <a href="https://doi.org/10.7554/eLife.97839.1" style="color:#1E3A8A;" target="_blank">https://doi.org/10.7554/eLife.97839.1</a>
 
 - <span style="color:#D0D0D0;">Kleckova, I., Linke, D., Rezende, F., Rauscher, L.,</span> **Le Roy, C.**<span style="color:#D0D0D0;">, & Matos, P. (2024).  
   *Flight behaviour diverges more between seasonal forms than between species in Pieris butterflies.*</span>  
