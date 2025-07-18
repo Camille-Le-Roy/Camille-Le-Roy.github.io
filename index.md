@@ -29,7 +29,7 @@ comments: false
 
   <!-- Image Section -->
   <div style="max-width: 35%; margin-right: 0px;"> 
-    <img src="/assets/images/WUR profile picture black&white.png" alt="WUR profile picture black&white" style="width: 80%; height: auto; display: block; border-radius: 15px;">
+    <img src="/assets/images/WUR profile picture black&white.png" alt="WUR profile picture black&white" style="width: 73%; height: auto; display: block; border-radius: 15px;">
   </div>
 
   <!-- Text Section -->
