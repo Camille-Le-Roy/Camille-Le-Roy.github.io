@@ -11,14 +11,14 @@ feature_row:
   - image_path: /assets/images/wing heatmap.png
     alt: "placeholder image 1"
     title: "Image Analysis"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: " "
   - image_path: /assets/images/butterflies 3 views.png
     alt: "placeholder image 2"
     title: "Video tracking"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: " "
   - image_path: /assets/images/3D reconstruction.png
     title: "Three-dimensional reconstruction"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    excerpt: " "
 author_profile: true
 show_social: true
 related: false
