@@ -9,101 +9,65 @@ title: " "
 </p>
 
 <!-- title of the project -->
-<div style="font-size: 1.3em; font-weight: bold; margin-top: 2em; margin-bottom: 0.2em;">
+<div style="font-size: 1.7em; font-weight: bold; margin-top: 2em; margin-bottom: 0.2em;">
   Quantifying 3D-motion
 </div>
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-I studied how flying insects move through the air, not just where they go, but exactly how their wings and bodies behave in three dimensions. Using high-speed cameras and 3D reconstruction software, I’ve analyzed the flight of butterflies, flies, and bumblebees, both in the lab and in natural environments. Here, I describe the methods and tools that make this possible.
+I studied how flying insects move through the air, not just where they go, but exactly how their wings and bodies behave in three dimensions. Using high-speed cameras and 3D reconstruction softwares, I’ve analyzed the flight of butterflies, flies, and bumblebees, both in the lab and in natural environments.
 </span>
 
-<!--
-<div style="margin-top: 1.5em; margin-bottom: 1.5em;">
-  <img src="/assets/images/figure wing damage heatmap.png" alt=" " style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px;">
+<div style="margin-top: 1.5em; margin-bottom: 1.5em;text-align: center;">
+  <img src="/assets/images/3D_path_white_white_on_black.png" alt=" " style="border-radius: 10px; width: 47%; object-fit: contain; margin-top: 0.25em;">
 </div>
--->
-## Motivation
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-While investigating the effect of wing damage on butterfly flight performance during my PhD, I aimed at quantifying not only the extent of damage (e.g., percentage of missing wing area), but also its spatial distribution across the wing surface.
+  <br><br>
+  Below, I present the key steps of the workflow behind these studies, using the quantification of <em>Morpho</em> butterfly flight as an example project.
 </span>
 
 
 
-## How It Works
+## Recording Free-Flying Butterflies
+
+<div style="display: flex; align-items: center; gap: 1.5em; margin-top: 1.5em; max-width: 900px; margin-bottom: 1.5em;">
+  <span style="color:#D0D0D0; font-size: 0.9em; line-height: 1.5; flex: 1;">
+    To study butterfly flight, I built a "insect flight studio” in the middle of the Amazon rainforest. It was a 9‑meter long outdoor tunnel, where wild butterflies could fly freely, equipped it with a stereoscopic motion capture system: three synchronized high-speed cameras filming at 240 frames per second.
+  </span>
+  <img src="/assets/images/flight cage tarapoto.png" style="border-radius: 10px; width: 32%; object-fit: contain; margin-top: 0.25em;">
+</div>
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-I superimposed standardized images of the wings from wild specimens using EBImage R package. This allowed counting the missing area at the pixel scale. The heatmap is then built from a matrix summing the occurrences of missing pixels, and plotted with autoimage R package.
+Here is an example of the flight trajectory from a <em>Morpho</em> butterfly filmed from both a side and a top view. 
+</span>
+
+<div style="margin-top: 1.5em; margin-bottom: 1.5em;text-align: center;">
+  <img src="/assets/images/side and top view menelaus flight GIF.gif" alt=" " style="border-radius: 10px; width: 65%; object-fit: contain; margin-top: 0.25em;">
+</div>
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+Three-dimensional reconstruction fundamentally requires filming the same scene from multiple angle of views and combining the scenes. The more angle of views are combined the more precise the reconstructed scene will be.
+</span>
+
+## From Video to 3D Motion
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+blabla.
 </span>
 
 <div style="margin-top: 1.5em; margin-bottom: 1.5em;">
   <img src="/assets/images/figure wing damage heatmap pixels.png" alt=" " style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px;">
 </div>
 
-<span style="color:#D0D0D0; font-size: 0.9em">
-The pixel matrix shown here is at very low resolution for the sake of simplicity. Note that the natural shape variation between individuals (i.e. not due to wing
-damage) is eliminated in the process to match the intact template.
-</span>
-
-## Code
-
-<div style="margin-top: 1.5em; font-size: 0.9em; color: #D0D0D0;">
-  <span>
-    This tool is implemented entirely in R and is openly available on 
-    <i class="fab fa-github" style="color:#fff;"></i>
-    <a href="https://github.com/Camille-Le-Roy/wing_damage_heatmap_generator.git" 
-       target="_blank" 
-       style="color: #3B82F6; text-decoration: none; font-weight: bold;">
-      GitHub
-    </a>.
-  </span>
-</div>
-
-
-## How It's Been Used
-
-<!-- First example with embedded link -->
-<div style="display: flex; font-size: 0.9em; align-items: center; gap: 1.5em; margin-top: 1.5em; max-width: 900px; margin-bottom: 1.5em; color: #D0D0D0;">
-  <p style="margin: 0;">
-    Check out the use of <strong>Wing Damage Heatmap Generator</strong> in my research article published in the 
-    <a href="https://journals.biologists.com/jeb/article/222/16/jeb204057/223419/Effects-of-natural-wing-damage-on-flight" 
-       target="_blank" 
-       style="color: #3B82F6; text-decoration: none;">
-      Journal of Experimental Biology
-    </a>.
-  </p>
-  <a href="https://journals.biologists.com/jeb/article/222/16/jeb204057/223419/Effects-of-natural-wing-damage-on-flight" target="_blank" style="margin-left: auto;">
-    <img src="/assets/images/cover JEB.png" 
-         style="border-radius: 10px; width: 230px; object-fit: contain; display: block;">
-  </a>
-</div>
-
-<!-- Second example with embedded link -->
-<div style="display: flex; font-size: 0.9em; align-items: center; gap: 1.5em; margin-top: 1.5em; max-width: 900px; margin-bottom: 1.5em; color: #D0D0D0;">
-  <p style="margin: 0;">
-    Another interesting example is this study on the evolution of butterfly wing tails by Ariane Chotard, published in the 
-    <a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2022.0562" 
-       target="_blank" 
-       style="color: #3B82F6; text-decoration: none;">
-      Proceedings of the Royal Society B
-    </a>.
-  </p>
-  <a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2022.0562" target="_blank" style="margin-left: auto;">
-    <img src="/assets/images/royal society Ariane cover.png" 
-         style="border-radius: 10px; width: 265px; object-fit: contain; display: block;">
-  </a>
-</div>
 
 
 
 
 
+## Revealing the Hidden Aerodynamics
 
-<!--
-<div style="margin-top: 1.5em; margin-bottom: 1.5em;">
-  <img src="/assets/images/wing damage heatmap Ariane Chotard example.png" alt=" " style="width: 30%; border-radius: 10px;">
-</div>
--->
+## Softwares
+
 
 <p style="font-size: 0.9em; margin-top: 2em;">
   <a href="/projects/#projects" style="color: #AAA;">← Back to Projects Overview</a>
