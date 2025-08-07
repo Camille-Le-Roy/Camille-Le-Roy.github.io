@@ -14,7 +14,7 @@ title: " "
 </div>
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-A custom R pipeline that generates spatial heatmaps of wing damage from insect wing image data to visualize spatial location of wing damage.
+<em>A custom R pipeline that generates spatial heatmaps of wing damage from insect wing image data to visualize spatial location of wing damage.</em>
 </span>
 
 <div style="margin-top: 1.5em; margin-bottom: 1.5em;">

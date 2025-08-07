@@ -18,12 +18,11 @@ I studied how flying insects move through the air, not just where they go, but e
 </span>
 
 <div style="margin-top: 1.5em; margin-bottom: 1.5em;text-align: center;">
-  <img src="/assets/images/3D_path_white_white_on_black.png" alt=" " style="border-radius: 10px; width: 47%; object-fit: contain; margin-top: 0.25em;">
+  <img src="/assets/images/3D reconstruction hoverfly - climb - glide.gif" alt=" " style="border-radius: 10px; width: 100%; object-fit: contain; margin-top: 0.25em;">
 </div>
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-  <br><br>
-  Below, I present the key steps of the workflow behind these studies, using the quantification of <em>Morpho</em> butterfly flight as an example project.
+  Below, I present the key steps of the workflow behind 3-dimensional reconstruction, using the quantification of <em>Morpho</em> butterfly flight as an example project.
 </span>
 
 
@@ -38,7 +37,7 @@ I studied how flying insects move through the air, not just where they go, but e
 </div>
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-Here is an example of the flight trajectory from a <em>Morpho</em> butterfly filmed from both a side and a top view. 
+Here is an example of the flight trajectory of a <em>Morpho</em> butterfly filmed from both a side and a top view. 
 </span>
 
 <div style="margin-top: 1.5em; margin-bottom: 1.5em;text-align: center;">
