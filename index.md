@@ -10,14 +10,14 @@ header:
 feature_row:
   - image_path: /assets/images/wing heatmap.png
     alt: "placeholder image 1"
-    title: "Image Analysis"
+    title: "Wing Damage Heatmap Generator"
     excerpt: " "
   - image_path: /assets/images/butterflies 3 views.png
     alt: "placeholder image 2"
-    title: "Video tracking"
+    title: "Video Tracking"
     excerpt: " "
-  - image_path: /assets/images/3D reconstruction.png
-    title: "Three-dimensional reconstruction"
+  - image_path: /assets/images/AI wb kinematics figure 2 for main index.png
+    title: "Quantifying 3D Motion"
     excerpt: " "
 author_profile: true
 show_social: true
