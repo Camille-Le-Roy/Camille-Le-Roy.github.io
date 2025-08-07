@@ -50,7 +50,7 @@ title: "Projects"
 <div style="display: flex; gap: 1.5em; align-items: center; margin-bottom: 2em;">
   <!-- Linked image on the left -->
   <a href="/projects/3D_reconstruction/">
-    <img src="/assets/images/AI wb kinematics figure 2.png" style="width: 400px; height: auto; border-radius: 5px;">
+    <img src="/assets/images/AI wb kinematics figure 2.png" style="width: 390px; height: auto; border-radius: 5px;">
   </a>
 
   <!-- Text content on the right -->

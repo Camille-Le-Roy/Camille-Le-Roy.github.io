@@ -22,7 +22,7 @@ I studied how flying insects move through the air, not just where they go, but e
 </div>
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-  Below, I present the key steps of the workflow behind 3-dimensional reconstruction, using the quantification of <em>Morpho</em> butterfly flight as an example project.
+  Below, I present the key steps of the workflow behind 3D reconstruction, using the quantification of <em>Morpho</em> butterfly flight as an example project.
 </span>
 
 
@@ -45,7 +45,7 @@ Here is an example of the flight trajectory of a <em>Morpho</em> butterfly filme
 </div>
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-Three-dimensional reconstruction requires filming the same scene from multiple angle of views and combining the scenes. The more angle of views are combined the more precise the reconstructed scene will be.
+Three-dimensional reconstruction works by filming the same scene from multiple viewpoints and then combining those views. The more viewpoints used, the more precise the reconstruction becomes.
 </span>
 
 ## From Video to 3D Motion
@@ -63,7 +63,7 @@ To achieve this, I used a calibration wand, moving it throughout the recording a
 <span style="color:#D0D0D0; font-size: 0.9em">
   Using a method called 
   <a href="http://www.kwon3d.com/theory/dlt/dlt.html" target="_blank" style="color:#E0E0E0;">Direct Linear Transformation (DLT)</a>
-  along with the recorded wand movements, I can map 2D pixel coordinates into 3D space for any object passing through the calibrated space.<br><br>
+  along with the recorded wand movements, 2D pixel coordinates can be converted into 3D positions for any object passing through the calibrated space.<br><br>
   Here is the reconstructed flight trajectory for the flight sequence shown earlier.
 </span>
 
