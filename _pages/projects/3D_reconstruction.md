@@ -74,18 +74,31 @@ To achieve this, I used a calibration wand, moving it throughout the recording a
 
 
 
+## Extracting Meaningful Flight Metrics
+
+<span style="color:#D0D0D0; font-size: 0.9em;">
+  Once the 3D flight paths were reconstructed, I processed them to turn raw coordinates into interpretable performance and behavioral metrics. 
+  For example, I could investigate difference in flight behavior among species using measures of sinuosity, flight speed, acceleration, or the average flight height. 
+  I also evaluated critical performance metrics such as climbing and gliding efficiency by computing the climb and glide angle, respectively.
+  <br><br>
+  <span>
+    The data processing and analysis pipeline is implemented in R and openly available on
+    <i class="fab fa-github" style="color:#fff;"></i>
+    <a href="https://github.com/Camille-Le-Roy/flight_data_analysis" 
+       target="_blank" 
+       style="color: #3B82F6; text-decoration: none; font-weight: bold;">
+      GitHub
+    </a>.
+  </span>
+</span>
 
 
 
+## How It's Been Used
 
-
-
-
-
-
-## Revealing the Hidden Aerodynamics
-
-## Softwares
+<span style="color:#D0D0D0; font-size: 0.9em">
+ I've used three-dimensional reconstruction approaches to investigate insect flight in diverse contexts, from examining how wing damage affects performance, to studying how microhabitat specialization shapes flight behavior, and even uncovering the dynamics of sexual flight interactions. You can find more about these studies on my <a href="/research/" target="_blank" style="color:#E0E0E0;">Research page</a>.
+</span>
 
 
 <p style="font-size: 0.9em; margin-top: 2em;">

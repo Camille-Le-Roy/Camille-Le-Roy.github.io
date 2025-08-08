@@ -15,16 +15,16 @@ feature_row:
     excerpt: " "
     btn_label: "View Project"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/butterflies 3 views.png
-    alt: "placeholder image 2"
-    title: "Video Tracking"
-    excerpt: " "
   - image_path: /assets/images/AI wb kinematics figure 2 for main index.png
     title: "Quantifying 3D Motion"
     url: "/projects/3D_reconstruction/"
     excerpt: " "
     btn_label: "View Project"
     btn_class: "btn--inverse"
+  - image_path: /assets/images/butterflies 3 views.png
+    alt: "placeholder image 2"
+    title: "Video Tracking"
+    excerpt: " "
 author_profile: true
 show_social: true
 related: false
