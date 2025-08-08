@@ -8,16 +8,16 @@ header:
   overlay_filter: "0.3"
   caption: " "
 feature_row:
+  - image_path: /assets/images/AI wb kinematics figure 2 for main index.png
+    title: "Quantifying 3D Motion"
+    url: "/projects/3D_reconstruction/"
+    excerpt: " "
+    btn_label: "View Project"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/wing heatmap.png
     alt: "Wing heatmap preview"
     title: "Wing Damage Heatmap Generator"
     url: "/projects/wing_heatmap_generator/"
-    excerpt: " "
-    btn_label: "View Project"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/AI wb kinematics figure 2 for main index.png
-    title: "Quantifying 3D Motion"
-    url: "/projects/3D_reconstruction/"
     excerpt: " "
     btn_label: "View Project"
     btn_class: "btn--inverse"
