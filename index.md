@@ -24,7 +24,10 @@ feature_row:
   - image_path: /assets/images/butterflies 3 views.png
     alt: "placeholder image 2"
     title: "Video Tracking"
+    url: "/projects/IN_PROGRESS/"
     excerpt: " "
+    btn_label: "View Project"
+    btn_class: "btn--inverse"
 author_profile: true
 show_social: true
 related: false

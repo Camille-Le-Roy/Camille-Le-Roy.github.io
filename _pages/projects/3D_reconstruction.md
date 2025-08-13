@@ -53,7 +53,7 @@ Three-dimensional reconstruction works by filming the same scene from multiple v
 <span style="color:#D0D0D0; font-size: 0.9em">
 A critical step in obtaining 3D information from multiple 2D videos is the calibration. Before recording any flight, the three high-speed cameras need to be accurately calibrated so that even a tiny insect’s wing, moving faster than the human eye can see, appears in exactly the right 3D place for each frame.
 <br><br>
-To achieve this, I used a calibration wand, moving it throughout the recording area much like a majorette twirling a baton. The extremities of the wand were tracked in each camera view to capture the spatial positions of a known-length object (tracking shown in only one of the views, below). While other calibration devices can also be used, the wand method is highly adaptable to virtually any space.
+To achieve this, I used a calibration wand, moving it throughout the recording area much like a majorette twirling a baton. The extremities of the wand were tracked in each camera view to capture the spatial positions of a known-length object (tracking is shown in only one of the views, below). While other calibration devices can also be used, the wand method is highly adaptable to virtually any space.
 </span>
 
 <div style="margin-top: 1.5em; margin-bottom: 1.5em;text-align: center;">
@@ -70,8 +70,6 @@ To achieve this, I used a calibration wand, moving it throughout the recording a
 <div style="margin-top: 1.5em; margin-bottom: 1.5em;text-align: center;">
   <img src="/assets/images/example reconstructed trajectory.png" alt=" " style="border-radius: 10px; width: 70%; object-fit: contain; margin-top: 0.25em;">
 </div>
-
-
 
 
 ## Extracting Meaningful Flight Metrics
@@ -99,6 +97,26 @@ To achieve this, I used a calibration wand, moving it throughout the recording a
 <span style="color:#D0D0D0; font-size: 0.9em">
  I've used three-dimensional reconstruction approaches to investigate insect flight in diverse contexts, from examining how wing damage affects performance, to studying how microhabitat specialization shapes flight behavior, and even uncovering the dynamics of sexual flight interactions. You can find more about these studies on my <a href="/research/" target="_blank" style="color:#E0E0E0;">Research page</a>.
 </span>
+
+
+
+## Softwares
+
+<span style="color:#D0D0D0; font-size: 0.9em;">
+  <ul style="list-style-type: disc; padding-left: 50px; margin: 0; color:#D0D0D0; font-size: 0.9em;">
+    <li style="margin-bottom: 8px;">
+      <strong><a href="https://biomech.web.unc.edu/dltdv/" style="color:#D0D0D0; text-decoration:none;">DLTdv</a>:</strong>
+      An intuitive MATLAB-based digitizing tool, designed specifically for 3D reconstruction.
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong><a href="https://biomech.web.unc.edu/wand-calibration-tools/" style="color:#D0D0D0; text-decoration:none;">easyWand</a>:</strong>
+      A companion tool to DLTdv for calibrating camera setups using the wand method.
+    </li>
+    <li>
+      <strong><a href="https://deeplabcut.github.io/DeepLabCut/README.html" style="color:#D0D0D0; text-decoration:none;">DeepLabCut</a>:</strong>
+      A powerful Python library for pose estimation, allowing you to fine-tune deep neural networks for automatic tracking of your object of interest.
+    </li>
+  </ul>
 
 
 <p style="font-size: 0.9em; margin-top: 2em;">
