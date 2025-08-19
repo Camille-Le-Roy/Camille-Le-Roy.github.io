@@ -77,7 +77,7 @@ To achieve this, I used a calibration wand, moving it throughout the recording a
 <span style="color:#D0D0D0; font-size: 0.9em;">
   Once the 3D flight paths were reconstructed, I processed them to turn raw coordinates into interpretable performance and behavioral metrics. 
   For example, I could investigate difference in flight behavior among species using measures of sinuosity, flight speed, acceleration, or the average flight height. 
-  I also evaluated critical performance metrics such as climbing and gliding efficiency by computing the climb and glide angle, respectively.
+  I also evaluated critical performance metrics such as gliding efficiency by computing the glide angle during gliding flight phases.
   <br><br>
   <span>
     The data processing and analysis pipeline is implemented in R and openly available on
@@ -92,31 +92,31 @@ To achieve this, I used a calibration wand, moving it throughout the recording a
 
 
 
-## How It's Been Used
-
-<span style="color:#D0D0D0; font-size: 0.9em">
- I've used three-dimensional reconstruction approaches to investigate insect flight in diverse contexts, from examining how wing damage affects performance, to studying how microhabitat specialization shapes flight behavior, and even uncovering the dynamics of sexual flight interactions. You can find more about these studies on my <a href="/research/" target="_blank" style="color:#E0E0E0;">Research page</a>.
-</span>
-
-
-
 ## Softwares
 
 <span style="color:#D0D0D0; font-size: 0.9em;">
   <ul style="list-style-type: disc; padding-left: 50px; margin: 0; color:#D0D0D0; font-size: 0.9em;">
     <li style="margin-bottom: 8px;">
-      <strong><a href="https://biomech.web.unc.edu/dltdv/" style="color:#D0D0D0; text-decoration:none;">DLTdv</a>:</strong>
+      <strong><a href="https://biomech.web.unc.edu/dltdv/" style="color:#3B82F6; text-decoration: none; font-weight: bold">DLTdv</a>:</strong>
       An intuitive MATLAB-based digitizing tool, designed specifically for 3D reconstruction.
     </li>
     <li style="margin-bottom: 8px;">
-      <strong><a href="https://biomech.web.unc.edu/wand-calibration-tools/" style="color:#D0D0D0; text-decoration:none;">easyWand</a>:</strong>
+      <strong><a href="https://biomech.web.unc.edu/wand-calibration-tools/" style="color:#3B82F6; text-decoration: none; font-weight: bold">easyWand</a>:</strong>
       A companion tool to DLTdv for calibrating camera setups using the wand method.
     </li>
     <li>
-      <strong><a href="https://deeplabcut.github.io/DeepLabCut/README.html" style="color:#D0D0D0; text-decoration:none;">DeepLabCut</a>:</strong>
+      <strong><a href="https://deeplabcut.github.io/DeepLabCut/README.html" style="color:#3B82F6; text-decoration: none; font-weight: bold">DeepLabCut</a>:</strong>
       A powerful Python library for pose estimation, allowing you to fine-tune deep neural networks for automatic tracking of your object of interest.
     </li>
   </ul>
+
+
+## Applications
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+ I've used three-dimensional reconstruction approaches to investigate insect flight in diverse contexts, from examining how wing damage affects performance, to studying how microhabitat specialization shapes flight behavior, and even uncovering the dynamics of sexual flight interactions. You can find more about these studies on my <a href="/research/" target="_blank" style="color:#3B82F6; text-decoration: none; font-weight: bold">Research page</a>.
+</span>
+
 
 
 <p style="font-size: 0.9em; margin-top: 2em;">
