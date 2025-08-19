@@ -29,7 +29,7 @@ plugins:
   - jekyll-seo-tag 
 
 author:
-  name   : "Camille Le Roy, PhD"
+  name   : "Camille Le Roy, Ph.D"
   avatar : "/assets/images/WUR profile picture.JPG"
   bio    : "Data scientist and biologist"
   links:
