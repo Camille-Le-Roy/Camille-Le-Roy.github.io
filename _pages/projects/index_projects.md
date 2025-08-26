@@ -8,15 +8,12 @@ title: "Projects"
 
 <!-- Ideas of project to show in this section:
 
-- reconstructing Motpho flight trajectory in the wild
-- reconstructing the wingbeat kinematics of Dipterans
-- reconstructing the wingbeat kinematics of climbing Morpho
-- reconstructing the wingbeat kinematics of gliding Morpho
-- wing damage heatmap analysis
-- background subtraction using openCV
+- tracking movements (deeplabcut) 
+- trimming synching and background subtraction using openCV
 - Ilam's python equivalent to wingImage processor?
 
 -->
+
 
 
 <div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin-top: 3em; margin-bottom: 3em;"></div> <!-- separating line -->
