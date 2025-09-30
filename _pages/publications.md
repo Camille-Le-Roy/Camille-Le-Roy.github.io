@@ -16,7 +16,7 @@ title: "Publications"
 - **Le Roy, C.**<span style="color:#D0D0D0;">, Tervelde, N., Engels, T., & Muijres, F. (2025).  
   *Adaptations in wing morphology rather than wingbeat kinematics enable flight in small hoverfly species.*</span>  
   <span style="color:#3B82F6;"><em>eLife</em></span><span style="color:#D0D0D0;">, (13)</span>.  
-  <a href="https://doi.org/10.7554/eLife.97839.4" style="color:#1E3A8A;" target="_blank">h[ttps://doi.org/10.7554/eLife.97839.1](https://doi.org/10.7554/eLife.97839.4)</a>
+  <a href="https://doi.org/10.7554/eLife.97839.4" style="color:#1E3A8A;" target="_blank">https://doi.org/10.7554/eLife.97839.4</a>
 
 - <span style="color:#D0D0D0;">Kleckova, I., Linke, D., Rezende, F., Rauscher, L.,</span> **Le Roy, C.**<span style="color:#D0D0D0;">, & Matos, P. (2024).  
   *Flight behaviour diverges more between seasonal forms than between species in Pieris butterflies.*</span>  
