@@ -15,6 +15,29 @@ title: "Projects"
 -->
 
 
+<!-- Short teaser and link to the page Diptera_Tableau_Dashboard -->
+
+<div style="display: flex; gap: 1.5em; align-items: center; margin-bottom: 2em;">
+  <!-- Linked image on the left -->
+  <a href="/projects/in_progress/">
+    <img src="/assets/images/Diptera_Dashboard_screenshot.png" style="width: 380px; margin-left: 0.3em; height: auto; border-radius: 5px;">
+  </a>
+
+  <!-- Text content on the right -->
+  <div>
+    <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 0.5em;">
+      <a href="/projects/in_progress/" style="color: #E0E0E0; text-decoration: none;">
+        Visualizing Complex Data using <em>Tableau</em> <!-- title of the project -->
+      </a>
+    </div>
+    <span style="color:#D0D0D0; font-size: 0.9em;">
+      An interactive visualization of wingbeat kinematics diversity in Dipteran insects <!-- subtitle-->
+      <a href="/projects/in_progress/" style="color:#999;">Read more →</a>
+    </span>
+  </div>
+</div>
+
+
 
 <div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin-top: 3em; margin-bottom: 3em;"></div> <!-- separating line -->
 
