@@ -1,6 +1,6 @@
 ---
 permalink: /projects/
-title: "Projects"
+title: "Portfolio"
 ---
 
 <a id="projects"></a> <!-- Scroll target -->
@@ -15,10 +15,11 @@ title: "Projects"
     padding: 8px; /* slight breathing room */
     border-radius: 12px;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
+    /*background-color: #1e1e1e; /* subtle dark background to lift the card */
   }
 
   .project-card:hover {
-    transform: scale(1.02);
+    transform: scale(1.07);  /* control how big the section becomes */
     box-shadow: 0 6px 14px rgba(0,0,0,0.35);
   }
 
@@ -58,7 +59,7 @@ title: "Projects"
   <div>
     <div class="project-title">
       <a href="/projects/in_progress/">
-        Visualizing Complex Data using <em>Tableau</em>
+        Interactive Data Visualization using <em>Tableau</em>
       </a>
     </div>
     <span class="project-subtitle">
