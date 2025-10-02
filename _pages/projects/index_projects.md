@@ -2,9 +2,115 @@
 permalink: /projects/
 title: "Projects"
 ---
-<!-- MOVE THAT FILE TO THE FOLDER "projects" TO MAKE IT ACTIVE -->
 
-<a id="projects"></a> <!-- This is the scroll target, for coming back here when in one of the project page -->
+<a id="projects"></a> <!-- Scroll target -->
+
+<!-- format style to add an hovering effect on each project section -->
+<style>
+  .project-card {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+    margin-bottom: 2em;
+    padding: 8px; /* slight breathing room */
+    border-radius: 12px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+
+  .project-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+  }
+
+  .project-card img {
+    border-radius: 8px;
+  }
+
+  .project-title a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  .project-subtitle {
+    color: #D0D0D0;
+    font-size: 0.9em;
+  }
+
+  .project-subtitle a {
+    color: #999;
+    text-decoration: none;
+  }
+
+  .divider {
+    height: 2px;
+    background: linear-gradient(to right, #333, #666, #333);
+    margin: 3em 0;
+  }
+</style>
+
+<!-- Project 1 -->
+<div class="project-card">
+  <a href="/projects/in_progress/">
+    <img src="/assets/images/Diptera_Dashboard_screenshot.png" style="width: 380px; height: auto;">
+  </a>
+  <div>
+    <div class="project-title">
+      <a href="/projects/in_progress/">
+        Visualizing Complex Data using <em>Tableau</em>
+      </a>
+    </div>
+    <span class="project-subtitle">
+      An interactive visualization of wingbeat kinematics diversity in Dipteran insects <br>
+      <a href="/projects/in_progress/">Read more →</a>
+    </span>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- Project 2 -->
+<div class="project-card">
+  <a href="/projects/3D_reconstruction/">
+    <img src="/assets/images/AI wb kinematics figure 2.png" style="width: 290px; height: auto;">
+  </a>
+  <div>
+    <div class="project-title">
+      <a href="/projects/3D_reconstruction/">
+        Quantifying 3D Motion
+      </a>
+    </div>
+    <span class="project-subtitle">
+      Behind the scenes of 3D motion capture for insect flight <br>
+      <a href="/projects/3D_reconstruction/">Read more →</a>
+    </span>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- Project 3 -->
+<div class="project-card">
+  <a href="/projects/wing_heatmap_generator/">
+    <img src="/assets/images/wing heatmap.png" style="width: 400px; height: auto;">
+  </a>
+  <div>
+    <div class="project-title">
+      <a href="/projects/wing_heatmap_generator/">
+        Wing Damage Heatmap Generator
+      </a>
+    </div>
+    <span class="project-subtitle">
+      An R-based tool for mapping spatial frequency of wing damage on insect wings <br>
+      <a href="/projects/wing_heatmap_generator/">Read more →</a>
+    </span>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+
 
 <!-- Ideas of project to show in this section:
 
@@ -13,83 +119,3 @@ title: "Projects"
 - Ilam's python equivalent to wingImage processor?
 
 -->
-
-
-<!-- Short teaser and link to the page Diptera_Tableau_Dashboard -->
-
-<div style="display: flex; gap: 1.5em; align-items: center; margin-bottom: 2em;">
-  <!-- Linked image on the left -->
-  <a href="/projects/in_progress/">
-    <img src="/assets/images/Diptera_Dashboard_screenshot.png" style="width: 380px; margin-left: 0.3em; height: auto; border-radius: 5px;">
-  </a>
-
-  <!-- Text content on the right -->
-  <div>
-    <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 0.5em;">
-      <a href="/projects/in_progress/" style="color: #E0E0E0; text-decoration: none;">
-        Visualizing Complex Data using <em>Tableau</em> <!-- title of the project -->
-      </a>
-    </div>
-    <span style="color:#D0D0D0; font-size: 0.9em;">
-      An interactive visualization of wingbeat kinematics diversity in Dipteran insects <!-- subtitle-->
-      <a href="/projects/in_progress/" style="color:#999;">Read more →</a>
-    </span>
-  </div>
-</div>
-
-
-
-<div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin-top: 3em; margin-bottom: 3em;"></div> <!-- separating line -->
-
-<!-- Short teaser and link to the page 3D_reconstruction.md -->
-
-<div style="display: flex; gap: 1.5em; align-items: center; margin-bottom: 2em;">
-  <!-- Linked image on the left -->
-  <a href="/projects/3D_reconstruction/">
-    <img src="/assets/images/AI wb kinematics figure 2.png" style="width: 290px; height: auto; border-radius: 5px;">
-  </a>
-
-  <!-- Text content on the right -->
-  <div>
-    <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 0.5em;">
-      <a href="/projects/3D_reconstruction/" style="color: #E0E0E0; text-decoration: none;">
-        Quantifying 3D Motion <!-- title of the project -->
-      </a>
-    </div>
-    <span style="color:#D0D0D0; font-size: 0.9em;">
-      Behind the scenes of 3D motion capture for insect flight <!-- subtitle-->
-      <a href="/projects/3D_reconstruction/" style="color:#999;">Read more →</a>
-    </span>
-  </div>
-</div>
-
-<div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin-top: 3em; margin-bottom: 3em;"></div> <!-- separating line -->
-
-
-
-<!-- Short teaser and link to the page wing_heatmap_generator.md -->
-
-<div style="display: flex; gap: 1.5em; align-items: center; margin-bottom: 2em;">
-  <!-- Linked image on the left -->
-  <a href="/projects/wing_heatmap_generator/">
-    <img src="/assets/images/wing heatmap.png" style="width: 400px; height: auto; border-radius: 5px;">
-  </a>
-
-  <!-- Text content on the right -->
-  <div>
-    <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 0.5em;">
-      <a href="/projects/wing_heatmap_generator/" style="color: #E0E0E0; text-decoration: none;">
-        Wing Damage Heatmap Generator <!-- title of the project -->
-      </a>
-    </div>
-    <span style="color:#D0D0D0; font-size: 0.9em;">
-      An R-based tool for mapping spatial frequency of wing damage on insect wings <!-- subtitle-->
-      <a href="/projects/wing_heatmap_generator/" style="color:#999;">Read more →</a>
-    </span>
-  </div>
-</div>
-
-<div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin-top: 3em; margin-bottom: 3em;"></div> <!-- separating line -->
-
-
-<a id="projects"></a> <!-- This is the scroll target, for coming back here when in one of the project page -->
