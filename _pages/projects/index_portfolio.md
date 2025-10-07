@@ -5,6 +5,17 @@ title: "Portfolio"
 
 <a id="projects"></a> <!-- Scroll target -->
 
+<!-- Intro text -->
+<!--
+<div style="color:#D0D0D0; font-size: 0.9em; flex: 1; line-height: 1.6; text-align: justify;">
+  <p>
+    My portfolio highlights both research-driven projects and, more recently, applied analytics work. Together, they demonstrate my ability to translate complex data into actionable insights across domains.<br>
+  </p>
+</div>
+-->
+
+
+
 <!-- format style to add an hovering effect on each project section -->
 <style>
   .project-card {
@@ -50,6 +61,9 @@ title: "Portfolio"
     margin: 3em 0;
   }
 </style>
+
+
+<div class="divider"></div>
 
 <!-- Project 1 -->
 <div class="project-card">
