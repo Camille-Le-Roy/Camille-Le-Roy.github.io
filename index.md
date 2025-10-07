@@ -7,27 +7,6 @@ header:
   overlay_image: /assets/images/canopy resized.jpg
   overlay_filter: "0.3"
   caption: " "
-feature_row:
-  - image_path: /assets/images/AI wb kinematics figure 2 for main index.png
-    title: "Quantifying 3D Motion"
-    url: "/projects/3D_reconstruction/"
-    excerpt: " "
-    btn_label: "View Project"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/wing heatmap.png
-    alt: "Wing heatmap preview"
-    title: "Wing Damage Heatmap Generator"
-    url: "/projects/wing_heatmap_generator/"
-    excerpt: " "
-    btn_label: "View Project"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/butterflies 3 views.png
-    alt: "placeholder image 2"
-    title: "Video Tracking"
-    url: "/projects/IN_PROGRESS/"
-    excerpt: " "
-    btn_label: "View Project"
-    btn_class: "btn--inverse"
 author_profile: true
 show_social: true
 related: false
@@ -52,8 +31,99 @@ comments: false
 </div>
 
 
+<br>
 
-**Featured projects**
-{% include feature_row %}
 
+
+<!-- Featured Projects Section -->
+<h2 style="color:#E0E0E0; font-size:1.5em; margin-bottom:1em;">Featured Projects</h2>
+
+<div class="featured-projects">
+  <!-- Project 1 -->
+  <div class="project-card">
+    <a href="/projects/3D_reconstruction/">
+      <img src="/assets/images/AI wb kinematics figure 2 for main index.png" alt="Quantifying 3D Motion">
+    </a>
+    <h3><a href="/projects/3D_reconstruction/">Quantifying 3D Motion</a></h3>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-card">
+    <a href="/projects/wing_heatmap_generator/">
+      <img src="/assets/images/wing heatmap_smaller.png" alt="Wing Damage Heatmap Generator">
+    </a>
+    <h3><a href="/projects/wing_heatmap_generator/">Wing Damage Heatmap Generator</a></h3>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-card">
+    <a href="/projects/IN_PROGRESS/">
+      <img src="/assets/images/butterflies 3 views.png" alt="Video Tracking">
+    </a>
+    <h3><a href="/projects/IN_PROGRESS/">Video Tracking</a></h3>
+  </div>
+</div>
+
+  <!-- Project 4 -->
+  <div class="project-card">
+    <a href="/projects/Diptera_Tableau_dashboard/">
+      <img src="/assets/images/Diptera_Dashboard_screenshot.png" alt="Diptera dashboard">
+    </a>
+    <h3><a href="/projects/Diptera_Tableau_dashboard/">Interactive Data Vizualisation</a></h3>
+  </div>
+
+
+
+<!-- Styles -->
+<style>
+.featured-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
+.project-card {
+  text-align: center;
+  width: 360px;       /* size of the card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  color: #E0E0E0;
+  font-size: 1.2em;  /* size of title */
+  margin: 0.8em 0 0.4em;
+}
+
+.project-card h3 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+  z-index: 10;
+}
+
+/* Mobile responsive */
+@media (max-width: 960px) {
+  .featured-projects {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .project-card {
+    width: 100%;
+  }
+}
+</style>
 

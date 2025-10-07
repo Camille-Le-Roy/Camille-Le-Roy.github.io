@@ -3,6 +3,7 @@ permalink: /research/
 title: "Research"
 ---
 
+
 <!-- Introduction -->
 <div style="margin-top: 1em; margin-bottom: 1.5em;">
   <img src="/assets/images/research in lab wide.png" alt=" " style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px;">
@@ -32,86 +33,112 @@ title: "Research"
 <div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin-top: 4em; margin-bottom: 4em;"></div>
 
 
-<!-- Short teaser and link to the page morpho_flight.md -->
 
-<div style="display: flex; gap: 1.5em; align-items: center; margin-bottom: 2em;">
-  <!-- Linked image on the left -->
+<a id="research_projects"></a> <!-- Scroll target -->
+
+<!-- Hover effect styling (same as project page) -->
+<style>
+.research-card {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+  margin-bottom: 2em;
+  padding: 8px;
+  border-radius: 12px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.research-card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+}
+
+.research-card img {
+  border-radius: 8px;
+}
+
+.research-title a {
+  color: #E0E0E0;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.research-subtitle {
+  color: #D0D0D0;
+  font-size: 0.9em;
+}
+
+.research-subtitle a {
+  color: #999;
+  text-decoration: none;
+}
+
+.divider {
+  height: 2px;
+  background: linear-gradient(to right, #333, #666, #333);
+  margin: 3em 0;
+}
+</style>
+
+<!-- Research Project 1 -->
+<div class="research-card">
   <a href="/research/morpho_flight/">
-    <img src="/assets/images/teaser gliding flight.png" style="width: 400px; height: auto; border-radius: 5px;">
+    <img src="/assets/images/teaser gliding flight.png" style="width: 380px; height: auto;">
   </a>
-
-  <!-- Text content on the right -->
   <div>
-    <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 0.5em;">
-      <a href="/research/morpho_flight/" style="color: #E0E0E0; text-decoration: none;">
+    <div class="research-title">
+      <a href="/research/morpho_flight/">
         Gliding in the Amazonian canopy: adaptive evolution of flight in <em>Morpho</em> butterflies
       </a>
     </div>
-    <span style="color:#D0D0D0; font-size: 0.9em;">
-      How does living in the open canopy influence the evolution of flight?
-      <a href="/research/morpho_flight/" style="color:#999;">Read more →</a>
+    <span class="research-subtitle">
+      How does living in the open canopy influence the evolution of flight? <br>
+      <a href="/research/morpho_flight/">Read more →</a>
     </span>
   </div>
 </div>
 
-<div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin-top: 4em; margin-bottom: 4em;"></div>
+<div class="divider"></div>
 
-<a id="research_projects"></a> <!-- This is the scroll target, for coming back here when in one of the project page -->
-
-
-
-<!-- Short teaser and link to the page morpho_coexistence.md -->
-
-
-<div style="display: flex; gap: 1.5em; align-items: center; margin-bottom: 2em;">
-  <!-- Linked image on the left -->
+<!-- Research Project 2 -->
+<div class="research-card">
   <a href="/research/morpho_coexistence/">
-    <img src="/assets/images/teaser morpho coexistence.png" style="width: 300px; height: auto; border-radius: 5px;">
+    <img src="/assets/images/teaser morpho coexistence.png" style="width: 380px; height: auto;">
   </a>
-
-  <!-- Text content on the right -->
   <div>
-    <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 0.5em;">
-      <a href="/research/morpho_coexistence/" style="color: #E0E0E0; text-decoration: none;">
+    <div class="research-title">
+      <a href="/research/morpho_coexistence/">
         Unravelling the coexistence of mimetic <em>Morpho</em> butterfly species
       </a>
     </div>
-    <span style="color:#D0D0D0; font-size: 0.9em;">
-      How do mimetic <em>Morpho</em> species coexiste in sympatry?
-      <a href="/research/morpho_coexistence/" style="color:#999;">Read more →</a>
+    <span class="research-subtitle">
+      How do mimetic <em>Morpho</em> species coexist in sympatry? <br>
+      <a href="/research/morpho_coexistence/">Read more →</a>
     </span>
   </div>
 </div>
 
-<div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin-top: 4em; margin-bottom: 4em;"></div>
+<div class="divider"></div>
 
-
-
-
-
-<!-- Short teaser and link to the page morpho_wing_damage.md -->
-
-<div style="display: flex; gap: 1.5em; align-items: center; margin-bottom: 2em;">
-  <!-- Linked image on the left -->
+<!-- Research Project 3 -->
+<div class="research-card">
   <a href="/research/morpho_wing_damage/">
-    <img src="/assets/images/teaset wing damage.png" style="width: 400px; height: auto; border-radius: 5px;">
+    <img src="/assets/images/teaset wing damage.png" style="width: 380px; height: auto;">
   </a>
-
-  <!-- Text content on the right -->
   <div>
-    <div style="font-size: 1.3em; font-weight: bold; margin-bottom: 0.5em;">
-      <a href="/research/morpho_wing_damage/" style="color: #E0E0E0; text-decoration: none;">
+    <div class="research-title">
+      <a href="/research/morpho_wing_damage/">
         Wing damage and flight performance in <em>Morpho</em> butterflies
       </a>
     </div>
-    <span style="color:#D0D0D0; font-size: 0.9em;">
-      In the wild, butterfly wings often get torn by predators, plants, or mid-air clashes. How do butterfly cope with wing damage?
-      <a href="/research/morpho_wing_damage/" style="color:#999;">Read more →</a>
+    <span class="research-subtitle">
+      In the wild, butterfly wings often get torn by predators, plants, or mid-air clashes. How do butterflies cope with wing damage? <br>
+      <a href="/research/morpho_wing_damage/">Read more →</a>
     </span>
   </div>
 </div>
 
-<div style="height: 2px; background: linear-gradient(to right, #333, #666, #333); margin-top: 4em; margin-bottom: 4em;"></div>
+<div class="divider"></div>
 
-
-
+<!-- Add more research projects below as needed -->
