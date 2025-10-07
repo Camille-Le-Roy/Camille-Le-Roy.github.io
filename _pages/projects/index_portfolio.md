@@ -53,18 +53,18 @@ title: "Portfolio"
 
 <!-- Project 1 -->
 <div class="project-card">
-  <a href="/projects/in_progress/">
+  <a href="/projects/Diptera_Tableau_dashboard/">
     <img src="/assets/images/Diptera_Dashboard_screenshot.png" style="width: 380px; height: auto;">
   </a>
   <div>
     <div class="project-title">
-      <a href="/projects/in_progress/">
+      <a href="/projects/Diptera_Tableau_dashboard/">
         Interactive Data Visualization using <em>Tableau</em>
       </a>
     </div>
     <span class="project-subtitle">
       An interactive visualization of wingbeat kinematics diversity in Dipteran insects <br>
-      <a href="/projects/in_progress/">Read more →</a>
+      <a href="/projects/Diptera_Tableau_dashboard/">Read more →</a>
     </span>
   </div>
 </div>

@@ -14,95 +14,71 @@ title: " "
 </div>
 
 <span style="color:#D0D0D0; font-size: 0.9em">
- I built a Tableau dashboard based on insect flight data collected during my postdoctoral research.
+ I built this Tableau dashboard using insect flight data collected during my postdoctoral research. The goal was to translate a complex, research-grade dataset into an interactive, accessible format. In the process, I learned how to design and communicate data insights using <em>Tableau</em>.
+ <br><br>
+My dataset describes wingbeat kinematics of flying insects, that is inherently complex and multidimensional. By making it interactive, I could enable exploration of the data across different subsets (in this case, various insect lineages), while also providing intuitive descriptions of the wing angle parameters that were measured and how these parameters vary across species.
 </span>
 
-<div style="margin-top: 1.5em; margin-bottom: 1.5em;">
-  <img src="/assets/images/Diptera_Dashboard_screenshot.png" alt=" " style="width: 100%; object-fit: cover; border-radius: 10px;">
+<div class="tableauPlaceholder" id="vizInsectFlight" style="width:100%; max-width:1200px; margin:auto;">
+  <noscript>
+    <a href="https://public.tableau.com/views/Doallfliesflythesame/Dashboard1">
+      <img alt="Dashboard 1" 
+           src="https://public.tableau.com/static/images/Do/Doallfliesflythesame/Dashboard1/1.png" 
+           style="border:none;" />
+    </a>
+  </noscript>
+  <object class="tableauViz" style="display:none;">
+    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+    <param name="embed_code_version" value="3"/>
+    <param name="site_root" value=""/>
+    <param name="name" value="Doallfliesflythesame/Dashboard1"/>
+    <param name="tabs" value="no"/>
+    <param name="toolbar" value="yes"/>
+    <param name="display_static_image" value="yes"/>
+    <param name="display_spinner" value="yes"/>
+    <param name="display_overlay" value="yes"/>
+    <param name="display_count" value="yes"/>
+    <param name="language" value="en-US"/>
+  </object>
 </div>
 
-## Motivation
+<script type="text/javascript">
+  var divElement = document.getElementById('vizInsectFlight');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width = '100%';
+  vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+
+
+
+
+## From Static Figures to Interactive Dashboards
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-While investigating the effect of wing damage on butterfly flight performance during my PhD, I aimed at quantifying not only the extent of damage (e.g., percentage of missing wing area), but also its spatial distribution across the wing surface.
+In my research work, I typically handle data using programming environments like R, where I generate figures and statistical analyses directly through code. Those figures are designed for publication. They are static, highly precise, and optimized for readers with specialized scientific knowledge. In academia, the challenge is to condense a complex dataset into a single static figure that conveys the key message without overwhelming detail.
+<br><br>
+However, in the applied world of data analytics and business intelligence, the goal is different. Data must often be communicated to audiences with diverse backgrounds, from domain experts to decision-makers without technical expertise. Interactive dashboards provide a powerful way to achieve this: they invite exploration, allowing users to view the same dataset through multiple lenses and focus on the aspects most relevant to their needs.
 </span>
 
 
+## Takeways
 
-## How It Works
-
-<span style="color:#D0D0D0; font-size: 0.9em">
-I superimposed standardized images of the wings from wild specimens using EBImage R package. This allowed counting the missing area at the pixel scale. The heatmap is then built from a matrix summing the occurrences of missing pixels, and plotted with autoimage R package.
-</span>
-
-<div style="margin-top: 1.5em; margin-bottom: 1.5em;">
-  <img src="/assets/images/figure wing damage heatmap pixels.png" alt=" " style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 10px;">
-</div>
-
-<span style="color:#D0D0D0; font-size: 0.9em">
-The pixel matrix shown here is at very low resolution for the sake of simplicity. Note that the natural shape variation between individuals (i.e. not due to wing
-damage) is eliminated in the process to match the intact template.
-</span>
-
-## Code
-
-<div style="margin-top: 1.5em; font-size: 0.9em; color: #D0D0D0;">
-  <span>
-    This tool is implemented entirely in R and is openly available on 
-    <i class="fab fa-github" style="color:#fff;"></i>
-    <a href="https://github.com/Camille-Le-Roy/wing_damage_heatmap_generator.git" 
-       target="_blank" 
-       style="color: #3B82F6; text-decoration: none; font-weight: bold;">
-      GitHub
-    </a>.
-  </span>
-</div>
-
-
-## How It's Been Used
-
-<!-- First example with embedded link -->
-<div style="display: flex; font-size: 0.9em; align-items: center; gap: 1.5em; margin-top: 1.5em; max-width: 900px; margin-bottom: 1.5em; color: #D0D0D0;">
-  <p style="margin: 0;">
-    Check out the use of <strong>Wing Damage Heatmap Generator</strong> in my research article published in the 
-    <a href="https://journals.biologists.com/jeb/article/222/16/jeb204057/223419/Effects-of-natural-wing-damage-on-flight" 
-       target="_blank" 
-       style="color: #3B82F6; text-decoration: none;">
-      Journal of Experimental Biology
-    </a>.
-  </p>
-  <a href="https://journals.biologists.com/jeb/article/222/16/jeb204057/223419/Effects-of-natural-wing-damage-on-flight" target="_blank" style="margin-left: auto;">
-    <img src="/assets/images/cover JEB.png" 
-         style="border-radius: 10px; width: 230px; object-fit: contain; display: block;">
-  </a>
-</div>
-
-<!-- Second example with embedded link -->
-<div style="display: flex; font-size: 0.9em; align-items: center; gap: 1.5em; margin-top: 1.5em; max-width: 900px; margin-bottom: 1.5em; color: #D0D0D0;">
-  <p style="margin: 0;">
-    Another interesting example is this study on the evolution of butterfly wing tails by Ariane Chotard, published in the 
-    <a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2022.0562" 
-       target="_blank" 
-       style="color: #3B82F6; text-decoration: none;">
-      Proceedings of the Royal Society B
-    </a>.
-  </p>
-  <a href="https://royalsocietypublishing.org/doi/full/10.1098/rspb.2022.0562" target="_blank" style="margin-left: auto;">
-    <img src="/assets/images/royal society Ariane cover.png" 
-         style="border-radius: 10px; width: 265px; object-fit: contain; display: block;">
-  </a>
+<div style="color:#D0D0D0; font-size:0.9em;">
+  <p>This project helped me bridge my experience as a scientist and data analyst. It reinforced key principles of effective data communication:</p>
+  <ul>
+    <li><strong>Design for exploration:</strong> letting the audience guide their own path through the data.</li>
+    <li><strong>Clarity over complexity:</strong> simplifying without oversimplifying.</li>
+    <li><strong>Visual storytelling:</strong> using design to make patterns, contrasts, and relationships intuitive.</li>
+  </ul>
+  <p>Learning Tableau was not only about mastering a new tool, it was about adapting my scientific mindset to the broader context of data storytelling in industry.</p>
 </div>
 
 
 
-
-
-
-<!--
-<div style="margin-top: 1.5em; margin-bottom: 1.5em;">
-  <img src="/assets/images/wing damage heatmap Ariane Chotard example.png" alt=" " style="width: 30%; border-radius: 10px;">
-</div>
--->
 
 <p style="font-size: 0.9em; margin-top: 2em;">
   <a href="/projects/#projects" style="color: #AAA;">← Back to Projects Overview</a>
