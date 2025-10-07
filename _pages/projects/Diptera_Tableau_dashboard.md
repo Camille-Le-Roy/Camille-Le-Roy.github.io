@@ -13,12 +13,20 @@ title: " "
   Interactive Data Visualization using <em>Tableau</em>
 </div>
 
-<span style="color:#D0D0D0; font-size: 0.9em">
- I built this Tableau dashboard using insect flight data collected during my postdoctoral research. The goal was to translate a complex, research-grade dataset into an interactive, accessible format. In the process, I learned how to design and communicate data insights using <em>Tableau</em>.
- <br><br>
-My dataset describes wingbeat kinematics of flying insects, that is inherently complex and multidimensional. By making it interactive, I could enable exploration of the data across different subsets (in this case, various insect lineages), while also providing intuitive descriptions of the wing angle parameters that were measured and how these parameters vary across species.
-</span>
+<div style="color:#D0D0D0; font-size:0.9em; line-height:1.6;">
+  <p>
+    I built this Tableau dashboard using insect flight data collected during my postdoctoral research. 
+    The goal was to translate a complex, research-grade dataset into an interactive, accessible format. 
+    In the process, I learned how to design and communicate data insights using <em>Tableau</em>.
+  </p>
+  <p>
+    My dataset describes wingbeat kinematics of flying insects, which is inherently complex and multidimensional. 
+    By making it interactive, I could enable exploration of the data across different subsets (in this case, various insect lineages), 
+    while also providing intuitive descriptions of the wing angle parameters that were measured and how these parameters vary across species.
+  </p>
+</div>
 
+<!-- show the dashboard -->
 <div class="tableauPlaceholder" id="vizInsectFlight" style="width:100%; max-width:1200px; margin:auto;">
   <noscript>
     <a href="https://public.tableau.com/views/Doallfliesflythesame/Dashboard1">
@@ -52,17 +60,27 @@ My dataset describes wingbeat kinematics of flying insects, that is inherently c
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
-
+<!-- link to Tableau Public -->
+<div style="text-align:center; margin-top: 0.8em;">
+  <a href="https://public.tableau.com/views/Doallfliesflythesame/Dashboard1"
+     target="_blank"
+     style="color:#a0a0a0; font-size:0.9em; text-decoration:none;">
+    Open in Tableau Public
+  </a>
+</div>
 
 
 
 ## From Static Figures to Interactive Dashboards
 
-<span style="color:#D0D0D0; font-size: 0.9em">
-In my research work, I typically handle data using programming environments like R, where I generate figures and statistical analyses directly through code. Those figures are designed for publication. They are static, highly precise, and optimized for readers with specialized scientific knowledge. In academia, the challenge is to condense a complex dataset into a single static figure that conveys the key message without overwhelming detail.
-<br><br>
-However, in the applied world of data analytics and business intelligence, the goal is different. Data must often be communicated to audiences with diverse backgrounds, from domain experts to decision-makers without technical expertise. Interactive dashboards provide a powerful way to achieve this: they invite exploration, allowing users to view the same dataset through multiple lenses and focus on the aspects most relevant to their needs.
-</span>
+<div style="color:#D0D0D0; font-size:0.9em; line-height:1.6;">
+  <p>
+    In my research work, I typically handle data using programming environments like R, where I generate figures and statistical analyses directly through code. Those figures are designed for publication. They are static, highly precise, and optimized for readers with specialized scientific knowledge. In academia, the challenge is to condense a complex dataset into a single static figure that conveys the key message without overwhelming detail.
+  </p>
+  <p>
+    However, in the applied world of data analytics and business intelligence, the goal is different. Data must often be communicated to audiences with diverse backgrounds, from domain experts to decision-makers without technical expertise. Interactive dashboards provide a powerful way to achieve this: they invite exploration, allowing users to view the same dataset through multiple lenses and focus on the aspects most relevant to their needs.
+  </p>
+</div>
 
 
 ## Takeways
@@ -72,7 +90,7 @@ However, in the applied world of data analytics and business intelligence, the g
   <ul>
     <li><strong>Design for exploration:</strong> letting the audience guide their own path through the data.</li>
     <li><strong>Clarity over complexity:</strong> simplifying without oversimplifying.</li>
-    <li><strong>Visual storytelling:</strong> using design to make patterns, contrasts, and relationships intuitive.</li>
+    <li><strong>Visual storytelling:</strong> using filter functions to make patterns, contrasts, and relationships intuitive.</li>
   </ul>
   <p>Learning Tableau was not only about mastering a new tool, it was about adapting my scientific mindset to the broader context of data storytelling in industry.</p>
 </div>
