@@ -71,7 +71,6 @@ title: " "
 
 
 
-## From Static Figures to Interactive Dashboards
 
 <div style="color:#D0D0D0; font-size:0.9em; line-height:1.6;">
   <p>
