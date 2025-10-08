@@ -83,17 +83,7 @@ title: " "
 </div>
 
 
-## Takeways
 
-<div style="color:#D0D0D0; font-size:0.9em;">
-  <p>This project helped me bridge my experience as a scientist and data analyst. It reinforced key principles of effective data communication:</p>
-  <ul>
-    <li><strong>Design for exploration:</strong> letting the audience guide their own path through the data.</li>
-    <li><strong>Clarity over complexity:</strong> simplifying without oversimplifying.</li>
-    <li><strong>Visual storytelling:</strong> using filter functions to make patterns, contrasts, and relationships intuitive.</li>
-  </ul>
-  <p>Learning Tableau was not only about mastering a new tool, it was about adapting my scientific mindset to the broader context of data storytelling in industry.</p>
-</div>
 
 
 
