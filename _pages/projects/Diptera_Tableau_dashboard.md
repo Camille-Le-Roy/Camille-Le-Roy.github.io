@@ -15,16 +15,14 @@ title: " "
 
 <div style="color:#D0D0D0; font-size:0.9em; line-height:1.6;">
   <p>
-    I built this Tableau dashboard using insect flight data collected during my postdoctoral research. 
-    The goal was to translate a complex, research-grade dataset into an interactive, accessible format. 
-    In the process, I learned how to design and communicate data insights using <em>Tableau</em>.
+    In my research work, I typically handle data using programming environments like R, where I generate figures and statistical analyses directly through code. Those figures are designed for publication. They are static, highly precise, and optimized for readers with specialized scientific knowledge. In academia, the challenge is to condense a complex dataset into a single static figure that conveys the key message without overwhelming detail.
   </p>
   <p>
-    My dataset describes wingbeat kinematics of flying insects, which is inherently complex and multidimensional. 
-    By making it interactive, I could enable exploration of the data across different subsets (in this case, various insect lineages), 
-    while also providing intuitive descriptions of the wing angle parameters that were measured and how these parameters vary across species.
+    However, in the applied world of data analytics and business intelligence, the goal is different. Data must often be communicated to audiences with diverse backgrounds, from domain experts to decision-makers without technical expertise. Interactive dashboards provide a powerful way to achieve this: they invite exploration, allowing users to view the same dataset through multiple lenses and focus on the aspects most relevant to their needs.
   </p>
 </div>
+
+<br>
 
 <!-- show the dashboard -->
 <div class="tableauPlaceholder" id="vizInsectFlight" style="width:100%; max-width:1200px; margin:auto;">
@@ -69,17 +67,22 @@ title: " "
   </a>
 </div>
 
-
-
+<br>
 
 <div style="color:#D0D0D0; font-size:0.9em; line-height:1.6;">
   <p>
-    In my research work, I typically handle data using programming environments like R, where I generate figures and statistical analyses directly through code. Those figures are designed for publication. They are static, highly precise, and optimized for readers with specialized scientific knowledge. In academia, the challenge is to condense a complex dataset into a single static figure that conveys the key message without overwhelming detail.
+    I built this <em>Tableau</em> dashboard using insect flight data collected during my postdoctoral research. 
+    The goal was to translate a complex, research-grade dataset into an interactive, accessible format. 
+    In the process, I learned how to design and communicate data insights using <em>Tableau</em>.
   </p>
   <p>
-    However, in the applied world of data analytics and business intelligence, the goal is different. Data must often be communicated to audiences with diverse backgrounds, from domain experts to decision-makers without technical expertise. Interactive dashboards provide a powerful way to achieve this: they invite exploration, allowing users to view the same dataset through multiple lenses and focus on the aspects most relevant to their needs.
+    My dataset describes wingbeat kinematics of flying insects, which is inherently complex and multidimensional. 
+    By making it interactive, I could enable exploration of the data across different subsets (in this case, various insect lineages), 
+    while also providing intuitive descriptions of the wing angle parameters that were measured and how these parameters vary across species.
   </p>
 </div>
+
+
 
 
 
