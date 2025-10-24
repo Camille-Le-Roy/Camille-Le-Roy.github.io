@@ -1,0 +1,105 @@
+---
+permalink: /projects/ecommerce_data_pipeline/
+title: " "
+---
+<!-- leave title:" " and we make the title ourself below -->
+
+<p style="font-size: 0.9em; margin-top: 2em;">
+  <a href="/projects/#projects" style="color: #AAA;">← Back to Projects Overview</a>
+</p>
+
+<!-- title of the project -->
+<div style="font-size: 1.3em; font-weight: bold; margin-top: 2em; margin-bottom: 0.2em;">
+  E-Commerce Data Processing Pipeline
+</div>
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+ I built an end-to-end data processing pipeline in Python that transforms 9 raw CSV files (100K+ orders) into two analytics-ready base tables with 40+ engineered features for business intelligence.
+</span>
+
+<div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
+  <img src="/assets/images/AI_Generated_ecommerce_elongate.png" alt=" " style="width: 90%; max-height: 380px; object-fit: cover; border-radius: 10px;">
+</div>
+
+
+
+## Motivation
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+Real-world e-commerce data is rarely analysis-ready and often lacks key features needed for modeling tasks such as pricing optimization, churn prediction, or logistics improvement. A critical step is transforming raw, fragmented transactional tables into clean, cohesive analytical datasets.
+In this project, I used a publicly available Brazilian marketplace dataset (2016–2018) to demonstrate this process.
+</span>
+
+## How It Works
+
+<div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
+  <img src="/assets/images/dataprocessing scheme.png" alt=" " style="width: 90%; object-fit: cover; border-radius: 10px;">
+</div>
+
+<div style="color:#D0D0D0; font-size: 0.9em; margin-top: 1.5em; margin-bottom: 1.5em;">
+    <p style="margin-bottom: 0.5em;">The data pipeline is built on a four-phase approach:</p>
+    <ol style="padding-left: 20px;">
+        <li><strong> Ingestion:</strong> Data is loaded from 9 interconnected CSV files (Orders, Items, Payments, Reviews, Customers, Sellers, Products, Geolocation, and Translations) to form the initial relational model.</li>
+        <li><strong> Preparation:</strong> Data is cleaned, standardized, and aggregated to resolve one-to-many relationships (e.g., aggregating multiple payments per order).</li>
+        <li><strong> Merging:</strong> Strategic Left Joins are used to enrich the core `Orders` table with contextual data (items, payments, reviews, customer info), ensuring no order records are lost.</li>
+        <li><strong> Feature Engineering:</strong> Over 40 business-relevant metrics are derived, including RFM scores, delivery logistics features, and seller performance indicators.</li>
+    </ol>
+    <p style="margin-top: 0.5em;">The process outputs two complementary Analytical Base Tables (ABTs): one at the order/customer level and one at the product level, ready for modeling.</p>
+</div>
+
+
+
+
+
+## Key Features
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+The engineered features span multiple analytical dimensions:
+</span>
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+<strong>Temporal Features:</strong> Year/month/day/hour extraction, weekend indicators, holiday season flags, approval delays, and carrier pickup times.
+</span>
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+<strong>Delivery Performance:</strong> Delivery delay calculations, purchase-to-delivery time, delivery status categories (early/on-time/late), and speed classifications.
+</span>
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+<strong>Customer Analytics (RFM):</strong> Order frequency, recency (days since last order), customer lifetime value, and repeat customer identification.
+</span>
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+<strong>Economic Metrics:</strong> Average price per item, freight percentage of total, high-value order flags, and customer lifetime value calculations.
+</span>
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+<strong>Product & Seller Analytics:</strong> Category popularity, seller performance rankings, weight-to-price ratios, premium product identification, and top seller indicators.
+</span>
+
+
+## Results
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+The pipeline successfully processed 100,000+ orders across a 2-year period, reducing analytical query complexity by consolidating 9 tables into 2 purpose-built ABTs. The engineered features enable advanced analytics including RFM customer segmentation, delivery KPI monitoring, seller performance benchmarking, and product catalogue optimization, without requiring complex multi-table joins at query time.
+</span>
+
+
+## Code
+
+<div style="margin-top: 1.5em; font-size: 0.9em; color: #D0D0D0;">
+  <span>
+    This pipeline is implemented in Python and is openly available on 
+    <i class="fab fa-github" style="color:#fff;"></i>
+    <a href="https://github.com/yourusername/ecommerce-data-pipeline.git" 
+       target="_blank" 
+       style="color: #3B82F6; text-decoration: none; font-weight: bold;">
+      GitHub
+    </a>.
+  </span>
+</div>
+
+
+<p style="font-size: 0.9em; margin-top: 2em;">
+  <a href="/projects/#projects" style="color: #AAA;">← Back to Projects Overview</a>
+</p>

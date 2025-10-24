@@ -15,7 +15,7 @@ title: " "
 
 <div style="color:#D0D0D0; font-size:0.9em; line-height:1.6;">
   <p>
-    In my research work, I typically handle data using programming environments like R, where I generate figures and statistical analyses directly through code. Those figures are designed for publication. They are static, highly precise, and optimized for readers with specialized scientific knowledge. In academia, the challenge is to condense a complex dataset into a single static figure that conveys the key message without overwhelming detail.
+    In my research work, I typically handle data using programming environments like R or Python, where I generate figures and statistical analyses directly through code. Those figures are designed for publication. They are static, highly precise, and optimized for readers with specialized scientific knowledge. In academia, the challenge is to condense a complex dataset into a single static figure that conveys the key message without overwhelming detail.
   </p>
   <p>
     However, in the applied world of data analytics and business intelligence, the goal is different. Data must often be communicated to audiences with diverse backgrounds, from domain experts to decision-makers without technical expertise. Interactive dashboards provide a powerful way to achieve this: they invite exploration, allowing users to view the same dataset through multiple lenses and focus on the aspects most relevant to their needs.
