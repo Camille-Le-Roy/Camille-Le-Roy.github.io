@@ -14,7 +14,7 @@ title: " "
 </div>
 
 <span style="color:#D0D0D0; font-size: 0.9em">
- I built an end-to-end data processing pipeline in Python that transforms 9 raw CSV files (100K+ orders) into two analytics-ready base tables with 40+ engineered features for business intelligence.
+ I built an data processing pipeline in Python that transforms 9 relational datasets (100K+ orders) into two analytics-ready base tables with 40+ engineered features for business intelligence.
 </span>
 
 <div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
@@ -27,26 +27,26 @@ title: " "
 
 <span style="color:#D0D0D0; font-size: 0.9em">
 Real-world e-commerce data is rarely analysis-ready and often lacks key features needed for modeling tasks such as pricing optimization, churn prediction, or logistics improvement. A critical step is transforming raw, fragmented transactional tables into clean, cohesive analytical datasets.
-In this project, I used a publicly available Brazilian marketplace dataset (2016–2018) to demonstrate this process.
+In this project, I used a publicly available <a href="https://www.kaggle.com/datasets/jayeshsalunke101/brazilian-ecommerce-public-dataset?utm_source=chatgpt.com&select=olist_order_items_dataset.csv" target="_blank" style="color:#D0D0D0; text-decoration: underline;">Brazilian marketplace dataset (2016–2018)</a> to demonstrate this process.
 </span>
 
 ## How It Works
-
-<div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
-  <img src="/assets/images/dataprocessing scheme.png" alt=" " style="width: 90%; object-fit: cover; border-radius: 10px;">
-</div>
 
 <div style="color:#D0D0D0; font-size: 0.9em; margin-top: 1.5em; margin-bottom: 1.5em;">
     <p style="margin-bottom: 0.5em;">The data pipeline is built on a four-phase approach:</p>
     <ol style="padding-left: 20px;">
         <li><strong> Ingestion:</strong> Data is loaded from 9 interconnected CSV files (Orders, Items, Payments, Reviews, Customers, Sellers, Products, Geolocation, and Translations) to form the initial relational model.</li>
         <li><strong> Preparation:</strong> Data is cleaned, standardized, and aggregated to resolve one-to-many relationships (e.g., aggregating multiple payments per order).</li>
-        <li><strong> Merging:</strong> Strategic Left Joins are used to enrich the core `Orders` table with contextual data (items, payments, reviews, customer info), ensuring no order records are lost.</li>
+        <li><strong> Merging:</strong> Strategic Left Joins are used to enrich the core `Orders` table with contextual data (items, payments, reviews, customer info).</li>
         <li><strong> Feature Engineering:</strong> Over 40 business-relevant metrics are derived, including RFM scores, delivery logistics features, and seller performance indicators.</li>
     </ol>
     <p style="margin-top: 0.5em;">The process outputs two complementary Analytical Base Tables (ABTs): one at the order/customer level and one at the product level, ready for modeling.</p>
 </div>
 
+
+<div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
+  <img src="/assets/images/dataprocessing scheme full.png" alt=" " style="width: 90%; object-fit: cover; border-radius: 10px;">
+</div>
 
 
 
