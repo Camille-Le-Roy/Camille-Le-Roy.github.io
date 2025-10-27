@@ -26,9 +26,27 @@ title: " "
 ## Motivation
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-Real-world e-commerce data is rarely analysis-ready and often lacks key features needed for modeling tasks such as pricing optimization, churn prediction, or logistics improvement. A critical step is transforming raw, fragmented transactional tables into clean, cohesive analytical datasets.
+Real-world e-commerce data is rarely analysis-ready and often lacks key features needed for modeling tasks such as pricing optimization, churn prediction, or logistics improvement. A critical step is transforming raw, fragmented transactional tables into clean analytical datasets.
 In this project, I used a publicly available <a href="https://www.kaggle.com/datasets/jayeshsalunke101/brazilian-ecommerce-public-dataset?utm_source=chatgpt.com&select=olist_order_items_dataset.csv" target="_blank" style="color:#D0D0D0; text-decoration: underline;">Brazilian marketplace dataset (2016–2018)</a> to demonstrate this process.
 </span>
+
+
+
+
+## Raw datasets
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+The initial 9 relational datasets are presented via an Entity Relationship Diagram (ERD), defining the cardinality and mapping the relationships between entities.
+</span>
+
+<div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
+  <img src="/assets/images/ERD list datasets.png" alt=" " style="width: 90%; object-fit: cover; border-radius: 10px;">
+</div>
+
+<span style="color:#D0D0D0; font-size: 0.7em">
+PK: Principal Key; FK Foreign Key. <br>
+</span>
+
 
 ## How It Works
 
@@ -44,17 +62,16 @@ In this project, I used a publicly available <a href="https://www.kaggle.com/dat
 </div>
 
 
+
 <div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
   <img src="/assets/images/dataprocessing scheme full.png" alt=" " style="width: 90%; object-fit: cover; border-radius: 10px;">
 </div>
 
 
-
-
 ## Key Features
 
 <div style="color:#D0D0D0; font-size: 0.9em; margin-top: 0.5em;">
-    <p style="margin-bottom: 0.5em;">The engineered features span multiple analytical dimensions:</p>
+    <p style="margin-bottom: 0.5em;">The engineered features derives from the initial columns span the following analytical dimensions:</p>
     <ul>
         <li>
             <strong>Temporal Features:</strong> Year/month/day/hour extraction, weekend indicators, holiday season flags, approval delays, and carrier pickup times.
