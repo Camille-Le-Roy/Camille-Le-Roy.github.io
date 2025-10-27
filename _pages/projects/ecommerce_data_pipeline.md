@@ -18,7 +18,7 @@ title: " "
 </span>
 
 <div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
-  <img src="/assets/images/AI_Generated_ecommerce_elongate.png" alt=" " style="width: 90%; max-height: 380px; object-fit: cover; border-radius: 10px;">
+  <img src="/assets/images/AI_Generated_ecommerce_elongate.png" alt=" " style="width: 100%; max-height: 380px; object-fit: cover; border-radius: 10px;">
 </div>
 
 
@@ -53,35 +53,32 @@ In this project, I used a publicly available <a href="https://www.kaggle.com/dat
 
 ## Key Features
 
-<span style="color:#D0D0D0; font-size: 0.9em">
-The engineered features span multiple analytical dimensions:
-</span>
-
-<span style="color:#D0D0D0; font-size: 0.9em">
-<strong>Temporal Features:</strong> Year/month/day/hour extraction, weekend indicators, holiday season flags, approval delays, and carrier pickup times.
-</span>
-
-<span style="color:#D0D0D0; font-size: 0.9em">
-<strong>Delivery Performance:</strong> Delivery delay calculations, purchase-to-delivery time, delivery status categories (early/on-time/late), and speed classifications.
-</span>
-
-<span style="color:#D0D0D0; font-size: 0.9em">
-<strong>Customer Analytics (RFM):</strong> Order frequency, recency (days since last order), customer lifetime value, and repeat customer identification.
-</span>
-
-<span style="color:#D0D0D0; font-size: 0.9em">
-<strong>Economic Metrics:</strong> Average price per item, freight percentage of total, high-value order flags, and customer lifetime value calculations.
-</span>
-
-<span style="color:#D0D0D0; font-size: 0.9em">
-<strong>Product & Seller Analytics:</strong> Category popularity, seller performance rankings, weight-to-price ratios, premium product identification, and top seller indicators.
-</span>
+<div style="color:#D0D0D0; font-size: 0.9em; margin-top: 0.5em;">
+    <p style="margin-bottom: 0.5em;">The engineered features span multiple analytical dimensions:</p>
+    <ul>
+        <li>
+            <strong>Temporal Features:</strong> Year/month/day/hour extraction, weekend indicators, holiday season flags, approval delays, and carrier pickup times.
+        </li>
+        <li>
+            <strong>Delivery Performance:</strong> Delivery delay calculations, purchase-to-delivery time, delivery status categories (early/on-time/late), and speed classifications.
+        </li>
+        <li>
+            <strong>Customer Analytics (RFM):</strong> Order frequency, recency (days since last order), customer lifetime value, and repeat customer identification.
+        </li>
+        <li>
+            <strong>Economic Metrics:</strong> Average price per item, freight percentage of total, high-value order flags, and customer lifetime value calculations.
+        </li>
+        <li>
+            <strong>Product & Seller Analytics:</strong> Category popularity, seller performance rankings, weight-to-price ratios, premium product identification, and top seller indicators.
+        </li>
+    </ul>
+</div>
 
 
 ## Results
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-The pipeline successfully processed 100,000+ orders across a 2-year period, reducing analytical query complexity by consolidating 9 tables into 2 purpose-built ABTs. The engineered features enable advanced analytics including RFM customer segmentation, delivery KPI monitoring, seller performance benchmarking, and product catalogue optimization, without requiring complex multi-table joins at query time.
+The pipeline successfully processed 100,000+ orders across a 2-year period, reducing analytical query complexity by merging 9 tables into 2 purpose-built ABTs. The engineered features enable advanced analytics including RFM customer segmentation, delivery KPI monitoring, seller performance benchmarking, and product catalogue optimization, without requiring complex multi-table joins at query time.
 </span>
 
 
@@ -91,7 +88,7 @@ The pipeline successfully processed 100,000+ orders across a 2-year period, redu
   <span>
     This pipeline is implemented in Python and is openly available on 
     <i class="fab fa-github" style="color:#fff;"></i>
-    <a href="https://github.com/yourusername/ecommerce-data-pipeline.git" 
+    <a href="https://github.com.git" 
        target="_blank" 
        style="color: #3B82F6; text-decoration: none; font-weight: bold;">
       GitHub
