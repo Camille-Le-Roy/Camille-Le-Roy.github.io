@@ -14,7 +14,7 @@ title: " "
 </div>
 
 <span style="color:#D0D0D0; font-size: 0.9em">
- I built an data processing pipeline in Python that transforms 9 relational datasets (100K+ orders) into two analytics-ready base tables with 40+ engineered features for business intelligence.
+ I built an data processing pipeline in Python that transforms 9 relational datasets (100K+ orders) into three analytics-ready base tables with 40+ engineered features for business intelligence.
 </span>
 
 <div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
@@ -27,7 +27,7 @@ title: " "
 
 <span style="color:#D0D0D0; font-size: 0.9em">
 Real-world e-commerce data is rarely analysis-ready and often lacks key features needed for modeling tasks such as pricing optimization, churn prediction, or logistics improvement. A critical step is transforming raw, fragmented transactional tables into clean analytical datasets.
-In this project, I used a publicly available <a href="https://www.kaggle.com/datasets/jayeshsalunke101/brazilian-ecommerce-public-dataset?utm_source=chatgpt.com&select=olist_order_items_dataset.csv" target="_blank" style="color:#D0D0D0; text-decoration: underline;">Brazilian marketplace dataset (2016–2018)</a> to demonstrate this process.
+In this project, I used a publicly available <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce" target="_blank" style="color:#D0D0D0; text-decoration: underline;">Brazilian marketplace dataset (2016–2018)</a> to demonstrate this process.
 </span>
 
 
@@ -58,7 +58,7 @@ PK: Principal Key; FK Foreign Key. <br>
         <li><strong> Merging:</strong> Strategic Left Joins are used to enrich the core `Orders` table with contextual data (items, payments, reviews, customer info).</li>
         <li><strong> Feature Engineering:</strong> Over 40 business-relevant metrics are derived, including RFM scores, delivery logistics features, and seller performance indicators.</li>
     </ol>
-    <p style="margin-top: 0.5em;">The process outputs two complementary Analytical Base Tables (ABTs): one at the order/customer level and one at the product level, ready for modeling.</p>
+    <p style="margin-top: 0.5em;">The process outputs three complementary Analytical Base Tables (ABTs): at the order, product, and customer level, ready for modeling. .</p>
 </div>
 
 
@@ -95,7 +95,7 @@ PK: Principal Key; FK Foreign Key. <br>
 ## Results
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-The pipeline successfully processed 100,000+ orders across a 2-year period, reducing analytical query complexity by merging 9 tables into 2 purpose-built ABTs. The engineered features enable advanced analytics including RFM customer segmentation, delivery KPI monitoring, seller performance benchmarking, and product catalogue optimization, without requiring complex multi-table joins at query time.
+The pipeline successfully processed 100,000+ orders across a 2-year period, reducing analytical query complexity by merging 9 tables into 3 purpose-built ABTs. The engineered features enable advanced analytics including RFM customer segmentation, delivery KPI monitoring, seller performance benchmarking, and product catalogue optimization, without requiring complex multi-table joins at query time.
 </span>
 
 
