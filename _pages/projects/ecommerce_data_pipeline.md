@@ -105,7 +105,7 @@ The pipeline successfully processed 100,000+ orders across a 2-year period, redu
   <span>
     This pipeline is implemented in Python and is openly available on 
     <i class="fab fa-github" style="color:#fff;"></i>
-    <a href="https://github.com.git" 
+    <a href="https://github.com/Camille-Le-Roy/E-Commerce-Data-Processing-Pipeline" 
        target="_blank" 
        style="color: #3B82F6; text-decoration: none; font-weight: bold;">
       GitHub

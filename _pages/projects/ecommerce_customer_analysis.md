@@ -200,7 +200,7 @@ This project uses <a href="https://www.kaggle.com/datasets/olistbr/brazilian-eco
   <span>
     The analysis was implemented in Python and is openly available on 
     <i class="fab fa-github" style="color:#fff;"></i>
-    <a href="https://github.com.git" 
+    <a href="https://github.com/Camille-Le-Roy/E-Commerce-Sales-Trends-and-Customer-Analysis/tree/main" 
        target="_blank" 
        style="color: #3B82F6; text-decoration: none; font-weight: bold;">
       GitHub
