@@ -216,7 +216,7 @@ title: "Portfolio"
         <a href="/projects/ecommerce_customer_analysis/">E-Commerce Sales Trends & Customer Analysis</a>
       </div>
       <span class="project-subtitle">
-        A BI-approach to analyzing customer segments and growth <br>
+        A BI-approach to analyzing customer segments and growth analysis <br>
         <a href="/projects/ecommerce_customer_analysis/">Read more →</a>
       </span>
     </div>
