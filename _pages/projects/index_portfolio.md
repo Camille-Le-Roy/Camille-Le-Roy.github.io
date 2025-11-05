@@ -247,7 +247,7 @@ title: "Portfolio"
     </a>
     <div>
       <div class="project-title">
-        <a href="/projects/Diptera_Tableau_dashboard/">Interactive Data Visualization</a>
+        <a href="/projects/Diptera_Tableau_dashboard/">Interactive Data Visualization using <em>Tableau</em></a>
       </div>
       <span class="project-subtitle">
         An interactive visualization of wingbeat kinematics diversity in Dipteran insects <br>

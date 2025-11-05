@@ -29,11 +29,14 @@ comments: false
     </p>
   </div>
 </div>
+
 <!-- OLD TEXT
       Hi, and welcome to my website! <br><br>
       I’m a postdoctoral researcher in the Experimental Zoology Group at Wageningen University. 
       My research combines computational analysis, biomechanics, and ecological approaches in the field to investigate the evolution of animal locomotion, morphology, and behavior.
  -->
+
+
 
 <br>
 
@@ -79,7 +82,7 @@ comments: false
     </a>
     <h3 style="margin-top:0.6em;">
       <a href="/projects/Diptera_Tableau_dashboard/" style="color:#E0E0E0; text-decoration:none;">
-        Interactive Data Visualization
+        Interactive Data Visualization using <em>Tableau</em>
       </a>
     </h3>
   </div>
