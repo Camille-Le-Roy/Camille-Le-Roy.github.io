@@ -13,6 +13,10 @@ title: " "
   E-Commerce Data Processing Pipeline
 </div>
 
+<span style="color:#D0D0D0; font-size: 0.7em">
+<a href="https://github.com/Camille-Le-Roy/E-Commerce-Data-Processing-Pipeline" target="_blank" style="color:#A8A8A8; text-decoration: underline;">See the project on GitHub</a>
+</span>
+
 <span style="color:#D0D0D0; font-size: 0.9em">
  I built an data processing pipeline in Python that transforms 9 relational datasets (100K+ orders) into three analytics-ready base tables with 40+ engineered features for business intelligence.
 </span>

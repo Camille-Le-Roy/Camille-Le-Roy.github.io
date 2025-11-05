@@ -13,9 +13,14 @@ title: " "
   E-Commerce Sales Trends and Customer Analysis
 </div>
 
+<span style="color:#D0D0D0; font-size: 0.7em">
+<a href="https://github.com/Camille-Le-Roy/E-Commerce-Sales-Trends-and-Customer-Analysis/tree/main" target="_blank" style="color:#A8A8A8; text-decoration: underline;">See the project on GitHub</a>
+</span>
+
 <div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
   <img src="/assets/images/header image ecommerce saels trend and customer analysis.png" alt=" " style="width: 90%; max-height: 380px; object-fit: cover; border-radius: 10px;">
 </div>
+
 
 
 ## Table of Contents
