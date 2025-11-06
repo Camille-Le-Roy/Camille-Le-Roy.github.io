@@ -2,6 +2,7 @@
 layout: splash
 title: "Camille Le Roy, Ph.D."
 excerpt: "Data scientist and biologist"
+description: "Portfolio of Camille Le Roy, Ph.D — data science, analytics, visualization, and research."
 classes: wide
 header:
   overlay_image: /assets/images/canopy resized.jpg
@@ -12,6 +13,9 @@ show_social: true
 related: false
 comments: false
 ---
+
+
+
 
 <div style="display: flex; align-items: center; gap: 0px; margin: 30px auto 80px 0;">  <!-- margin is defined in the order "top, right, bottom, left" -->
 

@@ -1,32 +1,41 @@
-title: Home # or "Camille Le Roy, Ph.D" to improve the search engine result
-email: "  "
-description: >-
-  Camille Le Roy, Ph.D – Data Scientist and Biologist.
+title: Home # or "Camille Le Roy, Ph.D — Data Scientist & Biologist" to improve the search engine result
+email: ""
+description: "Data Scientist • Biologist • Research & Analytics"
+url: "https://camille-le-roy.github.io"
+#logo: /assets/images/favicon.png
+favicon: /assets/images/favicon.png
+breadcrumbs: true
 
-# Social accounts
 twitter_username: Camille_Le_Roy
 github_username: Camille-Le-Roy
 minimal_mistakes_skin: "neon"
 search: true
 
-# Build settings
+# Social metadata for SEO
+social:
+  name: "Camille Le Roy"
+  links:
+    - "https://linkedin.com/in/camille-le-roy-phd"
+    - "https://github.com/Camille-Le-Roy"
+    - "https://scholar.google.com/citations?user=SP69DnUAAAAJ&hl=en"
+    - "https://orcid.org/0000-0003-0421-296X"
+
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
-# Outputting
 permalink: /:categories/:title/
 timezone: Europe/Paris
 
 include:
   - _pages
 
-# Plugins
 plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jemoji
   - jekyll-include-cache
-  - jekyll-seo-tag 
+  - jekyll-seo-tag
+  - jekyll-feed  # optional but recommended
 
 author:
   name   : "Camille Le Roy, Ph.D"
