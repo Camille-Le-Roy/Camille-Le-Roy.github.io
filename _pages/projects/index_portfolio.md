@@ -65,14 +65,12 @@ title: "Portfolio"
     max-width: 50%;
   }
 
-  @media (max-width: 750px) {
-    .banner-row {
-      flex-direction: column;
-    }
-    .banner-row .section-header {
-      max-width: 100%;
-    }
+@media (max-width: 750px) {
+  .section-header {
+    height: 260px;   /* increase banner height for mobile */
+    font-size: 1.8rem;  /* optional: adjust text size */
   }
+}
 
   /* ==== PROJECT CARDS ===== */
   .project-card {

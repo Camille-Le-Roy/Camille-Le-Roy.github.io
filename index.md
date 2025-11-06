@@ -46,7 +46,7 @@ comments: false
 <h2 style="color:#E0E0E0; font-size:1.5em; margin-bottom:1em;">Featured Projects</h2>
 
 <h3 style="color:#BBBBBB; font-weight:500; text-align:center; width:100%; margin-bottom:1em; margin-top:0.5em;">
-  Applied Analytics <br><br><br>
+  <br>Applied Analytics <br><br><br>
 </h3>
 
 <div class="featured-projects" style="display:flex; flex-wrap:wrap; gap:2em; justify-content:center;">
@@ -87,12 +87,15 @@ comments: false
     </h3>
   </div>
 
+
+
+
   <!-- Divider -->
-  <div style="width:100%; border-bottom:1px solid #444; margin:2em 0;"></div>
+  <div style="width:100%; border-bottom:1px solid #444; margin:1em 0;"></div>
 
   <!-- Research Section -->
   <h3 style="color:#BBBBBB; font-weight:500; text-align:center; width:100%; margin-bottom:1em; margin-top:0.5em;">
-    Research <br><br><br>
+    Research <br><br>
   </h3>
 
   <!-- Research Project 1 -->
