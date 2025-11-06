@@ -67,34 +67,33 @@ title: "Portfolio"
 
   @media (max-width: 750px) {
 
-  /* Larger banners on mobile */
-  .section-header {
-    height: 260px;
-    font-size: 1.8rem;
-    max-width: 100% !important;   /* ✅ override desktop rule */
-    width: 100%;                  /* ✅ ensure full width */
-  }
-
-  /* Stack banners vertically on mobile */
+  /* Keep them side by side on small screens */
   .banner-row {
-    flex-direction: column;
-    gap: 1.2em;
-    width: 100%;
+    flex-direction: row;
+    gap: 0.8em;     /* smaller gap fits better */
   }
 
-  /* Mobile-specific images */
+  /* Ensure banners don’t shrink too small */
+  .banner-row .section-header {
+    flex: 1;
+    max-width: 48%;  /* or 50%, but 48% avoids wrapping */
+  }
+
+  .section-header {
+    height: 200px;   /* slightly smaller height works better on mobile */
+    font-size: 1.4rem;
+  }
+
+  /* Mobile-specific background images */
   .research-banner {
     background-image: url('/assets/images/research_banner_mobile.png');
-    background-size: cover;
-    background-position: center;
   }
 
   .analytics-banner {
-    background-image: url('/assets/images/analytics_banner_mobile.png');
-    background-size: cover;
-    background-position: center;
+    background-image: url('/assets/images/analytics_banner_2.png');
   }
 }
+
 
 
 
