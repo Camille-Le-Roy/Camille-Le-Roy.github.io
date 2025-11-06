@@ -46,7 +46,7 @@ comments: false
 <h2 style="color:#E0E0E0; font-size:1.5em; margin-bottom:1em;">Featured Projects</h2>
 
 <h3 style="color:#BBBBBB; font-weight:500; text-align:center; width:100%; margin-bottom:1em; margin-top:0.5em;">
-  Applied Analytics
+  Applied Analytics <br><br><br>
 </h3>
 
 <div class="featured-projects" style="display:flex; flex-wrap:wrap; gap:2em; justify-content:center;">
@@ -54,7 +54,7 @@ comments: false
   <!-- Applied Analytics Project 1 -->
   <div class="project-card" style="text-align:center; width:280px;">
     <a href="/projects/ecommerce_customer_analysis/">
-      <img src="/assets/images/header image ecommerce short.png" alt="E-Commerce Sales Trends & Customer Analysis" style="width:100%; border-radius:10px;">
+      <img src="/assets/images/header image ecommerce short transparent.png" alt="E-Commerce Sales Trends & Customer Analysis" style="width:100%; border-radius:10px;">
     </a>
     <h3 style="margin-top:0.6em;">
       <a href="/projects/ecommerce_customer_analysis/" style="color:#E0E0E0; text-decoration:none;">
@@ -66,11 +66,11 @@ comments: false
   <!-- Applied Analytics Project 2 -->
   <div class="project-card" style="text-align:center; width:280px;">
     <a href="/projects/ecommerce_data_pipeline/">
-      <img src="/assets/images/dataprocessing scheme no text.png" alt="E-Commerce Data Processing Pipeline" style="width:100%; border-radius:10px;">
+      <img src="/assets/images/dataprocessing scheme no text transparent.png" alt="E-Commerce Data Processing Pipeline" style="width:100%; border-radius:10px;">
     </a>
     <h3 style="margin-top:0.6em;">
       <a href="/projects/ecommerce_data_pipeline/" style="color:#E0E0E0; text-decoration:none;">
-        E-Commerce Data Processing Pipeline
+        E-Commerce<br> Data Processing Pipeline
       </a>
     </h3>
   </div>
@@ -78,7 +78,7 @@ comments: false
   <!-- Applied Analytics Project 3 -->
   <div class="project-card" style="text-align:center; width:280px;">
     <a href="/projects/Diptera_Tableau_dashboard/">
-      <img src="/assets/images/Diptera_Dashboard_screenshot.png" alt="Interactive Data Visualization" style="width:100%; border-radius:10px;">
+      <img src="/assets/images/Diptera_Dashboard_screenshot transparent.png" alt="Interactive Data Visualization" style="width:100%; border-radius:10px;">
     </a>
     <h3 style="margin-top:0.6em;">
       <a href="/projects/Diptera_Tableau_dashboard/" style="color:#E0E0E0; text-decoration:none;">
@@ -92,13 +92,13 @@ comments: false
 
   <!-- Research Section -->
   <h3 style="color:#BBBBBB; font-weight:500; text-align:center; width:100%; margin-bottom:1em; margin-top:0.5em;">
-    Research
+    Research <br><br><br>
   </h3>
 
   <!-- Research Project 1 -->
   <div class="project-card" style="text-align:center; width:280px;">
     <a href="/projects/3D_reconstruction/">
-      <img src="/assets/images/AI wb kinematics figure 2 for main index.png" alt="Quantifying 3D Motion" style="width:100%; border-radius:10px;">
+      <img src="/assets/images/AI wb kinematics figure 2 for main index transparent.png" alt="Quantifying 3D Motion" style="width:100%; border-radius:10px;">
     </a>
     <h3 style="margin-top:0.6em;">
       <a href="/projects/3D_reconstruction/" style="color:#E0E0E0; text-decoration:none;">
@@ -110,7 +110,7 @@ comments: false
   <!-- Research Project 2 -->
   <div class="project-card" style="text-align:center; width:280px;">
     <a href="/projects/wing_heatmap_generator/">
-      <img src="/assets/images/wing heatmap_smaller.png" alt="Wing Damage Heatmap Generator" style="width:100%; border-radius:10px;">
+      <img src="/assets/images/wing heatmap_smaller transparent.png" alt="Wing Damage Heatmap Generator" style="width:100%; border-radius:10px;">
     </a>
     <h3 style="margin-top:0.6em;">
       <a href="/projects/wing_heatmap_generator/" style="color:#E0E0E0; text-decoration:none;">
@@ -122,7 +122,7 @@ comments: false
   <!-- Research Project 3 -->
   <div class="project-card" style="text-align:center; width:280px;">
     <a href="/projects/IN_PROGRESS/">
-      <img src="/assets/images/butterflies 3 views.png" alt="Video Tracking" style="width:100%; border-radius:10px;">
+      <img src="/assets/images/butterflies 3 views transparent.png" alt="Video Tracking" style="width:100%; border-radius:10px;">
     </a>
     <h3 style="margin-top:0.6em;">
       <a href="/projects/IN_PROGRESS/" style="color:#E0E0E0; text-decoration:none;">
@@ -132,6 +132,9 @@ comments: false
   </div>
 
 </div>
+
+
+
 
 
 
@@ -149,7 +152,10 @@ comments: false
   flex: 1 1 300px; /* flexible growth: min width 300px, expands to fill */
   max-width: 420px;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  border: 1px solid #555; /* thin outline for separation */
+  border-radius: 8px;
+  background-color: #1a1a1a; /* optional: helps the outline stand out */
 }
 
 .project-card img {
@@ -174,6 +180,7 @@ comments: false
   transform: scale(1.05);
   box-shadow: 0 8px 20px rgba(0,0,0,0.35);
   z-index: 10;
+  border-color: #888; /* optional: change border color on hover for effect */
 }
 
 /* Mobile responsive */

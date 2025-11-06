@@ -49,7 +49,7 @@ title: " "
 <span style="color:#D0D0D0; font-size: 0.9em">
 Olist is one of Brazil’s leading e-commerce platforms. Founded in 2015, it connects small and medium-sized businesses by connecting them with major online marketplaces across the country, and is now expanding its presence internationally.
 <br><br>
-This project uses <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce" target="_blank" style="color:#D0D0D0; text-decoration: underline;">real commercial data</a> from Olist's early operational period (2016–2018), encompassing over 100,000 orders, to explore the following questions:
+This project uses <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce" target="_blank" style="color:#D0D0D0; text-decoration: underline;">real commercial data</a> from Olist's early operational period (2016–2018), including over 100,000 orders, to explore the following questions:
 </span>
 
 <ul style="color:#D0D0D0; font-size: 0.9em; margin-top: 0.5em;">
@@ -196,7 +196,7 @@ This project uses <a href="https://www.kaggle.com/datasets/olistbr/brazilian-eco
 
 <ul style="color:#D0D0D0; font-size: 0.9em; margin-top: 0.5em;">
   <li>The analyzed dataset covers a relatively short time period and reflects an early stage in the company’s development. This limits the ability to identify seasonal patterns, which typically emerge more clearly over longer time spans.</li>
-  <li>Despite the large volume of data (over 100,000 orders), the dataset contains very few repeat customers. This limits the feasibility of a traditional Recency–Frequency–Monetary (RFM) segmentation approach. nstead, a combination of alternative customer characteristics was used to identify behavioral clusters, providing a broader range of insights, albeit through an unconventional approach.. </li>
+  <li>Despite the large volume of data (over 100,000 orders), the dataset contains very few repeat customers. This limits the feasibility of a traditional Recency–Frequency–Monetary (RFM) segmentation approach. Instead, a combination of alternative customer characteristics was used to identify behavioral clusters, providing a broader range of insights, albeit through an unconventional approach. </li>
 </ul>
 
 ## Code
@@ -208,8 +208,7 @@ This project uses <a href="https://www.kaggle.com/datasets/olistbr/brazilian-eco
     <a href="https://github.com/Camille-Le-Roy/E-Commerce-Sales-Trends-and-Customer-Analysis/tree/main" 
        target="_blank" 
        style="color: #3B82F6; text-decoration: none; font-weight: bold;">
-      GitHub
-    </a>.
+      GitHub</a>.
   </span>
 </div>
 

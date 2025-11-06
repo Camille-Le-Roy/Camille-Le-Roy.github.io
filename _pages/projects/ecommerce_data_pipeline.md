@@ -112,8 +112,7 @@ The pipeline successfully processed 100,000+ orders across a 2-year period, redu
     <a href="https://github.com/Camille-Le-Roy/E-Commerce-Data-Processing-Pipeline" 
        target="_blank" 
        style="color: #3B82F6; text-decoration: none; font-weight: bold;">
-      GitHub
-    </a>.
+      GitHub</a>.
   </span>
 </div>
 
