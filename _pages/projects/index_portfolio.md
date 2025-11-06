@@ -69,6 +69,15 @@ title: "Portfolio"
   .section-header {
     height: 260px;   /* increase banner height for mobile */
     font-size: 1.8rem;  /* optional: adjust text size */
+
+      /* Mobile-specific banner images */
+  .research-banner {
+    background-image: url('/assets/images/research_banner_mobile.png');
+  }
+
+  .analytics-banner {
+    background-image: url('/assets/images/analytics_banner_2.png');
+  }
   }
 }
 
