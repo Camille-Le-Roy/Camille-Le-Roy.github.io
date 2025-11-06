@@ -1,10 +1,11 @@
 title: Home # or "Camille Le Roy, Ph.D — Data Scientist & Biologist" to improve the search engine result
+seo_title: "Camille Le Roy, Ph.D — Data Scientist & Biologist"
 email: ""
 description: "Data Scientist • Biologist • Research & Analytics"
 url: "https://camille-le-roy.github.io"
 #logo: /assets/images/favicon.png
 favicon: /assets/images/favicon.png
-breadcrumbs: true
+breadcrumbs: false # this add a  clickabl "Home/Research" to pages
 
 twitter_username: Camille_Le_Roy
 github_username: Camille-Le-Roy
