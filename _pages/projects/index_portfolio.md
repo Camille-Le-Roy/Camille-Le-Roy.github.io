@@ -65,27 +65,34 @@ title: "Portfolio"
     max-width: 50%;
   }
 
-  @media (max-width: 750px) { /* Mobile layout */
+  @media (max-width: 750px) {
 
-  /* Make banners larger on mobile */
+  /* Larger banners on mobile */
   .section-header {
     height: 260px;
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
+    max-width: 100% !important;   /* ✅ override desktop rule */
+    width: 100%;                  /* ✅ ensure full width */
   }
 
   /* Stack banners vertically on mobile */
   .banner-row {
     flex-direction: column;
     gap: 1.2em;
+    width: 100%;
   }
 
-  /* Mobile-specific banner images */
+  /* Mobile-specific images */
   .research-banner {
     background-image: url('/assets/images/research_banner_mobile.png');
+    background-size: cover;
+    background-position: center;
   }
 
   .analytics-banner {
     background-image: url('/assets/images/analytics_banner_mobile.png');
+    background-size: cover;
+    background-position: center;
   }
 }
 
