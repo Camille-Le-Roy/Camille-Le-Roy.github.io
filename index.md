@@ -70,7 +70,7 @@ comments: false
   <!-- Applied Analytics Project 2 -->
   <div class="project-card" style="text-align:center; width:280px;">
     <a href="/projects/ecommerce_data_pipeline/">
-      <img src="/assets/images/dataprocessing scheme no text transparent.png" alt="E-Commerce Data Processing Pipeline" style="width:100%; border-radius:10px;">
+      <img src="/assets/images/dataprocessing scheme no text transparent 2.png" alt="E-Commerce Data Processing Pipeline" style="width:100%; border-radius:10px;">
     </a>
     <h3 style="margin-top:0.6em;">
       <a href="/projects/ecommerce_data_pipeline/" style="color:#E0E0E0; text-decoration:none;">
