@@ -46,7 +46,7 @@ title: "Portfolio"
 
   /* banner image assignment */
   .research-banner {
-    background-image: url('/assets/images/research_banner_2.png');
+    background-image: url('/assets/images/research_banner_3.png');
   }
   .analytics-banner {
     background-image: url('/assets/images/analytics_banner_2.png');

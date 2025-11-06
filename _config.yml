@@ -4,7 +4,7 @@ email: ""
 description: "Data Scientist • Biologist • Research & Analytics"
 url: "https://camille-le-roy.github.io"
 #logo: /assets/images/favicon.png
-favicon: /assets/images/favicon.png
+#favicon: /assets/images/favicon.png
 breadcrumbs: false # this add a  clickabl "Home/Research" to pages
 
 twitter_username: Camille_Le_Roy
