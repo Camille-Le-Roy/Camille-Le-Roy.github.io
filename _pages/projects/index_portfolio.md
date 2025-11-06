@@ -65,21 +65,31 @@ title: "Portfolio"
     max-width: 50%;
   }
 
-@media (max-width: 750px) {
-  .section-header {
-    height: 260px;   /* increase banner height for mobile */
-    font-size: 1.8rem;  /* optional: adjust text size */
+  @media (max-width: 750px) { /* Mobile layout */
 
-      /* Mobile-specific banner images */
+  /* Make banners larger on mobile */
+  .section-header {
+    height: 260px;
+    font-size: 1.8rem; 
+  }
+
+  /* Stack banners vertically on mobile */
+  .banner-row {
+    flex-direction: column;
+    gap: 1.2em;
+  }
+
+  /* Mobile-specific banner images */
   .research-banner {
     background-image: url('/assets/images/research_banner_mobile.png');
   }
 
   .analytics-banner {
-    background-image: url('/assets/images/analytics_banner_2.png');
-  }
+    background-image: url('/assets/images/analytics_banner_mobile.png');
   }
 }
+
+
 
   /* ==== PROJECT CARDS ===== */
   .project-card {
