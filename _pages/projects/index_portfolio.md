@@ -8,47 +8,79 @@ title: "Portfolio"
 <!-- Intro text -->
 <div style="color:#D0D0D0; font-size: 0.9em; flex: 1; line-height: 1.6; text-align: justify; margin-bottom: 2em;">
   <p>
-    My portfolio highlights both research-driven projects and applied analytics work. Click a category below to explore projects in each area.<br>
+    My portfolio highlights both applied analytics and research-driven projects. Click a category below to explore projects in each area.
   </p>
 </div>
 
 <!-- ===== STYLES ===== -->
 <style>
-  /* Section header buttons */
+
+  /* ==== CATEGORY BANNERS ==== */
   .section-header {
     text-align: center;
-    background: linear-gradient(90deg, #222, #333);
-    color: #E0E0E0;
+    color: #D0D0D0;
     font-weight: bold;
-    font-size: 1.2em;
-    padding: 0.8em 0;
-    border-radius: 10px;
+    font-size: 2rem;
+    padding: 0;
+    height: 180px;
+    border-radius: 12px;
     margin: 1.5em 0;
     cursor: pointer;
-    transition: all 0.25s ease;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    text-shadow: 0 0 8px rgba(0,0,0,0.6);
   }
 
   .section-header:hover {
-    background: linear-gradient(90deg, #333, #444);
     transform: scale(1.03);
     box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   }
 
-  .section-header img {
-    width: 95%;
-    max-width: 650px;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 0.6em;
+  /* banner image assignment */
+  .research-banner {
+    background-image: url('/assets/images/research_banner.png');
+  }
+  .analytics-banner {
+    background-image: url('/assets/images/analytics_banner.png');
   }
 
-  /* Project cards */
+  /* ===== BANNERS SIDE BY SIDE ===== */
+  .banner-row {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    margin: 1.5em 0;
+  }
+
+  .banner-row .section-header {
+    flex: 1;
+    max-width: 50%;
+  }
+
+  @media (max-width: 750px) {
+    .banner-row {
+      flex-direction: column;
+    }
+    .banner-row .section-header {
+      max-width: 100%;
+    }
+  }
+
+  /* ==== PROJECT CARDS ===== */
   .project-card {
     display: flex;
     gap: 1.5em;
     align-items: center;
     margin-bottom: 2em;
-    padding: 8px;
+    padding: 10px;
     border-radius: 12px;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
   }
@@ -95,36 +127,46 @@ title: "Portfolio"
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
   }
+
+  /* Responsive layout */
+  @media (max-width: 750px) {
+    .project-card {
+      flex-direction: column;
+      text-align: center;
+    }
+    .project-card img {
+      width: 90% !important;
+    }
+  }
+
 </style>
 
 <!-- ===== JAVASCRIPT (toggle functionality) ===== -->
 <script>
   function toggleSection(id) {
     const section = document.getElementById(id);
-    const currentlyVisible = section.style.display === 'block';
+    const isVisible = section.style.display === 'block';
     document.querySelectorAll('.project-section').forEach(s => s.style.display = 'none');
-    if (!currentlyVisible) section.style.display = 'block';
+    if (!isVisible) section.style.display = 'block';
     window.scrollTo({ top: section.offsetTop - 100, behavior: 'smooth' });
   }
 
-  // have open "Applied Analytics Projects" by default:
+  // open Analytics by default
   window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('analytics-projects').style.display = 'block';
   });
 </script>
 
-<!-- ===== CATEGORY HEADERS ===== -->
+<!-- ===== CATEGORY HEADERS (SIDE BY SIDE) ===== -->
 
-<div class="section-header" onclick="toggleSection('research-projects')">
-  Research
-  <br>
-  <img src="/assets/images/research_banner.png" alt=" ">
-</div>
+<div class="banner-row">
+  <div class="section-header research-banner" onclick="toggleSection('research-projects')">
+    Research
+  </div>
 
-<div class="section-header" onclick="toggleSection('analytics-projects')">
-  Applied Analytics
-  <br>
-  <img src="/assets/images/analytics_banner.png" alt=" ">
+  <div class="section-header analytics-banner" onclick="toggleSection('analytics-projects')">
+    Applied Analytics
+  </div>
 </div>
 
 
@@ -151,6 +193,23 @@ title: "Portfolio"
   <div class="divider"></div>
 
   <div class="project-card">
+    <a href="/projects/wing_heatmap_generator/">
+      <img src="/assets/images/wing heatmap.png" style="width: 400px; height: auto;">
+    </a>
+    <div>
+      <div class="project-title">
+        <a href="/projects/wing_heatmap_generator/">Wing Damage Heatmap Generator</a>
+      </div>
+      <span class="project-subtitle">
+        An R-based tool for mapping spatial frequency of wing damage on insect wings <br>
+        <a href="/projects/wing_heatmap_generator/">Read more →</a>
+      </span>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="project-card">
     <a href="/projects/Diptera_Tableau_dashboard/">
       <img src="/assets/images/Diptera_Dashboard_screenshot.png" style="width: 380px; height: auto;">
     </a>
@@ -166,23 +225,6 @@ title: "Portfolio"
   </div>
 
   <div class="divider"></div>
-
-  <div class="project-card">
-    <a href="/projects/wing_heatmap_generator/">
-      <img src="/assets/images/wing heatmap.png" style="width: 400px; height: auto;">
-    </a>
-    <div>
-      <div class="project-title">
-        <a href="/projects/wing_heatmap_generator/">Wing Damage Heatmap Generator</a>
-      </div>
-      <span class="project-subtitle">
-        An R-based tool for mapping spatial frequency of wing damage on insect wings <br>
-        <a href="/projects/wing_heatmap_generator/">Read more →</a>
-      </span>
-    </div>
-  </div>
-
-   <div class="divider"></div>
 
   <div class="project-card">
     <a href="/projects/IN_PROGRESS/">
@@ -224,9 +266,9 @@ title: "Portfolio"
 
   <div class="divider"></div>
 
-<div class="project-card">
+  <div class="project-card">
     <a href="/projects/ecommerce_data_pipeline/">
-      <img src="/assets/images/dataprocessing scheme no text.png" style="width: 350px; height: auto;">
+      <img src="/assets/images/dataprocessing scheme no text transparent.png" style="width: 350px; height: auto;">
     </a>
     <div>
       <div class="project-title">
@@ -257,6 +299,8 @@ title: "Portfolio"
   </div>
 
 </div>
+
+
 
 
 
