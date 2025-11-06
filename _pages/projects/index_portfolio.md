@@ -46,10 +46,10 @@ title: "Portfolio"
 
   /* banner image assignment */
   .research-banner {
-    background-image: url('/assets/images/research_banner.png');
+    background-image: url('/assets/images/research_banner_2.png');
   }
   .analytics-banner {
-    background-image: url('/assets/images/analytics_banner.png');
+    background-image: url('/assets/images/analytics_banner_2.png');
   }
 
   /* ===== BANNERS SIDE BY SIDE ===== */
