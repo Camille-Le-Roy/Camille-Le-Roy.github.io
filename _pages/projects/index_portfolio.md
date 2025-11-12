@@ -290,16 +290,16 @@ title: "Portfolio"
   <div class="divider"></div>
 
   <div class="project-card">
-    <a href="/projects/IN_PROGRESS/">
+    <a href="/projects/ecommerce_predicting_delivery_delay/">
       <img src="/assets/images/delivery delay header.png" style="width: 380px; height: auto;">
     </a>
     <div>
       <div class="project-title">
-        <a href="/projects/IN_PROGRESS/">Predicting Delivery Delays with Machine Learning</a>
+        <a href="/projects/ecommerce_predicting_delivery_delay/">Predicting Delivery Delays with Machine Learning</a>
       </div>
       <span class="project-subtitle">
         Optimizing delivery logistics using an XGBoost prediction model <br>
-        <a href="/projects/IN_PROGRESS/">Read more →</a>
+        <a href="/projects/ecommerce_predicting_delivery_delay/">Read more →</a>
       </span>
     </div>
   </div>
