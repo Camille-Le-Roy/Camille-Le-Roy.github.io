@@ -26,13 +26,13 @@ title: " "
 ## Project Overview
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-Delivery delays are a major driver of customer dissatisfaction, often resulting in negative reviews and, ultimately, churn. In a <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce" target="_blank" style="color:#D0D0D0; text-decoration: underline;">previous project</a> analyzing customer behavior using the Olist e-commerce dataset, I identified logistics issues impacting the customer experience. Here, I address those issues by building a machine-learning model, powered by XGBoost, to predict delivery delays and help logistics teams proactively manage late shipments.
+Delivery delays are a major driver of customer dissatisfaction, often resulting in negative reviews and, ultimately, churn. In a <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce" target="_blank" style="color:#D0D0D0; text-decoration: underline;">previous project</a> analyzing customer behavior using the Olist e-commerce dataset, I identified logistics issues impacting the customer experience. Here, I address those issues by building a machine learning model, powered by XGBoost, to predict delivery delays and help logistics teams reducing late shipments.
 <br><br>
 My analysis aims at answering the following questions:
 </span>
 
 <ul style="color:#D0D0D0; font-size: 0.9em; margin-top: 0.5em;">
-  <li>What order, logistics, and customer features best predicts whether a delivery will be late?</li>
+  <li>Which factors related to orders, logistics, and customers have the greatest impact on whether a delivery is late?</li>
   <li>Do temporal patterns influence delivery performance?</li>
   <li>What actionable steps can be taken to prevent future delivery delays?</li>
 </ul>
@@ -174,7 +174,7 @@ My analysis aims at answering the following questions:
 
   <li>
     <strong>Redundant Features and Data Leakage</strong>:<br>
-    To simplify the model and improve generalization, highly correlated features (correlation coefficient > 0.7) were removed. Additionally, any variable that was directly derived from the target, or any information that would not be available at prediction time, was excluded to prevent data leakage.
+    To simplify the model and improve generalization, highly correlated features (correlation coefficient > 0.7) were removed. Additionally, variables that were directly derived from the target, or reflecting information that would not be available at prediction time, was excluded to prevent data leakage.
   </li>
 
   <br>
@@ -191,10 +191,90 @@ My analysis aims at answering the following questions:
 ## Modeling Approach
 
 <span style="color:#D0D0D0; font-size: 0.9em">
-I used a <strong>Gradient Boosting approach (XGBoost)</strong> for predicting delivery delays because it excels as modeling complex, non-linear relationships in structured data, typical of logistics datasets. Moreover, it handles real-world messy data (skewed distribution, outliers, missing values, etc) very well, and is widely recognized as one of the top-performing algorithms for tabular classification.
+I used a <strong>Gradient Boosting approach (XGBoost)</strong> for predicting delivery delays because it is well suited to model complex, non-linear relationships in structured data (typical of logistics datasets). Moreover, it handles real-world messy data (skewed distribution, outliers, missing values, etc) very well, and is widely recognized as one of the top-performing algorithms for tabular classification.
+</span>
+
+<ul style="color:#D0D0D0; font-size:0.9em; margin-top:0.5em; line-height:1.5em; list-style:none; padding-left:0;">
+
+  <li>
+    <strong>Data Splitting</strong>:<br>
+    The dataset of 95,936 orders was divided into training, validation, and test subsets to train, tune, and evaluate the model respectively.
+  </li>
+</ul>
+
+<div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
+  <img src="/assets/images/delivery delay data splitting.png" alt=" " style="width: 70%; object-fit: cover; border-radius: 10px;">
+</div>
+
+<ul style="color:#D0D0D0; font-size:0.9em; margin-top:0.5em; line-height:1.5em; list-style:none; padding-left:0;">
+  <li>
+    <strong>Hyper parameter tuning</strong>:<br>
+    Initially, early stopping was applied to identify the optimal number of boosting rounds and mitigate overfitting. Second, a randomized search was conducted to optimize key hyperparameters of the XGBoost model, further improving predictive performance and generalization.
+    <br><br>
+  </li>
+</ul>
+
+
+## Model Evaluation
+
+<span style="color:#D0D0D0; font-size: 0.9em">
+The final XGBoost model achieved a ROC AUC score of 0.84 on the unseen test set. This indicates that the model can correctly predict whether a delivery will be late 84% of the time.
 </span>
 
 
+## Feature Importance & Insights
+
+<div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
+  <img src="/assets/images/delivery delay feature importance.png" alt=" " style="width: 70%; object-fit: cover; border-radius: 10px;">
+</div>
+<span style="color:#D0D0D0; font-size: 0.9em">
+The model identified the seller’s handling speed as the strongest predictor of delivery delays (an intuitive result). Although not directly controllable, the company could prioritize or incentivize sellers with faster processing times.
+<br><br>
+</span>
+
+<ul style="color:#D0D0D0; font-size:0.9em; margin-top:0.5em; line-height:1.6em; list-style:none; padding-left:0;">
+
+  <li>
+    <strong>Temporal Patterns</strong>:
+  </li>
+
+  <div style="margin-top: 1.2em; margin-bottom: 1.2em; display: flex; justify-content: center;">
+    <img src="/assets/images/delivery delay time effect.png" alt="Temporal effect on delivery delays" style="width: 100%; max-width: 1000px; object-fit: cover; border-radius: 10px;">
+  </div>
+
+  <li>
+    Temporal dynamics played a significant role in predicting delivery delays.  
+    In Olist’s early development phase (2016), deliveries were generally faster, but delays increased as the company scaled.  
+    Seasonality also emerged: delays peaked in <strong>March</strong> and <strong>November</strong>, while <strong>June</strong> showed the most on-time deliveries.  
+    Additionally, orders placed on <strong>Fridays</strong> tended to experience slightly longer delays.
+    <br><br>
+  </li>
+
+  <li>
+    <strong>Geographic Distance</strong>:
+  </li>
+
+  <div style="margin-top: 1.2em; margin-bottom: 1.2em; display: flex; justify-content: center;">
+    <img src="/assets/images/delivery delay distance effect.png" alt="Temporal effect on delivery delays" style="width: 60%; max-width: 1000px; object-fit: cover; border-radius: 10px;">
+  </div>
+
+  <li>
+    Delivery delays tend to increase with distance. While this is an intuitive pattern, it highlights an issue in the delivery date estimation process, which appears to insufficiently account for distance.
+    <br><br>
+  </li>
+
+  <li>
+    <strong>Customer Recency</strong>:
+  </li>
+
+  <li>
+    Orders placed by customers who have been inactive for a long time show a lower likelihood of late delivery. While the factors underlying this pattern warrant further investigation, it most likely reflects the temporal trend observed earlier in the analysis.
+  </li>
+
+</ul>
+
+
+## Conclusion & Next Steps 
 
 
 
