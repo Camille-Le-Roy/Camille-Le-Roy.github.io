@@ -14,13 +14,37 @@ title: " "
 </div>
 
 <span style="color:#D0D0D0; font-size: 0.7em">
-<a href="https://github.com/Camille-Le-Roy/" target="_blank" style="color:#A8A8A8; text-decoration: underline;">See the project on GitHub</a>
+<a href="https://github.com/Camille-Le-Roy/Predicting-Delivery-Delays-with-Machine-Learning/tree/main" target="_blank" style="color:#A8A8A8; text-decoration: underline;">See the project on GitHub</a>
 </span>
 
 <div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
   <img src="/assets/images/delivery delay header.png" alt=" " style="width: 90%; max-height: 430px; object-fit: cover; border-radius: 10px;">
 </div>
 
+
+## Table of Contents
+<div style="color:#D0D0D0; font-size: 0.9em; line-height: 1.6em; margin-top: 0.5em;">
+<ol style="margin-left: 1.2em;">
+<li><a href="#project-overview" style="color:#D0D0D0; text-decoration: none;">Project Overview</a></li>
+<li><a href="#working-datasets" style="color:#D0D0D0; text-decoration: none;">Working Datasets</a></li>
+<li><a href="#feature-engineering" style="color:#D0D0D0; text-decoration: none;">Feature Engineering</a></li>
+<li><a href="#modeling-approach" style="color:#D0D0D0; text-decoration: none;">Modeling Approach</a></li>
+<li><a href="#model-evaluation" style="color:#D0D0D0; text-decoration: none;">Model Evaluation</a></li>
+<li><a href="#feature-importance--insights" style="color:#D0D0D0; text-decoration: none;">Feature Importance & Insights</a>
+<ul style="margin-top: 0.2em; margin-bottom: 0.5em;">
+<li><a href="#temporal-patterns" style="color:#D0D0D0; text-decoration: none;">Temporal Patterns</a></li>
+<li><a href="#geographic-distance" style="color:#D0D0D0; text-decoration: none;">Geographic Distance</a></li>
+<li><a href="#customer-recency" style="color:#D0D0D0; text-decoration: none;">Customer Recency</a></li>
+</ul>
+</li>
+<li><a href="#conclusion-and-insights" style="color:#D0D0D0; text-decoration: none;">Conclusion and Insights</a>
+<ul style="margin-top: 0.2em; margin-bottom: 0.5em;">
+<li><a href="#actionable-recommendations" style="color:#D0D0D0; text-decoration: none;">Actionable Recommendations</a></li>
+<li><a href="#perspective-to-improve-the-model" style="color:#D0D0D0; text-decoration: none;">Perspective to Improve the Model</a></li>
+</ul>
+</li>
+</ol>
+</div>
 
 
 ## Project Overview
