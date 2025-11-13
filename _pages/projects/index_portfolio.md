@@ -273,23 +273,6 @@ title: "Portfolio"
   <div class="divider"></div>
 
   <div class="project-card">
-    <a href="/projects/ecommerce_customer_analysis/">
-      <img src="/assets/images/header image ecommerce short.png" style="width: 350px; height: auto;">
-    </a>
-    <div>
-      <div class="project-title">
-        <a href="/projects/ecommerce_customer_analysis/">E-Commerce Sales Trends & Customer Analysis</a>
-      </div>
-      <span class="project-subtitle">
-        A BI-approach to analyzing customer segments and growth analysis <br>
-        <a href="/projects/ecommerce_customer_analysis/">Read more →</a>
-      </span>
-    </div>
-  </div>
-
-  <div class="divider"></div>
-
-  <div class="project-card">
     <a href="/projects/ecommerce_predicting_delivery_delay/">
       <img src="/assets/images/delivery delay header.png" style="width: 380px; height: auto;">
     </a>
@@ -300,6 +283,23 @@ title: "Portfolio"
       <span class="project-subtitle">
         Optimizing delivery logistics using an XGBoost prediction model <br>
         <a href="/projects/ecommerce_predicting_delivery_delay/">Read more →</a>
+      </span>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="project-card">
+    <a href="/projects/ecommerce_customer_analysis/">
+      <img src="/assets/images/header image ecommerce short.png" style="width: 350px; height: auto;">
+    </a>
+    <div>
+      <div class="project-title">
+        <a href="/projects/ecommerce_customer_analysis/">E-Commerce Sales Trends & Customer Analysis</a>
+      </div>
+      <span class="project-subtitle">
+        A BI-approach to analyzing customer segments and growth analysis <br>
+        <a href="/projects/ecommerce_customer_analysis/">Read more →</a>
       </span>
     </div>
   </div>

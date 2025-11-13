@@ -69,11 +69,11 @@ comments: false
 
   <!-- Applied Analytics Project Delivery Delays Predictive Model -->
   <div class="project-card" style="text-align:center; width:280px;">
-    <a href="/projects/IN_PROGRESS/">
+    <a href="/projects/ecommerce_predicting_delivery_delay/">
       <img src="/assets/images/delivery delay header rounded.png" alt="Predicting Delivery Delays with Machine Learning" style="width:110%; border-radius:10px;">
     </a>
     <h3 style="margin-top:0.6em;">
-      <a href="/projects/IN_PROGRESS/" style="color:#E0E0E0; text-decoration:none;">
+      <a href="/projects/ecommerce_predicting_delivery_delay/" style="color:#E0E0E0; text-decoration:none;">
         Predicting Delivery Delays with Machine Learning
       </a>
     </h3>
