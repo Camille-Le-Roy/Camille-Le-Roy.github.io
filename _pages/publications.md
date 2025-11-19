@@ -12,6 +12,10 @@ title: "Publications"
   </a>
 </div>
 
+- **Le Roy, C.**<span style="color:#D0D0D0;">, Bharathi, I., Engels, T., & Muijres, F. (2025).  
+  *Diptera flight diversity is shaped by aerodynamic constraints, scaling, and evolutionary trade-offs (under review).*</span>  
+  <span style="color:#3B82F6;"><em>bioRxiv</em></span>.  
+  <a href="https://www.biorxiv.org/content/10.1101/2025.10.20.683381v2" style="color:#1E3A8A;" target="_blank">10.1101/2025.10.20.683381</a>
 
 - **Le Roy, C.**<span style="color:#D0D0D0;">, Tervelde, N., Engels, T., & Muijres, F. (2025).  
   *Adaptations in wing morphology rather than wingbeat kinematics enable flight in small hoverfly species.*</span>  
