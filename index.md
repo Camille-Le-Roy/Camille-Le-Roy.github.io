@@ -111,7 +111,7 @@ comments: false
 
   <!-- Research Section -->
   <h3 style="color:#BBBBBB; font-weight:500; text-align:center; width:100%; margin-bottom:1em; margin-top:0.5em;">
-    Research <br><br>
+    Research-Driven Projects <br><br>
   </h3>
 
   <!-- Research Project 1 -->
