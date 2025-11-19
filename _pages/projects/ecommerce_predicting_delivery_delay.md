@@ -364,6 +364,20 @@ The feature importance analysis revealed that delays are mainly driven by <stron
 
 
 
+## Code
+
+<div style="margin-top: 1.5em; font-size: 0.9em; color: #D0D0D0;">
+  <span>
+    The analysis was implemented in Python and is openly available on 
+    <i class="fab fa-github" style="color:#fff;"></i>
+    <a href="https://github.com/Camille-Le-Roy/Predicting-Delivery-Delays-with-Machine-Learning" 
+       target="_blank" 
+       style="color: #3B82F6; text-decoration: none; font-weight: bold;">
+      GitHub</a>.
+  </span>
+</div>
+
+
 
 <p style="font-size: 0.9em; margin-top: 2em;">
   <a href="/projects/#projects" style="color: #AAA;">← Back to Projects Overview</a>
