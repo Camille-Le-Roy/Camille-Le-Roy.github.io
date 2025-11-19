@@ -72,7 +72,7 @@ PK: Principal Key; FK Foreign Key. <br>
 </div>
 
 
-## Key Features
+## Engineered Features
 
 <div style="color:#D0D0D0; font-size: 0.9em; margin-top: 0.5em;">
     <p style="margin-bottom: 0.5em;">The engineered features derives from the initial columns span the following analytical dimensions:</p>
