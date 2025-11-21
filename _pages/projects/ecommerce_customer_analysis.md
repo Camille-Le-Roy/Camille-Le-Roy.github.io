@@ -102,12 +102,59 @@ This project uses <a href="https://www.kaggle.com/datasets/olistbr/brazilian-eco
   <li>The Southeast region (comprising the states of São Paulo, Rio de Janeiro, and Minas Gerais) accounts for 63% of total sales, totaling approximately 3 millions USD.</li>
 </ul>
 
+<br>
+
+<!-- show the dashboard -->
+<div class="tableauPlaceholder" id="vizEcommerce" style="width:100%; max-width:1200px; margin:auto;">
+  <noscript>
+    <a href="https://public.tableau.com/app/profile/camille.le.roy/viz/BrazilianE-CommerceEarlydeveloppmentTrends/Dashboard1">
+      <img alt="Dashboard 1" 
+           src="https://public.tableau.com/static/images/Br/BrazilianE-CommerceEarlydeveloppmentTrends/Dashboard1/1.png" 
+           style="border:none;" />
+    </a>
+  </noscript>
+  <object class="tableauViz" style="display:none;">
+    <param name="host_url" value="https%3A%2F%2Fpublic.tableau.com%2F"/>
+    <param name="embed_code_version" value="3"/>
+    <param name="site_root" value=""/>
+    <param name="name" value="BrazilianE-CommerceEarlydeveloppmentTrends/Dashboard1"/>
+    <param name="tabs" value="no"/>
+    <param name="toolbar" value="yes"/>
+    <param name="display_static_image" value="yes"/>
+    <param name="display_spinner" value="yes"/>
+    <param name="display_overlay" value="yes"/>
+    <param name="display_count" value="yes"/>
+    <param name="language" value="en-US"/>
+  </object>
+</div>
+
+<script type="text/javascript">
+  var divElement = document.getElementById('vizEcommerce');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width = '100%';
+  vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<!-- link to Tableau Public -->
+<div style="text-align:center; margin-top: 0.8em;">
+  <a href="https://public.tableau.com/app/profile/camille.le.roy/viz/BrazilianE-CommerceEarlydeveloppmentTrends/Dashboard1"
+     target="_blank"
+     style="color:#a0a0a0; font-size:0.9em; text-decoration:none;">
+    Open in Tableau Public
+  </a>
+</div>
+
+<!--
 <div style="margin-top: 1.5em; margin-bottom: 1.5em; display: flex; justify-content: center;">
   <img src="/assets/images/Fig. 2. ecommerce sale trends.png" alt=" " style="width: 50%; object-fit: cover; border-radius: 10px;">
 </div>
+-->
 
-<div style="text-align: center; color: #A8A8A8; font-size: 0.8em; margin-bottom: 2em;">
-  <strong>Figure 2.</strong> Monthly growth rate, average order value, and total sales, from top to bottom, respectively. The trends capture Olist’s early development phase across 2017–2018. Data from late 2016 were excluded due to limited volume and irregular patterns in this initial period.
+<div style="text-align: center; color: #A8A8A8; font-size: 0.8em; margin-top: 0.5em; margin-bottom: 2em;">
+  <strong>Figure 2.</strong> Dashboard showing the monthly growth rate, average order value, and total sales, and its variation across states. Open in Tableau Public to explore the data interactively.
 </div>
 
 
