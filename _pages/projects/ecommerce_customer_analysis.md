@@ -96,15 +96,15 @@ This project uses <a href="https://www.kaggle.com/datasets/olistbr/brazilian-eco
 
 ### Sales Trends and Growth Rate
 
-<ul style="color:#D0D0D0; font-size: 0.9em; margin-top: 0.5em;">
+<ul style="color:#D0D0D0; font-size: 0.9em; margin-top: 0.5em; margin-bottom: 1em;">
   <li>Olist recorded over $4.8 million in online sales between 2016 and 2018 (~$2.2 million per year), receiving an average of 48,000 orders per year. The Average Order Value (AOV) is of 50 USD and remained constant across time.</li>
   <li>The company experienced strong growth in 2016-2017, with an average monthly growth rate of 14.7%, while it slowed to 2.6% in 2018, indicating a period of stabilization after rapid expansion.</li>
   <li>The Southeast region (comprising the states of São Paulo, Rio de Janeiro, and Minas Gerais) accounts for 63% of total sales, totaling approximately 3 millions USD.</li>
 </ul>
 
-<br>
 
-<!-- show the dashboard -->
+<!-- show the dashboard interactively -->
+<!--
 <div class="tableauPlaceholder" id="vizEcommerce" style="width:100%; max-width:1200px; margin:auto;">
   <noscript>
     <a href="https://public.tableau.com/app/profile/camille.le.roy/viz/BrazilianE-CommerceEarlydeveloppmentTrends/Dashboard1">
@@ -137,9 +137,15 @@ This project uses <a href="https://www.kaggle.com/datasets/olistbr/brazilian-eco
   scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
   vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+-->
+
+<!-- Show the dashboard as an image -->
+<div style="margin-top: 1.5em; margin-bottom: 1em; display: flex; justify-content: center;">
+  <img src="/assets/images/E-commerce dashboard.png" alt=" " style="width: 100%; object-fit: cover; border-radius: 5px;">
+</div>
 
 <!-- link to Tableau Public -->
-<div style="text-align:center; margin-top: 0.8em;">
+<div style="text-align:center; margin-top: 0.8em; margin-bottom: 0.8em;">
   <a href="https://public.tableau.com/app/profile/camille.le.roy/viz/BrazilianE-CommerceEarlydeveloppmentTrends/Dashboard1"
      target="_blank"
      style="color:#a0a0a0; font-size:0.9em; text-decoration:none;">
