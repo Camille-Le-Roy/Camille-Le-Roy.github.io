@@ -29,7 +29,7 @@ comments: false
     <p style="font-size: 1rem; line-height: 1.6; color: #D0D0D0;">
       Hi, I’m Camille. I help researchers and data professionals transform complex, high-variability data into clear, high-impact narratives.<br><br>
       With a PhD in Evolutionary Biology and a career built on biomechanics and data science, I bridge the gap between raw analytical depth and clear communication.<br><br>
-      I recently launched <a href="https://morphoedit.com" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic editorial and coaching service where I provide my expertise needed to transform complex, 'messy' data into compelling narratives.
+      I recently launched <a href="https://morphoedit.com" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic editorial and coaching service where I provide my expertise to help transforming complex, 'messy' data into compelling narratives.
   </p>
   </div>
 </div>

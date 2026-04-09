@@ -15,7 +15,7 @@ title: "Portfolio"
 <!-- ===== STYLES ===== -->
 <style>
 
-  /* ==== CATEGORY BANNERS ==== */
+ /* ==== CATEGORY BANNERS ==== */
   .section-header {
     text-align: center;
     color: #D0D0D0;
@@ -24,9 +24,9 @@ title: "Portfolio"
     padding: 0;
     height: 180px;
     border-radius: 12px;
-    margin: 1.5em 0;
     cursor: pointer;
 
+    /* Image settings */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,13 +35,19 @@ title: "Portfolio"
     justify-content: center;
     align-items: center;
 
+    /* THE POPPING EFFECT (Restored) */
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     text-shadow: 0 0 8px rgba(0,0,0,0.6);
+    
+    /* Ensure the hover scale isn't clipped by hidden overflows */
+    position: relative;
+    z-index: 1;
   }
 
   .section-header:hover {
-    transform: scale(1.03);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    transform: scale(1.05); /* Increased slightly for more "pop" */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4); /* Deeper shadow on hover */
+    z-index: 10; /* Ensures the popping banner stays on top of others */
   }
 
   /* banner image assignment */
@@ -57,42 +63,34 @@ title: "Portfolio"
     display: flex;
     gap: 1.5em;
     justify-content: center;
-    margin: 1.5em 0;
+    margin: 2em 0; /* Vertical space for the whole row */
+    width: 100%;
   }
 
   .banner-row .section-header {
     flex: 1;
-    max-width: 50%;
+    /* Calculated to fit perfectly with the gap */
+    max-width: calc(50% - 0.75em); 
   }
 
+  /* MOBILE OPTIMIZATION */
   @media (max-width: 750px) {
+    .banner-row {
+      flex-direction: row; 
+      gap: 0.8em;
+    }
 
-  /* Keep them side by side on small screens */
-  .banner-row {
-    flex-direction: row;
-    gap: 0.8em;     /* smaller gap fits better */
-  }
+    .banner-row .section-header {
+      flex: 1;
+      max-width: calc(50% - 0.4em);
+      height: 140px; /* Shorter for mobile aspect ratios */
+      font-size: 1.2rem;
+    }
 
-  /* Ensure banners don’t shrink too small */
-  .banner-row .section-header {
-    flex: 1;
-    max-width: 48%;  /* or 50%, but 48% avoids wrapping */
+    .research-banner {
+      background-image: url('/assets/images/research_banner_mobile.png');
+    }
   }
-
-  .section-header {
-    height: 200px;   /* slightly smaller height works better on mobile */
-    font-size: 1.4rem;
-  }
-
-  /* Mobile-specific background images */
-  .research-banner {
-    background-image: url('/assets/images/research_banner_mobile.png');
-  }
-
-  .analytics-banner {
-    background-image: url('/assets/images/analytics_banner_2.png');
-  }
-}
 
 
 
