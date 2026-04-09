@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Camille Le Roy, Ph.D."
-excerpt: "Data scientist and biologist"
+excerpt: "Academic coach and biologist"
 description: "Portfolio of Camille Le Roy, Ph.D — data science, analytics, visualization, and research."
 classes: wide
 header:
@@ -21,20 +21,26 @@ comments: false
 
   <!-- Image Section -->
   <div style="max-width: 35%; margin-right: 0px;"> 
-    <img src="/assets/images/WUR profile picture black&white.png" alt="WUR profile picture black&white" style="width: 73%; height: auto; display: block; border-radius: 15px;">
+    <img src="/assets/images/profile picture balcony black and white.png" alt="profile picture black&white" style="width: 89%; height: auto; display: block; border-radius: 15px;">
   </div>
 
   <!-- Text Section -->
-  <div style="max-width: 60%; margin-left: 0px; margin-right: 0px;">
+  <div style="max-width: 60%; margin-left: 0px; margin-right: 0px; margin-top: 15px">
     <p style="font-size: 1rem; line-height: 1.6; color: #D0D0D0;">
-      Hi, I'm Camille, a researcher turned data scientist. <br><br>
-      After 7+ years of academic research in biology and biomechanics, 
-    I’m now focusing on applied data science, using analytics, visualization, and machine learning to solve real-world problems and guide decision-making.
-    </p>
+      Hi, I’m Camille. I help researchers and data professionals transform complex, high-variability data into clear, high-impact narratives.<br><br>
+      With a PhD in Evolutionary Biology and a career built on biomechanics and data science, I bridge the gap between raw analytical depth and clear communication.<br><br>
+      I recently launched <a href="https://morphoedit.com" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic editorial and coaching service where I provide my expertise needed to transform complex, 'messy' data into compelling narratives.
+  </p>
   </div>
 </div>
 
-<!-- OLD TEXT
+  <!-- OLDER TEXT
+      Hi, I'm Camille, a researcher turned data scientist. <br><br>
+      After 7+ years of academic research in biology and biomechanics, 
+      I’m now focusing on applied data science, using analytics, visualization, and machine learning to solve real-world problems and guide decision-making.
+-->
+
+<!-- EVEN OLDER TEXT
       Hi, and welcome to my website! <br><br>
       I’m a postdoctoral researcher in the Experimental Zoology Group at Wageningen University. 
       My research combines computational analysis, biomechanics, and ecological approaches in the field to investigate the evolution of animal locomotion, morphology, and behavior.
