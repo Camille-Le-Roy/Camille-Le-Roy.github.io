@@ -21,7 +21,7 @@ comments: false
 
   <!-- Image Section -->
   <div style="max-width: 35%; margin-right: 0px;"> 
-    <img src="/assets/images/profile picture balcony black and white.png" alt="profile picture black&white" style="width: 89%; height: auto; display: block; border-radius: 15px;">
+    <img src="/assets/images/profile picture balcony black and white.png" alt="profile picture black&white" style="width: 92%; height: auto; display: block; border-radius: 15px;">
   </div>
 
   <!-- Text Section -->
@@ -61,6 +61,18 @@ comments: false
 
 <div class="featured-projects" style="display:flex; flex-wrap:wrap; gap:2em; justify-content:center;">
 
+  <!-- Applied Analytics Project 3 -->
+  <div class="project-card" style="text-align:center; width:280px;">
+    <a href="/projects/Diptera_Tableau_dashboard/">
+      <img src="/assets/images/Diptera_Dashboard_screenshot transparent.png" alt="Interactive Data Visualization" style="width:100%; border-radius:10px;">
+    </a>
+    <h3 style="margin-top:0.6em;">
+      <a href="/projects/Diptera_Tableau_dashboard/" style="color:#E0E0E0; text-decoration:none;">
+        Interactive Data Visualization using <em>Tableau</em>
+      </a>
+    </h3>
+  </div>
+  
   <!-- Applied Analytics Project 1 -->
   <div class="project-card" style="text-align:center; width:280px;">
     <a href="/projects/ecommerce_customer_analysis/">
@@ -97,17 +109,7 @@ comments: false
     </h3>
   </div>
 
-  <!-- Applied Analytics Project 3 -->
-  <div class="project-card" style="text-align:center; width:280px;">
-    <a href="/projects/Diptera_Tableau_dashboard/">
-      <img src="/assets/images/Diptera_Dashboard_screenshot transparent.png" alt="Interactive Data Visualization" style="width:100%; border-radius:10px;">
-    </a>
-    <h3 style="margin-top:0.6em;">
-      <a href="/projects/Diptera_Tableau_dashboard/" style="color:#E0E0E0; text-decoration:none;">
-        Interactive Data Visualization using <em>Tableau</em>
-      </a>
-    </h3>
-  </div>
+
 
 
 
