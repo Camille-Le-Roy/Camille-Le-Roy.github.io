@@ -12,6 +12,11 @@ title: "Publications"
   </a>
 </div>
 
+- <span style="color:#D0D0D0;">Lu, T., Chen, Q., Fang, Y., </span>**Le Roy, C.**<span style="color:#D0D0D0;">, Jin, X., & Deng Z. (2026).  
+  *Data-Driven Control of Insect Flapping Flight Via Deep Reinforcement Learning.*</span>  
+  <span style="color:#3B82F6;"><em>IEEE Transactions on Visualization and Computer Graphics</em></span>.  
+  <a href="https://ieeexplore.ieee.org/abstract/document/11456746" style="color:#1E3A8A;" target="_blank">10.1109/TVCG.2026.3677790</a>
+
 - **Le Roy, C.**<span style="color:#D0D0D0;">, Bharathi, I., Engels, T., & Muijres, F. (2025).  
   *Diptera flight diversity is shaped by aerodynamic constraints, scaling, and evolutionary trade-offs (under review).*</span>  
   <span style="color:#3B82F6;"><em>bioRxiv</em></span>.  

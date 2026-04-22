@@ -98,7 +98,7 @@ To achieve this, I used a calibration wand, moving it throughout the recording a
   <ul style="list-style-type: disc; padding-left: 50px; margin: 0; color:#D0D0D0; font-size: 0.9em;">
     <li style="margin-bottom: 8px;">
       <strong><a href="https://biomech.web.unc.edu/dltdv/" style="color:#3B82F6; text-decoration: none; font-weight: bold">DLTdv</a>:</strong>
-      An intuitive MATLAB-based digitizing tool, designed specifically for 3D reconstruction.
+      A MATLAB-based digitizing tool, designed specifically for 3D reconstruction.
     </li>
     <li style="margin-bottom: 8px;">
       <strong><a href="https://biomech.web.unc.edu/wand-calibration-tools/" style="color:#3B82F6; text-decoration: none; font-weight: bold">easyWand</a>:</strong>
@@ -106,7 +106,7 @@ To achieve this, I used a calibration wand, moving it throughout the recording a
     </li>
     <li>
       <strong><a href="https://deeplabcut.github.io/DeepLabCut/README.html" style="color:#3B82F6; text-decoration: none; font-weight: bold">DeepLabCut</a>:</strong>
-      A powerful Python library for pose estimation, allowing you to fine-tune deep neural networks for automatic tracking of your object of interest.
+      A Python library for pose estimation, allowing you to fine-tune deep neural networks for automatic tracking of your object of interest.
     </li>
   </ul>
 
