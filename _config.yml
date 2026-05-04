@@ -23,6 +23,9 @@ social:
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
+# Google Search Console Verification
+google_site_verification: "Kab8bIbgT3604CNu0jtT0oms1mmPB98CGdc3bAh0xu0"
+
 permalink: /:categories/:title/
 timezone: Europe/Paris
 
