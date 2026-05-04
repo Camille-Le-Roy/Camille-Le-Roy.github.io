@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Camille Le Roy, Ph.D."
-excerpt: "Making data and research meaningful"
+excerpt: " "
 description: "Portfolio of Camille Le Roy, Ph.D — data science, analytics, visualization, and research."
 classes: wide
 header:
@@ -24,23 +24,32 @@ comments: false
     <img src="/assets/images/profile picture balcony black and white zoomed.png" alt="profile picture black&white" style="width: 92%; height: auto; display: block; border-radius: 15px;">
   </div>
 
+
   <!-- Text Section -->
   <div style="max-width: 60%; margin-left: 0px; margin-right: 0px; margin-top: 15px">
     <p style="font-size: 1rem; line-height: 1.6; color: #D0D0D0;">
       Hi, I’m Camille, a scientist working at the intersection of data, research, and communication.<br><br>
-      After 7+ years of academic research in biology and biomechanics, I now focus on extracting meaningful insights from complex data using analytics, visualization, and machine learning.<br><br>
-      Beyond analysis, I also focus on how complex work is communicated. I recently launched <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic editorial and coaching service where I help students and researchers shape their work into clear and compelling narratives.
+      After 7+ years of academic research in biology and biomechanics, I now focus on how complex work is communicated. I recently launched <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic editorial and coaching service where I help students and researchers shape their work into clear and compelling narratives.<br><br>
+      
+      Beside, I am a data science enthusiast. I leverage my research skills to tackle complex data challenges, utilizing analytics, visualization, and machine learning to extract meaningful insights from complex data.
   </p>
   </div>
 </div>
 
-  <!-- OLDER TEXT
+
+  <!-- OLDER TEXT 2
+      Hi, I’m Camille, a scientist working at the intersection of data, research, and communication.<br><br>
+      After 7+ years of academic research in biology and biomechanics, I now focus on extracting meaningful insights from complex data using analytics, visualization, and machine learning.<br><br>
+      Beyond analysis, I also focus on how complex work is communicated. I recently launched <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic editorial and coaching service where I help students and researchers shape their work into clear and compelling narratives.
+-->
+
+  <!-- OLDER TEXT 1
       Hi, I'm Camille, a researcher turned data scientist. <br><br>
       After 7+ years of academic research in biology and biomechanics, 
       I’m now focusing on applied data science, using analytics, visualization, and machine learning to solve real-world problems and guide decision-making.
 -->
 
-<!-- EVEN OLDER TEXT
+<!--  OLDER TEXT 0
       Hi, and welcome to my website! <br><br>
       I’m a postdoctoral researcher in the Experimental Zoology Group at Wageningen University. 
       My research combines computational analysis, biomechanics, and ecological approaches in the field to investigate the evolution of animal locomotion, morphology, and behavior.
