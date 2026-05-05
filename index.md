@@ -2,7 +2,7 @@
 layout: splash
 title: "Camille Le Roy, Ph.D."
 excerpt: " "
-description: "Portfolio of Camille Le Roy, Ph.D — data science, analytics, visualization, and research."
+description: "Camille Le Roy, Ph.D — data scientist and researcher specializing in analytics, visualization, and scientific communication."
 classes: wide
 header:
   overlay_image: /assets/images/canopy resized.jpg
@@ -14,27 +14,56 @@ related: false
 comments: false
 ---
 
+<style>
+.page__hero--overlay {
+  min-height: 40vh; /* adjust overlay height */
+  display: flex;
+  align-items: flex-end; /* push content to bottom */
+}
+
+.page__hero--overlay .wrapper {
+  padding-bottom: 10px; /* space from bottom */
+}
+</style>
 
 
 
-<div style="display: flex; align-items: center; gap: 0px; margin: 30px auto 80px 0;">  <!-- margin is defined in the order "top, right, bottom, left" -->
 
-  <!-- Image Section -->
-  <div style="max-width: 35%; margin-right: 0px;"> 
-    <img src="/assets/images/profile picture balcony black and white zoomed.png" alt="profile picture black&white" style="width: 92%; height: auto; display: block; border-radius: 15px;">
+<!-- sub header -->
+<h2 style="color: #BBBBBB; font-weight: 400; margin-top: 0; margin-bottom: 2em; font-size: 1.3rem;">
+  Researcher • Data Scientist • Founder of Morpho Editing
+</h2>
+
+
+<div style="display: flex; align-items: stretch; gap: 20px; margin: 0px auto 80px 0;">
+
+  <!-- profile picture section -->
+  <div style="flex: 0 0 35%; display: flex;">
+    <img 
+      src="/assets/images/profile picture balcony black and white zoomed.png" 
+      alt="Camille Le Roy - Research Scientist"
+      style="width: 100%; height: 100%; object-fit: cover; border-radius: 15px;"
+    >
   </div>
-
 
   <!-- Text Section -->
-  <div style="max-width: 60%; margin-left: 0px; margin-right: 0px; margin-top: 15px">
-    <p style="font-size: 1rem; line-height: 1.6; color: #D0D0D0;">
-      Hi, I’m Camille, a scientist working at the intersection of data, research, and communication.<br><br>
-      After 7+ years of academic research in biology and biomechanics, I now focus on how complex work is communicated. I recently launched <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic editorial and coaching service where I help students and researchers shape their work into clear and compelling narratives.<br><br>
+  <div style="flex: 0 0 60%;">
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #D0D0D0; margin: 0;">
       
-      Besides, I am a data science enthusiast. I leverage my research skills to tackle complex data challenges, utilizing analytics, visualization, and machine learning to extract meaningful insights from raw information.
-  </p>
+      I am <strong>Camille Le Roy</strong>, a scientist working at the intersection of data, research, and communication.
+      <br><br>
+      
+      After 7+ years of academic research in <strong>biology</strong> and <strong>biomechanics</strong>, I now focus on how complex work is communicated. I recently launched <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic editorial and coaching service where I help students and researchers shape their work into clear and compelling narratives.
+      <br><br>
+      
+      Besides my editorial work, I am a <strong>data science</strong> enthusiast. I leverage my research skills to tackle complex data challenges, utilizing analytics, visualization, and machine learning to extract meaningful insights from raw information.
+    
+    </p>
   </div>
 </div>
+
+
+
 
 
   <!-- OLDER TEXT 2
