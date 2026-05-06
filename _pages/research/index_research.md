@@ -11,7 +11,7 @@ title: "Research"
 
 <div style="color:#D0D0D0; font-size: 0.9em; flex: 1; line-height: 1.6; text-align: justify;">
   <p>
-    I worked at the interface between evolutionary biology and biomechanics to understand the evolution of complex phenotypic traits, like insect flight.
+    I work at the interface between evolutionary biology and biomechanics to understand the evolution of complex phenotypic traits, like insect flight.
   </p>
 </div>
 

@@ -4,25 +4,7 @@ seo_title: "Camille Le Roy, Ph.D — Data Scientist & Biologist"
 email: ""
 description: "Camille Le Roy, Ph.D — Data Scientist and Biologist working at the intersection of data, research, and communication"
 
-logo: "/assets/images/profile picture balcony black and white zoomed.png"
-
-head_scripts:
-  - |
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "@id": "https://camille-le-roy.github.io/#person",
-      "name": "Camille Le Roy",
-      "url": "https://camille-le-roy.github.io/",
-      "sameAs": [
-        "https://linkedin.com/in/camille-le-roy-phd",
-        "https://github.com/Camille-Le-Roy",
-        "https://scholar.google.com/citations?user=SP69DnUAAAAJ&hl=en",
-        "https://orcid.org/0000-0003-0421-296X"
-      ]
-    }
-    </script>
+# logo: "/assets/images/profile picture balcony black and white zoomed.png"
 
 url: "https://camille-le-roy.github.io"
 breadcrumbs: false # this add a  clickabl "Home/Research" to pages
@@ -34,7 +16,7 @@ search: true
 
 # Social metadata for SEO
 social:
-  name: "Camille Le Roy"
+  name: " Camille Le Roy"
   links:
     - "https://linkedin.com/in/camille-le-roy-phd"
     - "https://github.com/Camille-Le-Roy"
@@ -63,7 +45,7 @@ plugins:
   - jekyll-feed  # optional but recommended
 
 author:
-  name   : "Camille Le Roy"
+  name   : " " # I remove my name from here because my name is written everywhere already
   avatar : "/assets/images/WUR profile picture.JPG"
   bio    : " " # "Data scientist and biologist"
   links:

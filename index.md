@@ -1,8 +1,8 @@
 ---
 layout: splash
 title: "Camille Le Roy, Ph.D."
-excerpt: " "
-description: "Camille Le Roy, Ph.D — data scientist and researcher specializing in analytics, visualization, and scientific communication."
+excerpt: "Researcher • Data Scientist • Founder of Morpho Editing"
+description: "Camille Le Roy, Ph.D — Data Scientist and Biologist working at the intersection of data, research, and communication"
 classes: wide
 header:
   overlay_image: /assets/images/canopy resized.jpg
@@ -29,13 +29,8 @@ comments: false
 
 
 
-<!-- sub header -->
-<h2 style="color: #BBBBBB; font-weight: 400; margin-top: 0; margin-bottom: 2em; font-size: 1.3rem;">
-  Researcher • Data Scientist • Founder of Morpho Editing
-</h2>
 
-
-<div style="display: flex; align-items: stretch; gap: 20px; margin: 0px auto 80px 0;">
+<div style="display: flex; align-items: stretch; gap: 40px; margin: 0 auto 80px 0;">
 
   <!-- profile picture section -->
   <div style="flex: 0 0 35%; display: flex;">
@@ -50,7 +45,7 @@ comments: false
   <div style="flex: 0 0 60%;">
     <p style="font-size: 1.1rem; line-height: 1.6; color: #D0D0D0; margin: 0;">
       
-      I am <strong>Camille Le Roy</strong>, a scientist working at the intersection of data, research, and communication.
+      I am a scientist working at the intersection of data, research, and communication.
       <br><br>
       
       After 7+ years of academic research in <strong>biology</strong> and <strong>biomechanics</strong>, I now focus on how complex work is communicated. I recently launched <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic editorial and coaching service where I help students and researchers shape their work into clear and compelling narratives.
