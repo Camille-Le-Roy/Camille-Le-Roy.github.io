@@ -16,35 +16,78 @@ comments: false
 
 <style>
 .page__hero--overlay {
-  min-height: 40vh; /* adjust overlay height */
+  min-height: 40vh;
   display: flex;
-  align-items: flex-end; /* push content to bottom */
+  align-items: flex-end;
 }
 
 .page__hero--overlay .wrapper {
-  padding-bottom: 10px; /* space from bottom */
+  padding-bottom: 10px;
+}
+
+/* --- PROFILE SECTION --- */
+.profile-section {
+  display: flex;
+  align-items: stretch;
+  gap: 40px;
+  margin: 0 auto 80px 0;
+}
+
+/* image */
+.profile-image {
+  flex: 0 0 43%;
+}
+
+.profile-image img {
+  width: 100%;
+  height: auto; /* IMPORTANT: prevents distortion */
+  border-radius: 15px;
+  display: block;
+}
+
+/* text */
+.profile-text {
+  flex: 0 0 60%;
+}
+
+.profile-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #D0D0D0;
+  margin: 0;
+}
+
+/* --- MOBILE FIX --- */
+@media (max-width: 768px) {
+  .profile-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .profile-image,
+  .profile-text {
+    flex: 1 1 100%;
+  }
+
+  .profile-image img {
+    max-height: 350px;
+    object-fit: cover;
+  }
 }
 </style>
 
+<div class="profile-section">
 
-
-
-
-<div style="display: flex; align-items: stretch; gap: 40px; margin: 0 auto 80px 0;">
-
-  <!-- profile picture section -->
-  <div style="flex: 0 0 35%; display: flex;">
+  <!-- profile picture -->
+  <div class="profile-image">
     <img 
       src="/assets/images/profile picture balcony black and white zoomed.png" 
-      alt="Camille Le Roy - Research Scientist"
-      style="width: 100%; height: 100%; object-fit: cover; border-radius: 15px;"
-    >
+      alt="Camille Le Roy - Research Scientist">
   </div>
 
-  <!-- Text Section -->
-  <div style="flex: 0 0 60%;">
-    <p style="font-size: 1.1rem; line-height: 1.6; color: #D0D0D0; margin: 0;">
-      
+  <!-- text -->
+  <div class="profile-text">
+    <p>
       I am a scientist working at the intersection of data, research, and communication.
       <br><br>
       
@@ -52,12 +95,10 @@ comments: false
       <br><br>
       
       Besides my editorial work, I am a <strong>data science</strong> enthusiast. I leverage my research skills to tackle complex data challenges, utilizing analytics, visualization, and machine learning to extract meaningful insights from raw information.
-    
     </p>
   </div>
+
 </div>
-
-
 
 
 
