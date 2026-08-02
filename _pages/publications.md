@@ -13,9 +13,9 @@ title: "Publications"
 </div>
 
 - **Le Roy, C.**<span style="color:#D0D0D0;">, Bharathi, I., Engels, T., & Muijres, F. (2026).  
-  *Diptera flight diversity is shaped by aerodynamic constraints, scaling, and evolutionary trade-offs (under review).*</span>  
-  <span style="color:#3B82F6;"><em>bioRxiv</em></span>.  
-  <a href="https://www.biorxiv.org/content/10.1101/2025.10.20.683381v2" style="color:#1E3A8A;" target="_blank">10.1101/2025.10.20.683381</a>
+  *Dipteran flight diversity is shaped by aerodynamic constraints, scaling, and evolutionary trade-offs.*</span>  
+  <span style="color:#3B82F6;"><em>PLOS Biology</em></span>.  
+  <a href="https://doi.org/10.1371/journal.pbio.3003473" style="color:#1E3A8A;" target="_blank">10.1101/2025.10.20.683381</a>
 
 - <span style="color:#D0D0D0;">Lu, T., Chen, Q., Fang, Y., </span>**Le Roy, C.**<span style="color:#D0D0D0;">, Jin, X., & Deng Z. (2026).  
   *Data-Driven Control of Insect Flapping Flight Via Deep Reinforcement Learning.*</span>  
@@ -25,7 +25,7 @@ title: "Publications"
 - **Le Roy, C.**<span style="color:#D0D0D0;">, Tervelde, N., Engels, T., & Muijres, F. (2025).  
   *Adaptations in wing morphology rather than wingbeat kinematics enable flight in small hoverfly species.*</span>  
   <span style="color:#3B82F6;"><em>eLife</em></span><span style="color:#D0D0D0;">, (13)</span>.  
-  <a href="https://doi.org/10.7554/eLife.97839.4" style="color:#1E3A8A;" target="_blank">https://doi.org/10.7554/eLife.97839.4</a>
+  <a href="https://doi.org/10.7554/eLife.97839.4" style="color:#1E3A8A;" target="_blank">https://doi.org/10.1371/journal.pbio.3003473</a>
 
 - <span style="color:#D0D0D0;">Kleckova, I., Linke, D., Rezende, F., Rauscher, L.,</span> **Le Roy, C.**<span style="color:#D0D0D0;">, & Matos, P. (2024).  
   *Flight behaviour diverges more between seasonal forms than between species in Pieris butterflies.*</span>  
