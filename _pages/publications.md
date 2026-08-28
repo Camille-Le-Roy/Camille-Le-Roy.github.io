@@ -3,12 +3,15 @@ permalink: /publication/
 title: "Publications"
 ---
 
-<div style="display: flex; gap: 100px; margin-top: 30px; margin-bottom: 30px;">
-  <a href="https://doi.org/10.1126/science.abh2620" style="flex: 1; max-width: 35%;">
-    <img src="/assets/images/cover science.png" alt="cover 1" style="width: 100%; height: auto; display: block; margin-left: 30px;">
+<div style="display: flex; gap: 30px; margin-top: 30px; margin-bottom: 30px; align-items: center; justify-content: center;">
+  <a href="https://doi.org/10.1126/science.abh2620" style="flex: 1; max-width: 28%;">
+    <img src="/assets/images/cover science.png" alt="Science Cover" style="width: 100%; height: auto; display: block;">
   </a>
-  <a href="https://doi.org/10.1242/jeb.243867" style="flex: 1; max-width: 20%;">
-    <img src="/assets/images/cover JEB.png" alt="cover 2" style="width: 100%; height: auto; display: block;">
+  <a href="https://doi.org/10.1242/jeb.243867" style="flex: 1; max-width: 22%;">
+    <img src="/assets/images/cover Plos Biology Diptera.png" alt="JEB Cover" style="width: 100%; height: auto; display: block;">
+  </a>
+  <a href="#" style="flex: 1; max-width: 17%;">
+    <img src="/assets/images/cover JEB.png" alt="PLOS Biology Cover" style="width: 100%; height: auto; display: block;">
   </a>
 </div>
 
