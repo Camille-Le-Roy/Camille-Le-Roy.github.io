@@ -8,10 +8,10 @@ title: "Publications"
     <img src="/assets/images/cover science.png" alt="Science Cover" style="width: 100%; height: auto; display: block;">
   </a>
   <a href="https://doi.org/10.1242/jeb.243867" style="flex: 1; max-width: 22%;">
-    <img src="/assets/images/cover Plos Biology Diptera.png" alt="JEB Cover" style="width: 100%; height: auto; display: block;">
+    <img src="/assets/images/cover Plos Biology Diptera.png" alt="PLOS Biology Cover" style="width: 100%; height: auto; display: block;">
   </a>
-  <a href="#" style="flex: 1; max-width: 17%;">
-    <img src="/assets/images/cover JEB.png" alt="PLOS Biology Cover" style="width: 100%; height: auto; display: block;">
+  <a href="https://doi.org/10.1242/jeb.243867" style="flex: 1; max-width: 17%;">
+    <img src="/assets/images/cover JEB.png" alt="Journal of Experimental Biology Cover" style="width: 100%; height: auto; display: block;">
   </a>
 </div>
 
