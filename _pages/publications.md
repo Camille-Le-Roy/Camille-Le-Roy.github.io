@@ -4,7 +4,7 @@ title: "Publications"
 ---
 
 <div style="display: flex; gap: 30px; margin-top: 30px; margin-bottom: 30px; align-items: center; justify-content: center;">
-  <a href="https://doi.org/10.1126/science.abh2620" style="flex: 1; max-width: 28%;">
+  <a href="https://doi.org/10.1126/science.abh2620" style="flex: 1; max-width: 31%;">
     <img src="/assets/images/cover science.png" alt="Science Cover" style="width: 100%; height: auto; display: block;">
   </a>
   <a href="https://doi.org/10.1242/jeb.243867" style="flex: 1; max-width: 22%;">
@@ -14,11 +14,12 @@ title: "Publications"
     <img src="/assets/images/cover JEB.png" alt="Journal of Experimental Biology Cover" style="width: 100%; height: auto; display: block;">
   </a>
 </div>
+ 
 
 - **Le Roy, C.**<span style="color:#D0D0D0;">, Bharathi, I., Engels, T., & Muijres, F. (2026).  
   *Dipteran flight diversity is shaped by aerodynamic constraints, scaling, and evolutionary trade-offs.*</span>  
-  <span style="color:#3B82F6;"><em>PLOS Biology</em></span>.  
-  <a href="https://doi.org/10.1371/journal.pbio.3003473" style="color:#1E3A8A;" target="_blank">10.1101/2025.10.20.683381</a>
+  <span style="color:#3B82F6;"><em>PLOS Biology</em></span><span style="color:#D0D0D0;">, 24(7)</span>.  
+  <a href="https://doi.org/10.1371/journal.pbio.3003473" style="color:#1E3A8A;" target="_blank">https://doi.org/10.1371/journal.pbio.3003473</a>
 
 - <span style="color:#D0D0D0;">Lu, T., Chen, Q., Fang, Y., </span>**Le Roy, C.**<span style="color:#D0D0D0;">, Jin, X., & Deng Z. (2026).  
   *Data-Driven Control of Insect Flapping Flight Via Deep Reinforcement Learning.*</span>  
@@ -28,7 +29,7 @@ title: "Publications"
 - **Le Roy, C.**<span style="color:#D0D0D0;">, Tervelde, N., Engels, T., & Muijres, F. (2025).  
   *Adaptations in wing morphology rather than wingbeat kinematics enable flight in small hoverfly species.*</span>  
   <span style="color:#3B82F6;"><em>eLife</em></span><span style="color:#D0D0D0;">, (13)</span>.  
-  <a href="https://doi.org/10.7554/eLife.97839.4" style="color:#1E3A8A;" target="_blank">https://doi.org/10.1371/journal.pbio.3003473</a>
+  <a href="https://doi.org/10.7554/eLife.97839.4" style="color:#1E3A8A;" target="_blank">https://doi.org/10.7554/eLife.97839.4</a>
 
 - <span style="color:#D0D0D0;">Kleckova, I., Linke, D., Rezende, F., Rauscher, L.,</span> **Le Roy, C.**<span style="color:#D0D0D0;">, & Matos, P. (2024).  
   *Flight behaviour diverges more between seasonal forms than between species in Pieris butterflies.*</span>  

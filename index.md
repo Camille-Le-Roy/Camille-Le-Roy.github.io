@@ -146,10 +146,10 @@ comments: false
       I am a scientist working at the intersection of data, research, and communication.
       <br><br>
       
-      After 7+ years of academic research in <strong>biology</strong> and <strong>biomechanics</strong>, I now focus on how complex work is communicated. I founded  <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic editorial and coaching service where I help students and researchers shape their work into clear and compelling narratives.
+      After 7+ years of academic research in <strong>biology</strong> and <strong>biomechanics</strong>, I now focus on how complex work is communicated. I founded  <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic coaching service where I help students and researchers turn messsy data into clear scientific narratives.
       <br><br>
       
-      Besides my editorial work, I am also a <strong>data science</strong> instructor. I leverage my research skills to tackle complex data challenges, utilizing analytics, visualization, and machine learning to extract meaningful insights from raw information.
+      Besides my research coaching work, I am also a <strong>data science</strong> instructor. I leverage my research skills to tackle complex data challenges, utilizing analytics, visualization, and machine learning to extract meaningful insights from raw information.
     </p>
   </div>
 
@@ -162,10 +162,11 @@ comments: false
   Featured Projects
 </h2>
 
-<!-- Research Section FIRST -->
+<!-- Research Section FIRST 
 <h3 style="color:#BBBBBB; font-weight:500; text-align:center; width:100%; margin-bottom:1em; margin-top:0.5em;">
   <br>Research-Driven Projects<br><br>
 </h3>
+-->
 
 <div class="featured-projects">
 
@@ -204,9 +205,22 @@ comments: false
       </a>
     </h3>
   </div>
+  
+  <!-- Tableau DataViz project -->
+  <div class="project-card">
+    <a href="/projects/Diptera_Tableau_dashboard/">
+      <img src="/assets/images/Diptera_Dashboard_screenshot transparent.png" alt="Interactive Data Visualization">
+    </a>
+    <h3>
+      <a href="/projects/Diptera_Tableau_dashboard/">
+        Interactive Data Visualization using <em>Tableau</em>
+      </a>
+    </h3>
+  </div>
 
 </div>
 
+{% comment %}
 <!-- Divider -->
 <div style="width:100%; border-bottom:1px solid #444; margin:4em 0 2em 0;"></div>
 
@@ -266,3 +280,4 @@ comments: false
   </div>
 
 </div>
+{% endcomment %}

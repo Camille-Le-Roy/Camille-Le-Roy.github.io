@@ -69,8 +69,6 @@ title: "Portfolio"
 
   .banner-row .section-header {
     flex: 1;
-    /* Calculated to fit perfectly with the gap */
-    max-width: calc(50% - 0.75em); 
   }
 
   /* MOBILE OPTIMIZATION */
@@ -82,7 +80,6 @@ title: "Portfolio"
 
     .banner-row .section-header {
       flex: 1;
-      max-width: calc(50% - 0.4em);
       height: 140px; /* Shorter for mobile aspect ratios */
       font-size: 1.2rem;
     }
@@ -91,9 +88,6 @@ title: "Portfolio"
       background-image: url('/assets/images/research_banner_mobile.png');
     }
   }
-
-
-
 
   /* ==== PROJECT CARDS ===== */
   .project-card {
@@ -172,9 +166,9 @@ title: "Portfolio"
     window.scrollTo({ top: section.offsetTop - 100, behavior: 'smooth' });
   }
 
-  // open Analytics by default
+  // open Research by default
   window.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('analytics-projects').style.display = 'block';
+    document.getElementById('research-projects').style.display = 'block';
   });
 </script>
 
@@ -337,16 +331,3 @@ title: "Portfolio"
   </div>
 
 </div>
-
-
-
-
-
-
-<!-- Ideas of project to show in this section:
-
-- tracking movements (deeplabcut) 
-- trimming synching and background subtraction using openCV
-- Ilam's python equivalent to wingImage processor?
-
--->
