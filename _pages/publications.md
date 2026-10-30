@@ -7,7 +7,7 @@ title: "Publications"
   <a href="https://doi.org/10.1126/science.abh2620" style="flex: 1; max-width: 31%;">
     <img src="/assets/images/cover science.png" alt="Science Cover" style="width: 100%; height: auto; display: block;">
   </a>
-  <a href="https://doi.org/10.1242/jeb.243867" style="flex: 1; max-width: 22%;">
+  <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003473" style="flex: 1; max-width: 22%;">
     <img src="/assets/images/cover Plos Biology Diptera.png" alt="PLOS Biology Cover" style="width: 100%; height: auto; display: block;">
   </a>
   <a href="https://doi.org/10.1242/jeb.243867" style="flex: 1; max-width: 17%;">
