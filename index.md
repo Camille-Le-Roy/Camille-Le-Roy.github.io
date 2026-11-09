@@ -146,7 +146,7 @@ comments: false
       I am a scientist working at the intersection of data, research, and communication.
       <br><br>
       
-      After 7+ years of academic research in <strong>biology</strong> and <strong>biomechanics</strong>, I now focus on how complex work is communicated. I founded  <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic coaching service where I help students and researchers turn messsy data into clear scientific narratives.
+      After 7+ years of academic research in <strong>biology</strong> and <strong>biomechanics</strong>, I now focus on how complex work is communicated. I founded  <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic coaching service where I help students and researchers turn messy data into clear scientific narratives.
       <br><br>
       
       Besides my research coaching work, I am also a <strong>data science</strong> instructor. I leverage my research skills to tackle complex data challenges, utilizing analytics, visualization, and machine learning to extract meaningful insights from raw information.
