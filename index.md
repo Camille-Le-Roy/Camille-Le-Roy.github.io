@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Camille Le Roy, Ph.D."
-excerpt: "Researcher • Data Scientist • Founder of Morpho Editing"
+excerpt: "Researcher • Biologist • Data Scientist"
 description: "Camille Le Roy, Ph.D — Data Scientist and Biologist working at the intersection of data, research, and communication"
 classes: wide
 header:
