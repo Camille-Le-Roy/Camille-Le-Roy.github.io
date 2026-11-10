@@ -28,7 +28,7 @@ comments: false
 /* --- PROFILE SECTION --- */
 .profile-section {
   display: flex;
-  align-items: stretch;
+  align-items: center; /* Centered relative to text height */
   gap: 40px;
   margin: 0 auto 80px 0;
 }
@@ -54,7 +54,37 @@ comments: false
   font-size: 1.1rem;
   line-height: 1.6;
   color: #D0D0D0;
-  margin: 0;
+  margin: 0 0 1.2rem 0;
+}
+
+.profile-text p:last-child {
+  margin-bottom: 0;
+}
+
+.profile-text strong {
+  color: #D0D0D0;
+  font-weight: 600;
+}
+
+/* --- EXTERNAL LINKS STYLING --- */
+.ext-link {
+  text-decoration: none !important;
+  font-weight: bold;
+  transition: opacity 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.ext-link::after {
+  content: "↗";
+  font-size: 0.85em;
+  line-height: 1;
+  display: inline-block;
+}
+
+.ext-link:hover {
+  opacity: 0.8;
 }
 
 /* --- PROJECTS --- */
@@ -144,12 +174,21 @@ comments: false
   <div class="profile-text">
     <p>
       I am a scientist working at the intersection of data, research, and communication.
-      <br><br>
-      
-      After 7+ years of academic research in <strong>biology</strong> and <strong>biomechanics</strong>, I now focus on how complex work is communicated. I founded  <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" style="color: #3B82F6; text-decoration: none; font-weight: bold;">Morpho Editing</a>, an academic coaching service where I help students and researchers turn messy data into clear scientific narratives.
-      <br><br>
-      
-      Besides my research coaching work, I am also a <strong>data science</strong> instructor. I leverage my research skills to tackle complex data challenges, utilizing analytics, visualization, and machine learning to extract meaningful insights from raw information.
+    </p>
+    <p>
+      After 7+ years of academic research in <strong>biology</strong> and <strong>biomechanics</strong>, my work now spans several areas, all drawing on my scientific background.
+    </p>
+    <p>
+      <strong>Research consulting: <a href="https://camille-le-roy.github.io/wildkinematics/" target="_blank" class="ext-link" style="color: #4b8071;">Wild Kinematics</a></strong><br>
+      I help researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.
+    </p>
+    <p>
+      <strong>Academic coaching: <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" class="ext-link" style="color: #3B82F6;">Morpho Editing</a></strong><br>
+      I help students and researchers improve their scientific writing, develop their research narratives, and bring their manuscripts and theses to completion.
+    </p>
+    <p>
+      <strong>Data science teaching</strong><br>
+      I teach in a Python and data analytics bootcamp, helping students tackle complex data challenges using statistical analysis, data visualization, and machine learning.
     </p>
   </div>
 
@@ -161,12 +200,6 @@ comments: false
 <h2 style="color:#E0E0E0; font-size:1.5em; margin-bottom:1em;">
   Featured Projects
 </h2>
-
-<!-- Research Section FIRST 
-<h3 style="color:#BBBBBB; font-weight:500; text-align:center; width:100%; margin-bottom:1em; margin-top:0.5em;">
-  <br>Research-Driven Projects<br><br>
-</h3>
--->
 
 <div class="featured-projects">
 
