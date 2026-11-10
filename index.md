@@ -296,7 +296,7 @@ comments: false
     <div class="activity-card-body">
       <div class="activity-title">
         Academic coaching<br>
-        <span class="ext-link" style="color: #3B82F6;">Morpho Editing</span>
+        <span class="ext-link" style="color: #3B82F6;">Morpho Editing & Coaching</span>
       </div>
       <p class="activity-desc">
         I help students and researchers improve their scientific writing, develop their research narratives, and cross the finish line with their manuscripts and theses.

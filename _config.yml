@@ -14,7 +14,7 @@ breadcrumbs: false # this add a  clickabl "Home/Research" to pages
 twitter_username: Camille_Le_Roy
 github_username: Camille-Le-Roy
 minimal_mistakes_skin: "neon"
-search: true
+search: false # this is to remove the search bar from the top right corner of the page
 
 # Social metadata for SEO
 social:
