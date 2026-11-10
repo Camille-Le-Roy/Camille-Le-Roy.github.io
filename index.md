@@ -70,55 +70,81 @@ comments: false
 .activities-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 28px;
   margin-bottom: 60px;
 }
 
 .activity-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none !important;
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 8px;
-  padding: 18px 18px;
-  transition: border-color 0.25s ease, background 0.25s ease;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-color 0.25s ease, background 0.25s ease, transform 0.25s ease;
 }
 
 .activity-card:hover {
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(255, 255, 255, 0.18);
+  transform: translateY(-2px);
+  text-decoration: none !important;
+}
+
+/* Unzoomed framing while maintaining clean card bleed */
+.activity-card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.activity-card:hover .activity-card-img {
+  transform: scale(0.98);
+}
+
+.activity-card-body {
+  padding: 20px 24px 24px 24px;
 }
 
 /* Centering the 3rd card on row 2 */
 .activity-card.full-width-centered {
   grid-column: 1 / -1;
-  max-width: 600px;
+  max-width: 640px;
   width: 100%;
   justify-self: center;
   box-sizing: border-box;
 }
 
 .activity-title {
-  font-size: 0.85rem;
+  font-size: 0.90rem;
   font-weight: 600;
+  line-height: 1.4;
   color: #E0E0E0;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
   letter-spacing: 0.2px;
+  text-decoration: none !important;
 }
 
 .activity-desc {
   font-size: 0.90rem;
-  line-height: 1.45;
+  line-height: 1.6;
   color: #A0A0A0;
   margin: 0;
+  text-decoration: none !important;
 }
 
 /* --- EXTERNAL LINKS STYLING --- */
 .ext-link {
-  text-decoration: none !important;
   font-weight: 600;
-  transition: opacity 0.2s ease;
   display: inline-flex;
   align-items: center;
   gap: 3px;
+  margin-top: 2px;
+  text-decoration: none !important;
 }
 
 .ext-link::after {
@@ -128,8 +154,9 @@ comments: false
   display: inline-block;
 }
 
-.ext-link:hover {
-  opacity: 0.8;
+.activity-card:hover .ext-link,
+.activity-card:hover .activity-title {
+  text-decoration: none !important;
 }
 
 /* --- PROJECTS --- */
@@ -179,12 +206,16 @@ comments: false
 @media (max-width: 900px) {
   .activities-grid {
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 20px;
   }
 
   .activity-card.full-width-centered {
     grid-column: auto;
     max-width: 100%;
+  }
+
+  .activity-card-img {
+    height: 190px;
   }
 }
 
@@ -239,39 +270,62 @@ comments: false
 <!-- SUBTLE ACTIVITY CARDS -->
 <div class="activities-grid">
 
-  <div class="activity-card">
-    <div class="activity-title">
-      Research consulting<br>
-      <a href="https://camille-le-roy.github.io/wildkinematics/" target="_blank" class="ext-link" style="color: #68a795;">Wild Kinematics</a>
+  <!-- Card 1: Wild Kinematics -->
+  <a href="https://camille-le-roy.github.io/wildkinematics/" target="_blank" class="activity-card">
+    <img 
+      src="/assets/images/activity_card_wil_kinematics.png" 
+      alt="Wild Kinematics Illustration" 
+      class="activity-card-img">
+    <div class="activity-card-body">
+      <div class="activity-title">
+        Research consulting<br>
+        <span class="ext-link" style="color: #68a795;">Wild Kinematics</span>
+      </div>
+      <p class="activity-desc">
+        I help researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.
+      </p>
     </div>
-    <p class="activity-desc" style="font-size: 0.90rem; line-height: 1.45; color: #A0A0A0; margin: 0;">
-      I help researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.
-    </p>
-  </div>
+  </a>
 
-  <div class="activity-card">
-    <div class="activity-title">
-      Academic coaching<br>
-      <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" class="ext-link" style="color: #3B82F6;">Morpho Editing</a>
+  <!-- Card 2: Morpho Editing -->
+  <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" class="activity-card">
+    <img 
+      src="/assets/images/activity_card_academic_coaching.jpg" 
+      alt="Academic Coaching Illustration" 
+      class="activity-card-img">
+    <div class="activity-card-body">
+      <div class="activity-title">
+        Academic coaching<br>
+        <span class="ext-link" style="color: #3B82F6;">Morpho Editing</span>
+      </div>
+      <p class="activity-desc">
+        I help students and researchers improve their scientific writing, develop their research narratives, and cross the finish line with their manuscripts and theses.
+      </p>
     </div>
-    <p class="activity-desc" style="font-size: 0.90rem; line-height: 1.45; color: #A0A0A0; margin: 0;">
-      I help students and researchers improve their scientific writing, develop their research narratives, and cross the finish line with their manuscripts and theses.
-    </p>
-  </div>
+  </a>
 
-  <div class="activity-card full-width-centered">
-    <div class="activity-title">
-      Data science teaching<br>
-      <a href="https://github.com/Camille-Le-Roy/Python_Data_Analytics_Bootcamp" target="_blank" class="ext-link" style="color: #E5A83B;">Python Data Analytics Bootcamp</a>
+  <!-- Card 3: Data Science Bootcamp -->
+  <a href="https://github.com/Camille-Le-Roy/Python_Data_Analytics_Bootcamp" target="_blank" class="activity-card full-width-centered">
+    <img 
+      src="/assets/images/analytics_banner.png" 
+      alt="Python Data Analytics Bootcamp Banner" 
+      class="activity-card-img">
+    <div class="activity-card-body">
+      <div class="activity-title">
+        Data science teaching<br>
+        <span class="ext-link" style="color: #E5A83B;">Python Data Analytics Bootcamp</span>
+      </div>
+      <p class="activity-desc">
+        I teach in a Python and data analytics bootcamp, helping students tackle complex data challenges using statistical analysis, data visualization, and machine learning.
+      </p>
     </div>
-    <p class="activity-desc" style="font-size: 0.90rem; line-height: 1.45; color: #A0A0A0; margin: 0;">
-      I teach in a Python and data analytics bootcamp, helping students tackle complex data challenges using statistical analysis, data visualization, and machine learning.
-    </p>
-  </div>
+  </a>
 
 </div>
 <br>
 
+
+{% comment %}
 <!-- Featured Projects -->
 <h2 style="color:#E0E0E0; font-size:1.5em; margin-bottom:1em;">
   Featured Projects
@@ -329,7 +383,7 @@ comments: false
 
 </div>
 
-{% comment %}
+
 <!-- Divider -->
 <div style="width:100%; border-bottom:1px solid #444; margin:4em 0 2em 0;"></div>
 

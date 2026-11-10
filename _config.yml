@@ -6,6 +6,8 @@ description: "Camille Le Roy, Ph.D — Data Scientist and Biologist working at t
 
 # logo: "/assets/images/profile picture balcony black and white zoomed.png"
 
+site_favicon: "/assets/images/favicon CLR.png"
+
 url: "https://camille-le-roy.github.io"
 breadcrumbs: false # this add a  clickabl "Home/Research" to pages
 
