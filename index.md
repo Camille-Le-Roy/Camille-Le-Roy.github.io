@@ -28,33 +28,33 @@ comments: false
 /* --- PROFILE SECTION --- */
 .profile-section {
   display: flex;
-  align-items: center; /* Centered relative to text height */
+  align-items: center;
   gap: 40px;
-  margin: 0 auto 80px 0;
+  margin: 0 auto 40px 0;
 }
 
 /* image */
 .profile-image {
-  flex: 0 0 43%;
+  flex: 0 0 38%;
 }
 
 .profile-image img {
-  width: 100%;
+  width: 90%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 12px;
   display: block;
 }
 
 /* text */
 .profile-text {
-  flex: 0 0 60%;
+  flex: 0 0 58%;
 }
 
 .profile-text p {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 1.15rem;
+  line-height: 1.65;
   color: #D0D0D0;
-  margin: 0 0 1.2rem 0;
+  margin: 0 0 1rem 0;
 }
 
 .profile-text p:last-child {
@@ -66,10 +66,55 @@ comments: false
   font-weight: 600;
 }
 
+/* --- ACTIVITIES GRID --- */
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.activity-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 18px 18px;
+  transition: border-color 0.25s ease, background 0.25s ease;
+}
+
+.activity-card:hover {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+/* Centering the 3rd card on row 2 */
+.activity-card.full-width-centered {
+  grid-column: 1 / -1;
+  max-width: 600px;
+  width: 100%;
+  justify-self: center;
+  box-sizing: border-box;
+}
+
+.activity-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #E0E0E0;
+  margin-bottom: 6px;
+  letter-spacing: 0.2px;
+}
+
+.activity-desc {
+  font-size: 0.90rem;
+  line-height: 1.45;
+  color: #A0A0A0;
+  margin: 0;
+}
+
 /* --- EXTERNAL LINKS STYLING --- */
 .ext-link {
   text-decoration: none !important;
-  font-weight: bold;
+  font-weight: 600;
   transition: opacity 0.2s ease;
   display: inline-flex;
   align-items: center;
@@ -131,16 +176,22 @@ comments: false
 }
 
 /* --- MOBILE --- */
-@media (max-width: 960px) {
-  .featured-projects {
-    justify-content: center;
+@media (max-width: 900px) {
+  .activities-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .activity-card.full-width-centered {
+    grid-column: auto;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 768px) {
   .profile-section {
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
   }
 
   .profile-image,
@@ -161,6 +212,7 @@ comments: false
 }
 </style>
 
+<!-- TOP PROFILE SECTION -->
 <div class="profile-section">
 
   <!-- profile picture -->
@@ -170,30 +222,54 @@ comments: false
       alt="Camille Le Roy - Research Scientist">
   </div>
 
-  <!-- text -->
+  <!-- intro text -->
   <div class="profile-text">
     <p>
       I am a scientist working at the intersection of data, research, and communication.
     </p>
     <p>
-      After 7+ years of academic research in <strong>biology</strong> and <strong>biomechanics</strong>, my work now spans several areas, all drawing on my scientific background.
-    </p>
-    <p>
-      <strong>Research consulting: <a href="https://camille-le-roy.github.io/wildkinematics/" target="_blank" class="ext-link" style="color: #4b8071;">Wild Kinematics</a></strong><br>
-      I help researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.
-    </p>
-    <p>
-      <strong>Academic coaching: <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" class="ext-link" style="color: #3B82F6;">Morpho Editing</a></strong><br>
-      I help students and researchers improve their scientific writing, develop their research narratives, and bring their manuscripts and theses to completion.
-    </p>
-    <p>
-      <strong>Data science teaching</strong><br>
-      I teach in a Python and data analytics bootcamp, helping students tackle complex data challenges using statistical analysis, data visualization, and machine learning.
+      After 7+ years of academic research in <strong>biology</strong> and <strong>biomechanics</strong>, I now work across research consulting, academic coaching, and data science education.
     </p>
   </div>
 
 </div>
 
+<br>
+
+<!-- SUBTLE ACTIVITY CARDS -->
+<div class="activities-grid">
+
+  <div class="activity-card">
+    <div class="activity-title">
+      Research consulting<br>
+      <a href="https://camille-le-roy.github.io/wildkinematics/" target="_blank" class="ext-link" style="color: #68a795;">Wild Kinematics</a>
+    </div>
+    <p class="activity-desc" style="font-size: 0.90rem; line-height: 1.45; color: #A0A0A0; margin: 0;">
+      I help researchers and organizations design movement studies, capture high-quality motion data, and turn it into meaningful biological insights.
+    </p>
+  </div>
+
+  <div class="activity-card">
+    <div class="activity-title">
+      Academic coaching<br>
+      <a href="https://camille-le-roy.github.io/MorphoEdit/" target="_blank" class="ext-link" style="color: #3B82F6;">Morpho Editing</a>
+    </div>
+    <p class="activity-desc" style="font-size: 0.90rem; line-height: 1.45; color: #A0A0A0; margin: 0;">
+      I help students and researchers improve their scientific writing, develop their research narratives, and cross the finish line with their manuscripts and theses.
+    </p>
+  </div>
+
+  <div class="activity-card full-width-centered">
+    <div class="activity-title">
+      Data science teaching<br>
+      <a href="https://github.com/Camille-Le-Roy/Python_Data_Analytics_Bootcamp" target="_blank" class="ext-link" style="color: #E5A83B;">Python Data Analytics Bootcamp</a>
+    </div>
+    <p class="activity-desc" style="font-size: 0.90rem; line-height: 1.45; color: #A0A0A0; margin: 0;">
+      I teach in a Python and data analytics bootcamp, helping students tackle complex data challenges using statistical analysis, data visualization, and machine learning.
+    </p>
+  </div>
+
+</div>
 <br>
 
 <!-- Featured Projects -->
